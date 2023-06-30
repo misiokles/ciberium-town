@@ -1,0 +1,80 @@
+{
+	"ctJumpWarrior":
+	{
+		"name" :
+		{
+			"plural" : "Jump Warriors",
+			"singular" : "Jump Warrior"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "ciberium",
+		"aiValue" : 830,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 8
+		},
+		"defense" : 10,
+		"fightValue" : 767,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/CR206.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "ciberium/map/jumptrooper.def",
+			"iconSmall" : "ciberium/iconsSmall/CPrS206F.bmp",
+			"iconLarge" : "ciberium/iconsBig/CPrL206B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"growth" : 4,
+		"hitPoints" : 45,
+		"level" : 4,
+		"sound" :
+		{
+			"attack" : "ciberium/attack.wav",
+			"defend" : "ciberium/defendUpg.wav",
+			"killed" : "ciberium/killUpg.wav",
+			"startMoving": "ciberium/movestart.wav",
+			"endMoving": "ciberium/moveend.wav",
+			"move" : "ciberium/move.wav",
+			"wince" : "ciberium/winceUpg.wav"
+		},
+		"speed" : 11,
+		"abilities" :
+		{
+			"canFly" :
+			{
+				"type" : "FLYING"
+			},
+			"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			},
+			"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			},
+            "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"hateminotaursKings" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.minotaurKing",
+				"val" : 50
+            }
+		}
+	}
+}

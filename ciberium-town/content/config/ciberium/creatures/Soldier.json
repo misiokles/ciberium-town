@@ -1,0 +1,64 @@
+{
+	"ctSoldier":
+	{
+		"name" :
+		{
+			"plural" : "Holo-Knights",
+			"singular" : "Holo-Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 20
+		},
+		"faction" : "ciberium",
+		"aiValue" : 152,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 85
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 163,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/CR200.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 3.0 },
+			"map" : "ciberium/map/lv1UP.def",
+			"iconSmall" : "ciberium/iconsSmall/CPrS200F.bmp",
+			"iconLarge" : "ciberium/iconsBig/CPrL200B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 14,
+		"hitPoints" : 11,
+		"horde" : 6,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"noRetaliate" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"nonliving":
+			{
+				"type" : "NON_LIVING"
+			}
+
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"15seprinteer" : 
+	{
+		"class" : "technik",
+		"texts" :
+		{
+			"name" : "Azefiere",
+			"biography" : "", 
+			"specialty" :
+			{
+				"description" : "{Roaches and Acid Roaches}\r\n\r\nIncreases Speed of any Roaches or Acid Roaches by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Cockroaches",
+				"name" : "Cockroaches"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/seprinteer/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/seprinteer/spec-large.png",
+			"large" : "ciberium/heroes/seprinteer/portrait-large.png",
+			"small" : "ciberium/heroes/seprinteer/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"army" :
+		[
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			}
+		],
+		"specialty" : {
+			"creature" : "ctCockroach"
+		}		
+	}
+}

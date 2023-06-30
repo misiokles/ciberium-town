@@ -1,0 +1,47 @@
+{
+	"06singhel" :
+	{
+		"class" : "general",
+		"texts" :
+		{
+			"name" : "Intarc",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Holo-Gladiators and Holo-Knights}\r\n\r\nIncreases Speed of any Holo-Gladiators or Holo-Knights by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"tooltip" : "Creature Bonus: Holo-Gladiators",
+				"name" : "Holo-Gladiators"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/singhel/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/singhel/spec-large.png",
+			"large" : "ciberium/heroes/singhel/portrait-large.png",
+			"small" : "ciberium/heroes/singhel/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			
+			}
+		],
+		"specialty" : {
+			"creature" : "ctConscript"
+		}		
+	}
+}

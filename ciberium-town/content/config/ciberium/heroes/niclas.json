@@ -1,0 +1,55 @@
+{
+	"08niclas" :
+	{
+		"class" : "general",
+
+		"texts" :
+		{
+			"name" : "Leonard",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sulfur}\r\n\r\nIncreases kingdom's income by 1 Sulfur per day",
+				"tooltip" : "+1 Sulfur each day",
+				"name" : "+1 Sulfur"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "ciberium/heroes/niclas/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/niclas/spec-large.png",
+			"large" : "ciberium/heroes/niclas/portrait-large.png",
+			"small" : "ciberium/heroes/niclas/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sulfur" : {
+					"subtype" : "resource.sulfur",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

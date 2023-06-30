@@ -1,0 +1,88 @@
+{
+	"ctTechnoid":
+	{
+		"name" :
+		{
+			"plural" : "Technopriests",
+			"singular" : "Technopriest"
+		},
+		"faction" : "ciberium",
+		"aiValue" : 973,
+		"special" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			 "max" : 15,
+			 "min" : 7
+		},
+		"defense" : 5,
+		"fightValue" : 874,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/Technoid.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "ciberium/map/Technoid.def",
+			"iconSmall" : "ciberium/iconsSmall/Technoid.bmp",
+			"iconLarge" : "ciberium/iconsBig/Technoid.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "ciberium/battle/projectile/SHOT198.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+		"growth" : 1,
+		"hitPoints" : 60,
+		"shots" : 24,
+		"level" : 0,
+		"sound" :
+		{
+			"attack" : "ciberium/S198ATTK.wav",
+			"defend" : "ciberium/S198DFND.wav",
+			"killed" : "ciberium/S198KILL.wav",
+			"move" : "ciberium/S198MOVE.wav",
+			"wince" : "ciberium/S198WNCE.wav",
+            "shoot" : "ciberium/S198SHOT.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.slow",
+				"val" : 3
+			}
+		}
+	}
+}

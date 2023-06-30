@@ -1,0 +1,175 @@
+{
+	"ctHulkbuster":
+	{
+		"name" :
+		{
+			"plural" : "Cruisers",
+			"singular" : "Cruiser"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "ciberium",
+		"aiValue" : 11215,
+		"attack" : 26,
+		"cost" :
+		{
+			"gold" : 5000,
+			"sulfur" : 3
+		},
+		"damage" :
+		{
+			 "max" : 68,
+			 "min" : 40
+		},
+		"defense" : 26,
+		"fightValue" : 8501,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/CR210.def",
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"map" : "ciberium/map/7b.def",
+			"iconSmall" : "ciberium/iconsSmall/CPrS210F.bmp",
+			"iconLarge" : "ciberium/iconsBig/CPrL210B.bmp",
+			"timeBetweenFidgets" : 10
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 365,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "ciberium/atak-high.wav",
+			"defend" : "ciberium/defend-high.wav",
+			"killed" : "ciberium/kill-high.wav",
+			"move"   : "ciberium/move-high.wav",
+			"wince"  : "ciberium/wince-high.wav"
+                     
+		},
+		"speed" : 13,
+		"abilities" : {
+			"immuneToFire" : 
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"nonLiving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"directDamageImmunity" :
+			{
+				"type" : "DIRECT_DAMAGE_IMMUNITY"
+			},
+			"hateGiants" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.giant",
+				"val" : 50
+			},
+			"hateTitans" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.titan",
+				"val" : 50
+			},
+			"hateDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50
+			},
+			"hateArchDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50
+			},
+			"hateAngels" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.angel",
+				"val" : 50
+			},
+			"hateRedDragons" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.redDragon",
+				"val" : 50
+			},	
+			"hateBlackDragons" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.blackDragon",
+				"val" : 50
+			},	
+			"hatefirebird" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.firebird",
+				"val" : 50
+			},	
+			"hatephoenix" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.phoenix",
+				"val" : 50
+			},
+			"hatehydra" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.hydra",
+				"val" : 50
+			},	
+			"hatechaoshydra" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.chaosHydra",
+				"val" : 50
+			},
+			"hatebonedragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.boneDragon",
+				"val" : 50
+			},	
+			"hateghostdragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ghostDragon",
+				"val" : 50
+			},
+			"hategreendragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.greenDragon",
+				"val" : 50
+			},	
+			"hategolddragon" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.goldDragon",
+				"val" : 50
+			},
+			"hatebehemoth" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.behemoth",
+				"val" : 50
+			},	
+			"hateancientbehemoth" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.ancientBehemoth",
+				"val" : 50
+			}
+		}
+	}
+}
+

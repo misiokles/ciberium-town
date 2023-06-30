@@ -1,0 +1,48 @@
+{
+	"03rengist" : 
+	{
+		"class" : "general",
+		"texts" :
+		{
+			"name" : "Arris",
+			"biography" : "", 
+			"specialty" :
+			{
+				"description" : "{Hedgehoppers and Paratroopers}\r\n\r\nIncreases Speed of any Hedgehoppers or Paratroopers by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Hedgehoppers",
+				"name" : "Hedgehoppers"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "ciberium/heroes/rengist/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/rengist/spec-large.png",
+			"large" : "ciberium/heroes/rengist/portrait-large.png",
+			"small" : "ciberium/heroes/rengist/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			
+			}
+		],
+		"specialty" : {
+			"creature" : "ctHedgehopper"
+		}		
+	}
+}

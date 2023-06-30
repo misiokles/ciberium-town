@@ -1,0 +1,57 @@
+{
+	"09minore" : 
+	{
+		"class" : "technik",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Sofia",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Berserk}\r\n\r\nCan cast Berserk spell with increased effectiveness.",
+				"tooltip" : "Spell Bonus: Berserk",
+				"name" : "Berserk"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/minore/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/minore/spec-large.png",
+			"large" : "ciberium/heroes/minore/portrait-large.png",
+			"small" : "ciberium/heroes/minore/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"berserk"
+		],
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"berserk" : {
+					"subtype" : "spell.berserk",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

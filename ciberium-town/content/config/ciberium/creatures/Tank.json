@@ -1,0 +1,78 @@
+{
+	"ctTank":
+	{
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"name" :
+		{
+			"plural" : "Tanks",
+			"singular" : "Tank"
+		},		
+		"faction": "ciberium",
+		"aiValue" : 1915,
+		"fightValue" : 1634,
+		"attack" : 17,
+		"defense" : 18,
+		"cost" :
+		{
+			"gold" : 800
+		},
+		"damage" :
+		{
+			 "min" : 18,
+			 "max" : 25
+		},
+		"speed" : 7,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/tank.def",
+			"map" : "ciberium/map/tank.def",
+			"iconSmall" : "ciberium/iconsSmall/tank.bmp",
+			"iconLarge" : "ciberium/iconsBig/tank.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.17,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 100,
+		"doubleWide" : true,
+		"growth" : 2,
+		"level" : 6,
+		"upgrades":
+		[
+			"ctHeavytank"
+		],
+		"sound" :
+		{
+			"attack" : "ciberium/S208ATTK.wav",
+			"defend" : "ciberium/S208DFND.wav",
+			"killed" : "ciberium/S208KILL.wav",
+			"move" : "ciberium/S208MOVE.wav",
+			"wince" : "ciberium/S208WNCE.wav"
+		},
+		"abilities" :
+		{
+			"noLuck":
+			{
+				"type" : "NO_LUCK" 					
+			},
+			"noMorale":
+			{
+				"type" : "NO_MORALE" 					
+			},	
+			"castWeakness":
+			{	
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison", 
+				"val" : 50,
+				"addInfo" : [2,2]
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"13resurrecta" : 
+	{
+		"class" : "technik",
+		"female" : true,
+        "texts" :
+		{
+			"name" : "Daraa",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Resurrection}\r\n\r\nCan cast Resurrection spell with increased effectiveness.",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/resurrecta/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/resurrecta/spec-large.png",
+			"large" : "ciberium/heroes/resurrecta/portrait-large.png",
+			"small" : "ciberium/heroes/resurrecta/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"resurrection"
+		],
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "eagleEye"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

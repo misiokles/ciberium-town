@@ -1,0 +1,83 @@
+{
+	"name" : "Ciberium",
+	"description" : "Post-apo town based on WoG Modern Forge mod",
+	"author" : "Zeryss",
+	"contact" : "https://www.facebook.com/profile.php?id=100010953588350&ref=bookmarks",
+	"version" : "1.16",
+	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"changelog" :
+    {
+        "1.16"   : [ "Update to vcmi-1.2", "Tower icons added" ],
+		"1.15"   : [ "Special buildings support" ],
+		"1.10"   : [ "Fixes and balance issues" ],
+		"1.00"   : [ "Initial release" ]
+	},
+	"factions" :
+	[
+		"config/ciberium/town/buildings.json",
+		"config/ciberium/town/faction.json",
+		"config/ciberium/town/siege.json",
+		"config/ciberium/town/spells.json",
+		"config/ciberium/town/structures.json",
+		"config/ciberium/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+        "config/ciberium/creatures/Electro.json",
+		"config/ciberium/creatures/Conscript.json",
+		"config/ciberium/creatures/Soldier.json",
+        "config/ciberium/creatures/Slug.json",
+		"config/ciberium/creatures/ToxicSlug.json",
+		"config/ciberium/creatures/Cockroach.json",
+		"config/ciberium/creatures/ToxicCockroach.json",
+        "config/ciberium/creatures/Tank.json",
+		"config/ciberium/creatures/HeavyTank.json",
+		"config/ciberium/creatures/JumpFighter.json",
+		"config/ciberium/creatures/JumpWarrior.json",
+		"config/ciberium/creatures/Hedgehopper.json",
+		"config/ciberium/creatures/Paratrooper.json",
+		"config/ciberium/creatures/Ironclad.json",
+		"config/ciberium/creatures/Hulkbuster.json",
+		"config/ciberium/creatures/Technoid.json",
+		"config/ciberium/creatures/Neuroblaster.json",
+		"config/ciberium/creatures/stackExp.json"
+		
+	],
+	"heroClasses" :
+	[
+		"config/ciberium/classes/Servitor.json",
+		"config/ciberium/classes/Android.json"
+
+	
+	],
+    "artifacts":
+    [              
+		"config/ciberium/artifacts/NeuroblasterArt.json"        
+    ],
+
+	"heroes" :
+	[
+		"config/ciberium/heroes/seprinteer.json",
+		"config/ciberium/heroes/julian.json",
+		"config/ciberium/heroes/Meltes.json",
+		"config/ciberium/heroes/singhel.json",
+		"config/ciberium/heroes/niclas.json",
+		"config/ciberium/heroes/charity.json",
+		"config/ciberium/heroes/sunni.json",
+		"config/ciberium/heroes/kastore.json",
+		"config/ciberium/heroes/rengist.json",
+		"config/ciberium/heroes/minore.json",
+		"config/ciberium/heroes/leane.json",
+		"config/ciberium/heroes/tarkin.json",
+		"config/ciberium/heroes/maximus.json",
+		"config/ciberium/heroes/cistrict.json",
+		"config/ciberium/heroes/karen.json",
+		"config/ciberium/heroes/resurrecta.json",
+	],
+	"objects" : [ "config/ciberium/dwellings" ]
+}

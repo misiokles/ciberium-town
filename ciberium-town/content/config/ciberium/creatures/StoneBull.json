@@ -1,0 +1,77 @@
+{
+	"ctStoneBull":
+	{
+		"name" :
+		{
+			"plural" : "Stone Bulls",
+			"singular" : "Stone Bull"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 12
+		},
+		"faction" : "ciberium",
+		"aiValue" : 334,
+		"attack" : 9,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			 "max" : 7,
+			 "min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 335,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/pyro.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "ciberium/map/pyro.def",
+			"iconSmall" : "ciberium/iconsSmall/pyro.bmp",
+			"iconLarge" : "ciberium/iconsBig/pyro.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"ctMechanicalBull"
+		],
+		"sound" :
+		{
+			"attack" : "ciberium/S200ATTK.wav",
+			"defend" : "ciberium/S200DFND.wav",
+			"killed" : "ciberium/S200KILL.wav",
+			"move" : "ciberium/S200MOVE.wav",
+			"wince" : "ciberium/S200WNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+                {
+   	      "nonliving":
+		{	
+			"type" : "NON_LIVING"
+		}, 
+		"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			},
+		"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			},
+			"JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+
+		}
+	}
+}

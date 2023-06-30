@@ -1,0 +1,57 @@
+{
+	"10tarkin" : 
+	{
+		"class" : "technik",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Gallea",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Land Mine}\r\n\r\nCasts Land Mine with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Land Mine",
+				"name" : "Land Mine"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/tarkin/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/tarkin/spec-large.png",
+			"large" : "ciberium/heroes/tarkin/portrait-large.png",
+			"small" : "ciberium/heroes/tarkin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"landMine"
+		],
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"landMine" : {
+					"subtype" : "spell.landMine",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

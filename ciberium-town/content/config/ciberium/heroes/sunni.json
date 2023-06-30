@@ -1,0 +1,59 @@
+{
+	"02sunni" : 
+	{
+		"class" : "general",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Omega",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Scouting}\r\n\r\nIncreases the scouting range by 1 every 6 levels.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/sunni/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/sunni/spec-large.png",
+			"large" : "ciberium/heroes/sunni/portrait-large.png",
+			"small" : "ciberium/heroes/sunni/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+                "sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+                    "updater" : {
+                        "parameters" : [ 6 ],
+                        "type" : "GROWS_WITH_LEVEL"
+                    }
+				}
+			}	
+		}
+	}
+}
+
+

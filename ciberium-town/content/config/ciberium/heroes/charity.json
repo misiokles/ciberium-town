@@ -1,0 +1,49 @@
+{
+	"04charity" :
+	{
+		"class" : "general",
+		"female" : true,
+
+		
+		"texts" :
+		{
+			"name" : "Shariny",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Tanks and Heavy Tanks}\r\n\r\nIncreases the Attack and Defence of any Tanks or Heavy Tanks for each level attained after 6th level.",
+				"tooltip" : "Creature Bonus: Tank",
+				"name" : "Tanks"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/charity/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/charity/spec-large.png",
+			"large" : "ciberium/heroes/charity/portrait-large.png",
+			"small" : "ciberium/heroes/charity/portrait-small.png"
+		},
+
+
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		"specialty" : {
+			"creature" : "ctTank"
+		}		
+	}
+}

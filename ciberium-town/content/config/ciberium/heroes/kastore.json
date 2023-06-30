@@ -1,0 +1,57 @@
+{
+	"11kastore" : 
+	{
+		"class" : "technik",
+		"texts" :
+		{
+			"name" : "Tiberius",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Chain Lightning",
+				"name" : "Chain Lightning"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/kastore/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/kastore/spec-large.png",
+			"large" : "ciberium/heroes/kastore/portrait-large.png",
+			"small" : "ciberium/heroes/kastore/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+        ],
+
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scholar"		
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"		
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

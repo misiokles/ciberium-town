@@ -1,0 +1,77 @@
+{
+	"ctMechanicalBull":
+	{
+		"name" :
+		{
+			"plural" : "Slugs",
+			"singular" : "Slug"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "ciberium",
+		"aiValue" : 425,
+		"attack" : 10,
+		"doubleWide" : true,
+        "cost" :
+		{
+			"gold" : 270
+		},
+		"damage" :
+		{
+			 "max" : 8,
+			 "min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 417,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/lvl3unitUp.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "ciberium/map/maniac.def",
+			"iconSmall" : "ciberium/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "ciberium/iconsBig/lv3up.bmp",
+			"timeBetweenFidgets" : 1
+            },
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack" : "ciberium/S200ATTK.wav",
+			"defend" : "ciberium/S200DFND.wav",
+			"killed" : "ciberium/S200KILL.wav",
+			"move" : "ciberium/S200MOVE.wav",
+			"wince" : "ciberium/S200WNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+                {
+   	      "nonliving":
+		{	
+			"type" : "NON_LIVING"
+		}, 
+		"spellimmunityslow" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.slow"
+			},
+		"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			},
+		  "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			},
+		    "noRetaliate" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+
+		}
+	}
+}

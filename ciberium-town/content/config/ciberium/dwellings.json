@@ -1,0 +1,113 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"ctTrainingCamp" : {
+				"name" : "Hackers' Den",
+				"creatures" : [[ "ctConscript" ]],
+				"sounds": {
+					"ambient": ["dwellings/lvl1.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				}
+			},
+			"ctBiolaboratories" : {
+				"name" : "Biolaboratories",
+				"creatures" : [[ "ctCockroach" ]],
+				"sounds": {
+					"ambient": ["dwellings/lvl2.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"ctRecyclingPlant" : {
+				"name" : "Recycling Plant",
+				"creatures" : [[ "ctStoneBull" ]],
+				"sounds": {
+					"ambient": ["dwellings/lvl3.wav"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "ciberium/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVB", "0BA" ]
+					}
+				}
+			},
+			"ctPylon" : {
+				"name" : "Pylon",
+				"creatures" : [[ "ctJumpFighter" ]],
+				"sounds": {
+					"ambient": ["dwellings/lvl4.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/dwelling-4.def",
+						"mask" : [ "VVB", "VVB", "VBA" ]
+					}
+				}
+			},
+			"ctHeadquarters" : {
+				"name" : "Fliegerfaust Tower",
+				"creatures" : [[ "ctHedgehopper" ]],
+				"sounds": {
+					"ambient": ["dwellings/lvl5.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VVB", "VVA" ]
+					}
+				}
+			},
+			"ctHangar" : {
+				"name" : "Hangar",
+				"creatures" : [[ "ctTank" ]],
+				"sounds": {
+					"ambient": ["dwellings/lvl6.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/dwelling-6.def",
+						"mask" : [ "VVB", "VVB", "VVA" ]
+					}
+				}
+			},
+			"ctEngineeringComplex" : {
+				"name" : "Engineering Complex",
+				"creatures" : [[ "ctIronclad" ]],
+				"sounds": {
+					"ambient": ["dwellings/lvl7.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/dwelling-7.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"ctGenerator" : {
+				"name" : "Generator",
+				"creatures" : [[ "ctElectro" ]],
+				"sounds": {
+					"ambient": ["dwellings/eldw.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/dwelling-8.def",
+						"mask" : [ "VVV", "BBB", "BAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

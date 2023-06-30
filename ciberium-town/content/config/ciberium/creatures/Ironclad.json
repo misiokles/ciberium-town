@@ -1,0 +1,77 @@
+{
+	"ctIronclad":
+	{
+		"name" :
+		{
+			"plural" : "Ironclads",
+			"singular" : "Ironclad"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "ciberium",
+		"aiValue" : 8109,
+		"attack" : 20,
+		"cost" :
+		{
+			"gold" : 2750,
+			"sulfur" : 1
+		},
+		"damage" :
+		{
+			 "max" : 60,
+			 "min" : 30
+		},
+		"defense" : 20,
+		"fightValue" : 6319,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/CR209.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"map" : "ciberium/map/7aa.def",
+			"iconSmall" : "ciberium/iconsSmall/CPrS209F.bmp",
+			"iconLarge" : "ciberium/iconsBig/CPrL209B.bmp",
+			"timeBetweenFidgets" : 10
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+		"upgrades":
+		[
+			"ctHulkbuster"
+		],
+		"sound" :
+		{
+			"attack" : "ciberium/atak-low.wav",
+			"defend" : "ciberium/defend-low.wav",
+			"killed" : "ciberium/kill-low.wav",
+			"move" : "ciberium/move-low.wav",
+			"wince" : "ciberium/wince-low.wav"
+		},
+		"speed" : 8,
+		"abilities" : {
+			"immuneToFire" : 
+			{
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"nonLiving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"directDamageImmunity" :
+			{
+				"type" : "DIRECT_DAMAGE_IMMUNITY"
+			}
+		}
+	}
+}
+
+

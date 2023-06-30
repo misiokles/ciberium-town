@@ -1,0 +1,59 @@
+{
+	"14karen" : 
+	{
+
+		"class" : "technik",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Veronica",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"tooltip" : "+350 Gold per day",
+				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/karen/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/karen/spec-large.png",
+			"large" : "ciberium/heroes/karen/portrait-large.png",
+			"small" : "ciberium/heroes/karen/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+		    "cure"
+		],
+
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "fireMagic"		
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"		
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

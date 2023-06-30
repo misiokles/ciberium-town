@@ -1,0 +1,92 @@
+{
+	"ctElectro":
+	{
+		"name" :
+		{
+			"plural" : "Electrical Elementals",
+			"singular" : "Electrical Elemental"
+		},
+		"advMapAmount" :
+		{
+
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "ciberium",
+        "aiValue" : 515,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 4
+		},
+		"defense" : 12,
+		"fightValue" : 488,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/Electro.def",
+			"map" : "ciberium/map/Electro.def",
+			"iconSmall" : "ciberium/iconsSmall/Electro.bmp",
+			"iconLarge" : "ciberium/iconsBig/Electro.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.30,
+				"idle" : 10.00,
+				"attack" : 1
+			}
+		},
+		"growth" : 5,
+		"hitPoints" : 35,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+		    "spellAfterAttack" :
+			{
+                "type": "SPELL_AFTER_ATTACK",
+                "subtype": "spell.lightningBolt",
+                "val" : 30,
+                "addInfo": 0
+			},
+			"lightningBoltPOwer" :
+			{
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype":"spell.lightningBolt",
+				"val" : 1
+			},
+			"flying" :
+			{
+				"type": "FLYING"
+			},
+            "noRetalitation" :
+			{
+				"type" : "BLOCKS_RETALIATION",
+                 "subtype" : 1
+			},
+			"AIR_IMMUNITY" :
+			{
+				"type" : "AIR_IMMUNITY",
+				"subtype" : 0
+			},
+            "FLYING" : 
+			{
+				"type" : "FLYING",
+				
+			}
+		}
+	}
+}
+

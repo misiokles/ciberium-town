@@ -1,0 +1,46 @@
+{
+	"01maximus" : 
+	{
+		"class" : "general",
+		"texts" :
+		{
+			"name" : "Rufus",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Tactics}\r\n\r\nStarts with expert tactics.",
+				"tooltip" : "Secondary Skill Bonus: Tactics",
+				"name" : "Tactics"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/maximus/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/maximus/spec-large.png",
+			"large" : "ciberium/heroes/maximus/portrait-large.png",
+			"small" : "ciberium/heroes/maximus/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "expert",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		"specialty": //expert tactics
+		{
+		}
+	}
+}
+

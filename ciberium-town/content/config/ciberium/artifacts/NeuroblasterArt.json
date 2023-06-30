@@ -1,0 +1,23 @@
+{
+	"neuroblaster":
+        {
+	"type" : ["HERO"],
+	"warMachine":"ctNeuroblaster",
+        "class": "SPECIAL",
+        "value": 3500,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "Neuroblaster",
+			"description": "{Neuroblaster}\r\n\r\nThis powerfull kind of Ballista affects the minds of the enemy units, slowing them significantly.",
+			"event": "Breaking through the wastelands and thickets, you do not expect to come across an abandoned siege machine. You look around if there is anyone around and you hire it to join the army."
+		},
+		"graphics":
+		{
+			"image": "ciberium/iconsSmall/artifacts/Neuroblaster.bmp",
+			"map"  :   "ciberium/map/artifacts/avcnbksm.def"
+		}
+	}
+}
+
+

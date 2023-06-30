@@ -1,0 +1,59 @@
+{
+	"16leane" : 
+	{
+		"class" : "technik",
+		"female" : true,
+                "texts" :
+		{
+			"name" : "Guillaume",
+			"biography" : "undetermined.",
+			"specialty" : 
+			{
+				"description" : "{Stone Skin}\r\n\r\nCan cast Stone Skin spell with increased effectiveness.",
+				"tooltip" : "Spell Bonus: Stone skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "ciberium/heroes/leane/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/leane/spec-large.png",
+			"large" : "ciberium/heroes/leane/portrait-large.png",
+			"small" : "ciberium/heroes/leane/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"stoneSkin"
+		],
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

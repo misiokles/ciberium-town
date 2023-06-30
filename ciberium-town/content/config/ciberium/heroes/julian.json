@@ -1,0 +1,48 @@
+{
+	"07julian" :
+	{
+		"class" : "general",
+		"texts" :
+		{
+			"name" : "Nulan",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Jump Fighters and Jump Warriors}\r\n\r\nIncreases the Attack and Defence of any Jump Fighters or Jump Warriors for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Jump Fighters",
+				"name" : "Jump Fighters"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/julian/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/julian/spec-large.png",
+			"large" : "ciberium/heroes/julian/portrait-large.png",
+			"small" : "ciberium/heroes/julian/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
+			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			
+			}
+		],
+		"specialty" : {
+			"creature" : "ctJumpFighter"
+		}		
+	}
+}
