@@ -52,8 +52,8 @@
 		"abilities" : {
 			"immuneToFire" : 
 			{
-				"type" : "FIRE_IMMUNITY",
-				"subtype" : 0
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
 			},
 			"nonLiving" :
 			{
@@ -65,7 +65,7 @@
 			},
 			"directDamageImmunity" :
 			{
-				"subtype" : -1,
+				"subtype" : "spellSchool.any",
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"val" : 100
 			},

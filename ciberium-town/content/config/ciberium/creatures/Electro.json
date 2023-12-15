@@ -59,7 +59,7 @@
                 "type": "SPELL_AFTER_ATTACK",
                 "subtype": "spell.lightningBolt",
                 "val" : 30,
-                "addInfo": 0
+                "addInfo": [0, 2]
 			},
 			"lightningBoltPOwer" :
 			{
@@ -73,17 +73,16 @@
 			},
             "noRetalitation" :
 			{
-				"type" : "BLOCKS_RETALIATION",
-                 "subtype" : 1
+				"type" : "BLOCKS_RETALIATION"
 			},
 			"AIR_IMMUNITY" :
 			{
-				"type" : "AIR_IMMUNITY",
-				"subtype" : 0
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "air"
 			},
             "FLYING" : 
 			{
-				"type" : "FLYING",
+				"type" : "FLYING"
 				
 			}
 		}
