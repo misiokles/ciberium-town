@@ -79,7 +79,7 @@
 		"config/ciberium/heroes/maximus.json",
 		"config/ciberium/heroes/cistrict.json",
 		"config/ciberium/heroes/karen.json",
-		"config/ciberium/heroes/resurrecta.json",
+		"config/ciberium/heroes/resurrecta.json"
 	],
 	"objects" : [ "config/ciberium/dwellings" ]
 }
