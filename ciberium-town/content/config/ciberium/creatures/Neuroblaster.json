@@ -3,12 +3,12 @@
 	{
 		"name" :
 		{
-			"plural" : "Neuroblasters",
-			"singular" : "Neuroblaster"
+			"plural" : "冲击炮",
+			"singular" : "冲击炮"
 		},
 		"faction" : "ciberium",
 		"level": 0,
-		"aiValue" : 3915,
+		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 20,
              "cost": 
@@ -17,15 +17,15 @@
             },
 		"damage" :
 		{
-			 "max" : 15,
-			 "min" : 10
+			"max" : 15,
+			"min" : 10
 		},
 		"defense" : 10,
-		"fightValue" : 3052,
+		"fightValue" : 2500,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/Neuroblaster.def",
-			"iconLarge" : "ciberium/iconsBig/bigcanl.bmp",			
+			"iconLarge" : "ciberium/iconsBig/bigcanl.bmp",
 			"iconSmall" : "ciberium/iconsSmall/Neuroblaster.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
@@ -58,7 +58,7 @@
 		"sound" :
 		{
 			"killed": "ciberium/CANNKILL.wav",
-            "shoot" : "ciberium/CANNSHOT.wav",
+                        "shoot" : "ciberium/CANNSHOT.wav",
 			"wince":  "ciberium/CANNWNCE.wav"
 		},
 		"speed" : 0,
@@ -70,10 +70,8 @@
 			},
 		      "slow" :
 			{
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.slow",
-				"val" : 100,
-				"addInfo" : [2, 1]
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.slow"
 			},
 		      "noRetaliation" :
 			{
@@ -84,6 +82,43 @@
 			{
 				"type" : "SIEGE_WEAPON"
 			}
-		}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			}
+		]
 	}
 }

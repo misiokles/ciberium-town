@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Jump Warriors",
-			"singular" : "Jump Warrior"
+			"plural" : "猎隼",
+			"singular" : "猎隼"
 		},
 		"advMapAmount" :
 		{
@@ -12,23 +12,24 @@
 			 "min" : 10
 		},
 		"faction" : "ciberium",
-		"aiValue" : 830,
-		"attack" : 10,
-		"cost" :
+		"aiValue" : 800,
+		"attack" : 12,
+		"doubleWide" : true,
+        "cost" :
 		{
 			"gold" : 400
 		},
 		"damage" :
 		{
 			 "max" : 10,
-			 "min" : 8
+			 "min" : 7
 		},
-		"defense" : 10,
-		"fightValue" : 767,
+		"defense" : 9,
+		"fightValue" : 740,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/CR206.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/jumptrooper.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS206F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL206B.bmp",
@@ -36,7 +37,7 @@
 		},
 
 		"growth" : 4,
-		"hitPoints" : 45,
+		"hitPoints" : 35,
 		"level" : 4,
 		"sound" :
 		{
@@ -51,30 +52,25 @@
 		"speed" : 11,
 		"abilities" :
 		{
-			"canFly" :
+			"no morale" :
+			{
+				"type" : "NO_MORALE",
+			},
+			"canfly" :
 			{
 				"type" : "FLYING"
 			},
-			"spellimmunityslow" :
-			{
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.slow"
-			},
-			"spellimmunityquick" :
-			{
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.quicksand"
-			},
-            "fearless" :
+             "fearless" :
 			{
 				"type" : "FEARLESS"
 			},
-			"hateminotaursKings" :
+            "enchanted" : 
 			{
-				"type" : "HATE",
-				"subtype" : "creature.minotaurKing",
-				"val" : 50
-            }
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
+			}
+
 		}
 	}
 }

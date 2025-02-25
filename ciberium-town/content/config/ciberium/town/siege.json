@@ -5,10 +5,10 @@
 		{
 			"siege" :
 			{
-				"shooter" : "ctParatrooper",
+				"shooter" : "ctlv5",
 				"imagePrefix" : "ciberium/siege/sgfg",
-				"towerIconSmall" : "ciberium/icons/arrowtowersmall",
-				"towerIconLarge" : "ciberium/icons/arrowtowerslarge",
+				"towerIconSmall" : "ciberium/icons/towerSmall",
+				"towerIconLarge" : "ciberium/icons/towerLarge",
 				"gate" :
 				{
 					"arch" : { "x" : 486, "y" : 232 },

@@ -1,0 +1,43 @@
+{
+	"azefiere" : 
+	{
+		"class" : "servitor",
+		"texts" :
+		{
+			"name" : "阿兹菲力",
+			"biography" : "人们对这位英雄知之甚少。", 
+			"specialty" :
+			{
+				"description" : "达到2级以后提高突变兽或强酸突变兽的攻击力与防御力。",
+				"tooltip" : "生物强化：突变兽",
+				"name" : "突变兽"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/azefiere/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/azefiere/spec-large.bmp",
+			"large" : "ciberium/heroes/azefiere/portrait-large.bmp",
+			"small" : "ciberium/heroes/azefiere/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+        "army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "armorer", "level": "basic" },
+			{ "skill" : "learning", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ctlv2"
+		}		
+	}
+}

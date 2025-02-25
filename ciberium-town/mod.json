@@ -3,20 +3,26 @@
 	"description" : "Post-apo town based on WoG Modern Forge mod",
 	"author" : "Zeryss",
 	"contact" : "https://www.facebook.com/profile.php?id=100010953588350&ref=bookmarks",
-	"version" : "1.18",
+	"version" : "1.20",
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.6.0"
 	},
 	"changelog" :
     {
-        "1.18"   : [ "Update to vcmi-1.4" ],
+        "1.20"   : [ "Update to vcmi-1.6" ],
+		"1.18"   : [ "Update to vcmi-1.4" ],
 		"1.17"   : [ "Update to vcmi-1.3" ],
 		"1.16"   : [ "Update to vcmi-1.2", "Tower icons added" ],
 		"1.15"   : [ "Special buildings support" ],
 		"1.10"   : [ "Fixes and balance issues" ],
 		"1.00"   : [ "Initial release" ]
+	},
+	"language": "chinese",
+	"chinese": {
+		"name": "赛博兰",
+		"description": "VCMI新城镇赛博兰。"
 	},
 	"factions" :
 	[
@@ -30,24 +36,23 @@
 	],
 	"creatures" :
 	[
-        "config/ciberium/creatures/Electro.json",
-		"config/ciberium/creatures/Conscript.json",
-		"config/ciberium/creatures/Soldier.json",
-        "config/ciberium/creatures/Slug.json",
-		"config/ciberium/creatures/ToxicSlug.json",
-		"config/ciberium/creatures/Cockroach.json",
-		"config/ciberium/creatures/ToxicCockroach.json",
-        "config/ciberium/creatures/Tank.json",
-		"config/ciberium/creatures/HeavyTank.json",
-		"config/ciberium/creatures/JumpFighter.json",
-		"config/ciberium/creatures/JumpWarrior.json",
-		"config/ciberium/creatures/Hedgehopper.json",
-		"config/ciberium/creatures/Paratrooper.json",
-		"config/ciberium/creatures/Ironclad.json",
-		"config/ciberium/creatures/Hulkbuster.json",
-		"config/ciberium/creatures/Technoid.json",
-		"config/ciberium/creatures/Neuroblaster.json",
-		"config/ciberium/creatures/stackExp.json"
+		"config/ciberium/creatures/Electro.json",
+		"config/ciberium/creatures/lv0.json",
+		"config/ciberium/creatures/lv1.json",
+        "config/ciberium/creatures/lv1up.json",
+		"config/ciberium/creatures/lv2.json",
+		"config/ciberium/creatures/lv2up.json",
+		"config/ciberium/creatures/lv3.json",
+        "config/ciberium/creatures/lv3up.json",
+		"config/ciberium/creatures/lv4.json",
+		"config/ciberium/creatures/lv4up.json",
+		"config/ciberium/creatures/lv5.json",
+		"config/ciberium/creatures/lv5up.json",
+		"config/ciberium/creatures/lv6.json",
+		"config/ciberium/creatures/lv6up.json",
+		"config/ciberium/creatures/lv7.json",
+		"config/ciberium/creatures/lv7up.json",
+		"config/ciberium/creatures/Neuroblaster.json"
 		
 	],
 	"heroClasses" :
@@ -58,28 +63,29 @@
 	
 	],
     "artifacts":
-    [              
+	[              
 		"config/ciberium/artifacts/NeuroblasterArt.json"        
-    ],
+	],
 
 	"heroes" :
 	[
-		"config/ciberium/heroes/seprinteer.json",
-		"config/ciberium/heroes/julian.json",
-		"config/ciberium/heroes/Meltes.json",
-		"config/ciberium/heroes/singhel.json",
-		"config/ciberium/heroes/niclas.json",
-		"config/ciberium/heroes/charity.json",
-		"config/ciberium/heroes/sunni.json",
-		"config/ciberium/heroes/kastore.json",
-		"config/ciberium/heroes/rengist.json",
-		"config/ciberium/heroes/minore.json",
-		"config/ciberium/heroes/leane.json",
-		"config/ciberium/heroes/tarkin.json",
-		"config/ciberium/heroes/maximus.json",
-		"config/ciberium/heroes/cistrict.json",
-		"config/ciberium/heroes/karen.json",
-		"config/ciberium/heroes/resurrecta.json"
+		"config/ciberium/heroes/arris.json",
+		"config/ciberium/heroes/azefiere.json",
+		"config/ciberium/heroes/daraa.json",
+		"config/ciberium/heroes/gallea.json",
+		"config/ciberium/heroes/guillaume.json",
+		"config/ciberium/heroes/intarc.json",
+		"config/ciberium/heroes/isaac.json",
+		"config/ciberium/heroes/leonard.json",
+		"config/ciberium/heroes/milara.json",
+		"config/ciberium/heroes/nestra.json",
+		"config/ciberium/heroes/omega.json",
+		"config/ciberium/heroes/rufus.json",
+		"config/ciberium/heroes/sofia.json",
+		"config/ciberium/heroes/tiberius.json",
+		"config/ciberium/heroes/tyrisk.json",
+		"config/ciberium/heroes/veronica.json"
 	],
-	"objects" : [ "config/ciberium/dwellings" ]
+	"objects" : [ "config/ciberium/dwellings" ],
+	"spells" : [ "config/ciberium/spells/moat.json" ]
 }

@@ -8,24 +8,24 @@
 		},
 		"name" :
 		{
-			"plural" : "Tanks",
-			"singular" : "Tank"
+			"plural" : "青铜机师",
+			"singular" : "青铜机师"
 		},		
 		"faction": "ciberium",
-		"aiValue" : 1915,
-		"fightValue" : 1634,
-		"attack" : 17,
-		"defense" : 18,
+		"aiValue" : 2079,
+		"attack" : 14,
 		"cost" :
 		{
-			"gold" : 800
+			"gold" : 1050
+			
 		},
 		"damage" :
 		{
-			 "min" : 18,
-			 "max" : 25
+			 "max" : 28,
+			 "min" : 15
 		},
-		"speed" : 7,
+		"defense" : 15,
+		"fightValue" : 1744,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/tank.def",
@@ -37,12 +37,13 @@
 			{
 				"walk" : 1.17,
 				"attack" : 1,
-				"idle" : 10
+				"idle" : 10,
+				"flight" : 1
 			}
 		},
-		"hitPoints" : 100,
 		"doubleWide" : true,
 		"growth" : 2,
+		"hitPoints" : 120,
 		"level" : 6,
 		"upgrades":
 		[
@@ -56,22 +57,12 @@
 			"move" : "ciberium/S208MOVE.wav",
 			"wince" : "ciberium/S208WNCE.wav"
 		},
+		"speed" : 7,
 		"abilities" :
 		{
-			"noLuck":
+			"no morale" :
 			{
-				"type" : "NO_LUCK" 					
-			},
-			"noMorale":
-			{
-				"type" : "NO_MORALE" 					
-			},	
-			"castWeakness":
-			{	
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison", 
-				"val" : 50,
-				"addInfo" : [2,2]
+				"type" : "NO_MORALE"
 			}
 		}
 	}

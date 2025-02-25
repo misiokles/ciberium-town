@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Holo-Knights",
-			"singular" : "Holo-Knight"
+			"plural" : "赛博护卫",
+			"singular" : "赛博护卫"
 		},
 		"advMapAmount" :
 		{
@@ -12,7 +12,7 @@
 			 "min" : 20
 		},
 		"faction" : "ciberium",
-		"aiValue" : 152,
+		"aiValue" : 143,
 		"attack" : 3,
 		"cost" :
 		{
@@ -24,11 +24,11 @@
 			 "min" : 2
 		},
 		"defense" : 6,
-		"fightValue" : 163,
+		"fightValue" : 154,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/CR200.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 3.0 },
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 2.0 },
 			"map" : "ciberium/map/lv1UP.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS200F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL200B.bmp",
@@ -36,7 +36,7 @@
 		},
 	
 		"growth" : 14,
-		"hitPoints" : 11,
+		"hitPoints" : 8,
 		"horde" : 6,
 		"level" : 1,
 		"sound" :
@@ -47,10 +47,10 @@
 			"move": "PIKEMOVE.wav",
 			"wince": "PIKEWNCE.wav"
 		},
-		"speed" : 7,
+		"speed" : 5,
 		"abilities" :
 		{
-			"noRetaliate" :
+		"noRetaliate" :
 			{
 				"type" : "BLOCKS_RETALIATION"
 			},
@@ -60,5 +60,6 @@
 			}
 
 		}
+
 	}
 }

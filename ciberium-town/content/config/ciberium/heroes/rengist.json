@@ -1,16 +1,16 @@
 {
-	"03rengist" : 
+	"rengist" : 
 	{
 		"class" : "general",
 		"texts" :
 		{
-			"name" : "Arris",
-			"biography" : "", 
+			"name" : "艾瑞斯",
+			"biography" : "人们对这位英雄知之甚少。", 
 			"specialty" :
 			{
-				"description" : "{Hedgehoppers and Paratroopers}\r\n\r\nIncreases Speed of any Hedgehoppers or Paratroopers by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
-				"tooltip" : "Creature Bonus: Hedgehoppers",
-				"name" : "Hedgehoppers"
+				"description" : "达到5级以后提高坦克杀手或精锐坦克杀手的攻击力与防御力。",
+				"tooltip" : "生物强化：坦克杀手",
+				"name" : "坦克杀手"
 			}
 		},
 		"images" :
@@ -23,9 +23,9 @@
 		},
 		"army" :
 		[
-			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctHedgehopper", "min" : 1, "max" : 1}
 		],
 
 		"skills" :
@@ -33,11 +33,6 @@
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
-			
-			},
-			{
-				"level" : "basic",
-				"skill" : "armorer"
 			
 			}
 		],

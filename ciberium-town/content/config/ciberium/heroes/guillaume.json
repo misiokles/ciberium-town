@@ -1,0 +1,52 @@
+{
+	"guillaume" : 
+	{
+		"class" : "android",
+		"female" : false,
+                "texts" :
+		{
+			"name" : "圭罗米",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用护体石肤魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：护体石肤",
+				"name" : "护体石肤"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "ciberium/heroes/guillaume/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/guillaume/spec-large.bmp",
+			"large" : "ciberium/heroes/guillaume/portrait-large.bmp",
+			"small" : "ciberium/heroes/guillaume/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"stoneSkin"
+		],
+        "army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "earthMagic", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

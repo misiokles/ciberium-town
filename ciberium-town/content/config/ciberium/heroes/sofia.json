@@ -1,0 +1,44 @@
+{
+	"sofia" : 
+	{
+		"class" : "servitor",
+		"female" : true,
+"texts" :
+		{
+			"name" : "索菲娅",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" : 
+			{
+				"tooltip" : "生物强化：冲击炮",
+				"name" : "冲击炮",
+				"description" : "达到4级以后提高冲击炮的攻击力与防御力。"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/sofia/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/sofia/spec-large.bmp",
+			"large" : "ciberium/heroes/sofia/portrait-large.bmp",
+			"small" : "ciberium/heroes/sofia/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"berserk"
+		],
+		"army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctNeuroblaster", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "artillery", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ctNeuroblaster"
+		}		
+	}
+}

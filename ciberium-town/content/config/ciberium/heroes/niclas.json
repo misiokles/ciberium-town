@@ -1,17 +1,17 @@
 {
-	"08niclas" :
+	"niclas" :
 	{
 		"class" : "general",
 
 		"texts" :
 		{
-			"name" : "Leonard",
-			"biography" : "undetermined",
+			"name" : "莱昂纳多",
+			"biography" : "人们对这位英雄知之甚少。",
 			"specialty" :
 			{
-				"description" : "{Sulfur}\r\n\r\nIncreases kingdom's income by 1 Sulfur per day",
-				"tooltip" : "+1 Sulfur each day",
-				"name" : "+1 Sulfur"
+				"description" : "为王国每天额外提供1硫磺。",
+				"tooltip" : "每天+1硫磺",
+				"name" : "+1硫磺"
 			}
 		},
 		"images" :
@@ -24,21 +24,16 @@
 		},
 		"army" :
 		[
-			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 		
 		"skills" :
 		[
 			{
 				"level" : "basic",
-				"skill" : "logistics"
-			
-			},
-			{
-				"level" : "basic",
-				"skill" : "artillery"
+				"skill" : "pathfinding"
 			
 			}
 		],

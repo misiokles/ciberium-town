@@ -1,5 +1,5 @@
 {
-	"04charity" :
+	"charity" :
 	{
 		"class" : "general",
 		"female" : true,
@@ -7,13 +7,13 @@
 		
 		"texts" :
 		{
-			"name" : "Shariny",
-			"biography" : "",
+			"name" : "涅斯特拉",
+			"biography" : "涅斯特拉曾是一个伟大的亡灵巫师，但是在恩塔格瑞被魔鬼入侵之后，她的公会遭到摧毁。她坚定地走下去，直到提比略让她加入他的军队。",
 			"specialty" :
 			{
-				"description" : "{Tanks and Heavy Tanks}\r\n\r\nIncreases the Attack and Defence of any Tanks or Heavy Tanks for each level attained after 6th level.",
-				"tooltip" : "Creature Bonus: Tank",
-				"name" : "Tanks"
+				"description" : "达到6级以后提高青铜机师或钢铁机师的攻击力与防御力。",
+				"tooltip" : "生物强化：青铜机师",
+				"name" : "青铜机师"
 			}
 		},
 		"images" :
@@ -27,19 +27,16 @@
 
 		"army" :
 		[
-			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 		"skills" :
 		[
 			{
 				"level" : "basic",
-				"skill" : "luck"
-			},
-			{
-				"level" : "basic",
-				"skill" : "leadership"
+				"skill" : "pathfinding"
+			
 			}
 		],
 		"specialty" : {

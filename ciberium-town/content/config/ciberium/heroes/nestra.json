@@ -1,0 +1,47 @@
+{
+	"nestra" :
+	{
+		"class" : "servitor",
+		"female" : true,
+
+		
+		"texts" :
+		{
+			"name" : "涅斯特拉",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到6级以后提高青铜机师或钢铁机师的攻击力与防御力。",
+				"tooltip" : "生物强化：青铜机师",
+				"name" : "青铜机师"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/nestra/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/nestra/spec-large.bmp",
+			"large" : "ciberium/heroes/nestra/portrait-large.bmp",
+			"small" : "ciberium/heroes/nestra/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		"specialty" : {
+			"creature" : "ctlv6"
+		}		
+	}
+}

@@ -1,0 +1,116 @@
+{
+	"ctlv4up":
+	{
+		"name" :
+		{
+			"plural" : "猎隼",
+			"singular" : "猎隼"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "ciberium",
+		"aiValue" : 800,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 7
+		},
+		"defense" : 9,
+		"fightValue" : 740,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/lv4up.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "ciberium/map/lv4up.def",
+			"iconSmall" : "ciberium/iconsSmall/lv4up.bmp",
+			"iconLarge" : "ciberium/iconsBig/lv4up.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"doubleWide" : true,
+		"growth" : 4,
+		"hitPoints" : 45,
+		"level" : 4,
+		"sound" :
+		{
+			"attack" : "ciberium/attack.wav",
+			"defend" : "ciberium/defendUpg.wav",
+			"killed" : "ciberium/killUpg.wav",
+//			"startMoving": "ciberium/movestart.wav",
+//			"endMoving": "ciberium/moveend.wav",
+			"move" : "ciberium/move.wav",
+			"wince" : "ciberium/winceUpg.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+		"no morale" :
+			{
+				"type" : "NO_MORALE",
+			},
+		"canfly" :
+			{
+				"type" : "FLYING"
+			},
+		"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+		"enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
+			}
+
+		},
+		"stackExperience" : [
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" : { "subtype" : "damageTypeRanged", "type" : "GENERAL_DAMAGE_REDUCTION" },
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
+			}
+		]
+	}
+}

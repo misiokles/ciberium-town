@@ -1,0 +1,100 @@
+{
+	"ctlv1":
+	{
+		"name" :
+		{
+			"plural" : "赛博佣兵",
+			"singular" : "赛博佣兵"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 20
+		},
+		"faction" : "ciberium",
+		"aiValue" : 130,
+		"attack" : 2,
+		"cost" :
+		{
+			"gold" : 55
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 5,
+		"fightValue" : 139,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/lv1.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 2.0 },
+			"map" : "ciberium/map/lv1.def",
+			"iconSmall" : "ciberium/iconsSmall/lv1.bmp",
+			"iconLarge" : "ciberium/iconsBig/lv1.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"growth" : 12,
+		"hitPoints" : 8,
+		"horde" : 10,
+		"level" : 1,
+		"upgrades":
+		[
+			"ctlv1up"
+		],
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+		},
+		"speed" : 3,
+       "abilities" :
+		{
+			"deathCloundImmunity"	:
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud"
+			}	
+	    },
+		"stackExperience" : [ {
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin", //min
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax", //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{ "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ] } ]	
+	}
+}
+

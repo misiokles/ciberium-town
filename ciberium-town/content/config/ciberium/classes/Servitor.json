@@ -1,7 +1,7 @@
 {
-	"general" : 
+	"servitor" : 
 	{
-		"name" : "Servitor",
+		"name" : "机侍",
 		"animation" :
 		{
 			"battle" : 
@@ -11,7 +11,7 @@
 			}
 		},	
 		"mapObject" : { "templates" : { "default" : { "animation" : "ciberium/mapHeroServitor" }}},
-		"commander" : "ctTechnoid",
+		"commander" : "ctGibberling",
 		"faction" : "ciberium",
 		"affinity" : "might",
 		"primarySkills" :

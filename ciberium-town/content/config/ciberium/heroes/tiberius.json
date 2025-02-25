@@ -1,0 +1,49 @@
+{
+	"tiberius" : 
+	{
+		"class" : "android",
+		"texts" :
+		{
+			"name" : "提比略",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用连锁闪电魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：连锁闪电",
+				"name" : "连锁闪电"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/tiberius/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/tiberius/spec-large.bmp",
+			"large" : "ciberium/heroes/tiberius/portrait-large.bmp",
+			"small" : "ciberium/heroes/tiberius/portrait-small.bmp"
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+        ],
+       "army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "firstAid", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

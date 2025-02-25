@@ -1,0 +1,51 @@
+{
+	"gallea" : 
+	{
+		"class" : "android",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "嘉理",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用埋设地雷魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：埋设地雷",
+				"name" : "埋设地雷"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/gallea/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/gallea/spec-large.bmp",
+			"large" : "ciberium/heroes/gallea/portrait-large.bmp",
+			"small" : "ciberium/heroes/gallea/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"landMine"
+		],
+		"army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "airMagic", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"landMine" : {
+					"subtype" : "spell.landMine",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

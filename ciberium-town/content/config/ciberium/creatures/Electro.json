@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Electrical Elementals",
-			"singular" : "Electrical Elemental"
+			"plural" : "电元素",
+			"singular" : "电元素"
 		},
 		"advMapAmount" :
 		{
@@ -45,11 +45,13 @@
 		"level" : 4,
 		"sound" :
 		{
-			"attack": "CRUSATTK.wav",
-			"defend": "CRUSDFND.wav",
-			"killed": "CRUSKILL.wav",
-			"move": "CRUSMOVE.wav",
-			"wince": "CRUSWNCE.wav"
+			"startMoving": "ciberium/ENTELEPORT1.wav",
+			"endMoving": "ciberium/ENTELEPORT2.wav",
+			"attack": "ENERATTK.wav",
+			"defend": "ENERDFND.wav",
+			"killed": "ENERKILL.wav",
+			"move": "ENERMOVE.wav",
+			"wince": "ENERWNCE.wav"
 		},
 		"speed" : 8,
 		"abilities" :
@@ -59,7 +61,7 @@
                 "type": "SPELL_AFTER_ATTACK",
                 "subtype": "spell.lightningBolt",
                 "val" : 30,
-                "addInfo": [0, 2]
+                "addInfo": 0
 			},
 			"lightningBoltPOwer" :
 			{
@@ -77,15 +79,66 @@
 			},
 			"AIR_IMMUNITY" :
 			{
-				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "air"
+				"subtype" : "air",
+				"type" : "SPELL_SCHOOL_IMMUNITY"
 			},
-            "FLYING" : 
+           "teleports" :
 			{
-				"type" : "FLYING"
-				
+				"type": "FLYING",
+				"subtype": "movementTeleporting"
+			}		
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "LEVEL_SPELL_IMMUNITY"
+				},
+				"values" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
 			}
-		}
+		]
 	}
 }
 

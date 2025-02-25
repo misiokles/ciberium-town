@@ -5,7 +5,6 @@
 		{
 			"guildSpells" :
 			{
-				// Level 1
 				"bless"          : 0,
 				"bloodlust"      : 32,
 				"cure"           : 31,
@@ -21,8 +20,6 @@
 				"summonBoat"     : 20,
 				"viewAir"        : 20,
 				"viewEarth"      : 20,
-
-				// Level 2
 				"disguise"       : 13,
 				"disruptingRay"  : 35,
 				"fireWall"       : 35,
@@ -35,8 +32,6 @@
 				"scuttleBoat"    : 25,
 				"visions"        : 13,
 				"weakness"       : 25,
-
-				// Level 3
 				"airShield"      : 13,
 				"antiMagic"      : 35,
 				"earthquake"     : 45,
@@ -51,8 +46,6 @@
 				"protectEarth"   : 13,
 				"protectWater"   : 0,
 				"teleport"       : 24,
-
-				//Level 4
 				"berserk"        : 5,
 				"chainLightning" : 10,
 				"clone"          : 5,
@@ -67,8 +60,6 @@
 				"sorrow"         : 20,
 				"townPortal"     : 15,
 				"waterWalk"      : 5,
-
-				//Level 5
 				"airElemental"   : 10,
 				"dimensionDoor"  : 5,
 				"earthElemental" : 20,

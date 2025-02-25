@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Holo-Gladiators",
-			"singular" : "Holo-Gladiator"
+			"plural" : "赛博佣兵",
+			"singular" : "赛博佣兵"
 		},
 		"advMapAmount" :
 		{
@@ -12,7 +12,7 @@
 			 "min" : 20
 		},
 		"faction" : "ciberium",
-		"aiValue" : 117,
+		"aiValue" : 130,
 		"attack" : 2,
 		"cost" :
 		{
@@ -24,11 +24,11 @@
 			 "min" : 1
 		},
 		"defense" : 5,
-		"fightValue" : 125,
+		"fightValue" : 139,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/CR199.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 3.0 },
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 2.0 },
 			"map" : "ciberium/map/lv1.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS199F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL199B.bmp",
@@ -36,7 +36,7 @@
 		},
 
 		"growth" : 14,
-		"hitPoints" : 10,
+		"hitPoints" : 8,
 		"horde" : 6,
 		"level" : 1,
 		"upgrades":
@@ -51,14 +51,14 @@
 			"move": "PIKEMOVE.wav",
 			"wince": "PIKEWNCE.wav"
 		},
-		"speed" : 5,
-        "abilities":
+		"speed" : 3,
+                "abilities":
 		{
-			"nonliving":
-			{	
-				"type" : "NON_LIVING"
-			}	
-	    }
+			 "nonliving":
+		{	
+			"type" : "NON_LIVING"
+		}	
+	    }	
 	}
 }
 

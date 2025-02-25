@@ -1,0 +1,41 @@
+{
+	"intarc" :
+	{
+		"class" : "servitor",
+		"texts" :
+		{
+			"name" : "英塔克",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到1级以后提高赛博佣兵或赛博护卫的攻击力与防御力。",
+				"tooltip" : "生物强化：赛博佣兵",
+				"name" : "赛博佣兵"
+			}
+		}, 
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/intarc/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/intarc/spec-large.bmp",
+			"large" : "ciberium/heroes/intarc/portrait-large.bmp",
+			"small" : "ciberium/heroes/intarc/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			}
+		],
+		"specialty" : {
+			"creature" : "ctlv1"
+		}		
+	}
+}

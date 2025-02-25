@@ -1,0 +1,107 @@
+{
+	"ctGibberling":
+	{
+		"name" :
+		{
+			"plural" : "塑能师",
+			"singular" : "塑能师"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "neutral",
+		"aiValue" : 1000,
+		"doubleWide" : false,
+        "special" : true,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 10
+		},
+		"defense" : 5,
+		"fightValue" : 1000,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/lv0.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+//			"map" : "ciberium/map/lv0.def",
+			"iconSmall" : "ciberium/iconsSmall/lv0.bmp",
+			"iconLarge" : "ciberium/iconsBig/lv0.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "ciberium/battle/projectile/SHOT197.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+		},
+		"growth" : 9,
+		"hitPoints" : 50,
+		"shots" : 24,
+		"level" : 0,
+		"sound" :
+		{
+			"attack" : "ciberium/S198ATTK.wav",
+			"defend" : "ciberium/S198DFND.wav",
+			"killed" : "ciberium/S198KILL.wav",
+			"move" : "ciberium/S198MOVE.wav",
+			"wince" : "ciberium/S198WNCE.wav",
+                        "shoot" : "ciberium/S198SHOT.wav"
+		},
+		"hasDoubleWeek": false,
+		"speed" : 5,
+		"abilities" :
+		{
+		"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.haste",
+				"val" : 3
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+			}
+		}
+	}
+}

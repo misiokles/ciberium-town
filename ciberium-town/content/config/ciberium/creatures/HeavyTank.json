@@ -8,24 +8,23 @@
 		},
 		"name" :
 		{
-			"plural" : "Heavy Tanks",
-			"singular" : "Heavy Tank"
+			"plural" : "钢铁机师",
+			"singular" : "钢铁机师"
 		},		
 		"faction": "ciberium",
-		"aiValue" : 2257,
-		"fightValue" : 1892,
-		"attack" : 17,
-		"defense" : 20,
+		"aiValue" : 2142,
+		"attack" : 16,
 		"cost" :
 		{
-			"gold" : 1000
+			"gold" : 1400
 		},
 		"damage" :
 		{
-			 "min" : 20,
-			 "max" : 25
+			 "max" : 28,
+			 "min" : 15
 		},
-		"speed" : 7,
+		"defense" : 16,
+		"fightValue" : 1796,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/Heavy.def",
@@ -37,12 +36,13 @@
 			{
 				"walk" : 1.17,
 				"attack" : 1,
-				"idle" : 10
+				"idle" : 10,
+				"flight" : 1
 			}
 		},
-		"hitPoints" : 120,
 		"doubleWide" : true,
 		"growth" : 2,
+		"hitPoints" : 120,
 		"level" : 6,
 		"sound" :
 		{
@@ -52,22 +52,19 @@
 			"move" : "ciberium/S208MOVE.wav",
 			"wince" : "ciberium/S208WNCE.wav"
 		},
+		"speed" : 9,
 		"abilities" :
 		{
-			"noLuck":
+			"no morale" :
 			{
-				"type" : "NO_LUCK" 					
+				"type" : "NO_MORALE"
 			},
-			"noMorale":
+			"castRay" :
 			{
-				"type" : "NO_MORALE" 					
-			},	
-			"castWeakness":
-			{	
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison", 
-				"val" : 100,
-				"addInfo" : [2,2]
+				"type" : "SPELL_BEFORE_ATTACK",
+				"val" : 80,
+				"subtype" : "spell.disruptingRay",
+				"addInfo" : 2
 			}
 		}
 	}

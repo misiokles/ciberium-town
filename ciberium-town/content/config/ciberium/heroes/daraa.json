@@ -1,0 +1,52 @@
+{
+	"daraa" : 
+	{
+		"class" : "android",
+		"female" : true,
+                 "texts" :
+		{
+			"name" : "妲拉",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" : 
+			{
+				"description" : "使用转世重生魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：转世重生",
+				"name" : "转世重生"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/daraa/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/daraa/spec-large.bmp",
+			"large" : "ciberium/heroes/daraa/portrait-large.bmp",
+			"small" : "ciberium/heroes/daraa/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"resurrection"
+		],
+        "army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "earthMagic", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

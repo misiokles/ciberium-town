@@ -1,0 +1,39 @@
+{
+	"arris" : 
+	{
+		"class" : "servitor",
+		"texts" :
+		{
+			"name" : "艾瑞斯",
+			"biography" : "人们对这位英雄知之甚少。", 
+			"specialty" :
+			{
+				"description" : "达到5级以后提高坦克猎手或坦克杀手的攻击力与防御力。",
+				"tooltip" : "生物强化：坦克猎手",
+				"name" : "坦克猎手"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "ciberium/heroes/arris/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/arris/spec-large.bmp",
+			"large" : "ciberium/heroes/arris/portrait-large.bmp",
+			"small" : "ciberium/heroes/arris/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "archery", "level": "basic" },
+			{ "skill" : "learning", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "ctlv5"
+		}		
+	}
+}

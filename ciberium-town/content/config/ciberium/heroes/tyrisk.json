@@ -1,0 +1,46 @@
+{
+	"tyrisk" :
+	{
+		"class" : "servitor",
+		"texts" :
+		{
+			"name" : "特瑞斯克",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" :
+			{
+				"description" : "达到4级以后提高天鹰或猎隼的攻击力与防御力。",
+				"tooltip" : "生物强化：天鹰",
+				"name" : "天鹰"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/tyrisk/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/tyrisk/spec-large.bmp",
+			"large" : "ciberium/heroes/tyrisk/portrait-large.bmp",
+			"small" : "ciberium/heroes/tyrisk/portrait-small.bmp"
+		},
+       "army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			
+			}
+		],
+		"specialty" : {
+			"creature" : "ctlv4"
+		}		
+	}
+}

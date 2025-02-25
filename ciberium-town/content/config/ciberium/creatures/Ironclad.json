@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Ironclads",
-			"singular" : "Ironclad"
+			"plural" : "充能机械龙",
+			"singular" : "充能机械龙"
 		},
 		"advMapAmount" :
 		{
@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/CR209.DEF",
-			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
 			"map" : "ciberium/map/7aa.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS209F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL209B.bmp",
@@ -37,7 +37,7 @@
 		},
 		"doubleWide" : true,
 		"growth" : 1,
-		"hitPoints" : 250,
+		"hitPoints" : 185,
 		"level" : 7,
 		"upgrades":
 		[
@@ -55,8 +55,13 @@
 		"abilities" : {
 			"immuneToFire" : 
 			{
-				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "fire"
+				"type" : "FIRE_IMMUNITY",
+				"subtype" : 0
+			},
+			"KING3":
+			{
+				"type" : "KING3",
+				
 			},
 			"nonLiving" :
 			{
@@ -65,12 +70,6 @@
 			"fearless" :
 			{
 				"type" : "FEARLESS"
-			},
-			"directDamageImmunity" :
-			{
-				"subtype" : "spellSchool.any",
-				"type" : "SPELL_DAMAGE_REDUCTION",
-				"val" : 100
 			}
 		}
 	}

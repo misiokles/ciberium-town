@@ -1,0 +1,45 @@
+{
+	"leonard" :
+	{
+		"class" : "android",
+		"texts" :
+		{
+			"name" : "莱昂纳多",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" :
+			{
+				"description" : "为王国每天额外提供1硫磺。",
+				"tooltip" : "每天+1硫磺",
+				"name" : "+1硫磺"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "ciberium/heroes/leonard/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/leonard/spec-large.bmp",
+			"large" : "ciberium/heroes/leonard/portrait-large.bmp",
+			"small" : "ciberium/heroes/leonard/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sulfur" : {
+					"subtype" : "resource.sulfur",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

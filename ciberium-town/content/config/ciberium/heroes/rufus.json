@@ -1,0 +1,54 @@
+{
+	"rufus" : 
+	{
+		"class" : "servitor",
+		"texts" :
+		{
+			"name" : "鲁弗斯",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" :
+			{
+				"description" : "在战术技能上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：战术",
+				"name" : "战术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/rufus/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/rufus/spec-large.bmp",
+			"large" : "ciberium/heroes/rufus/portrait-large.bmp",
+			"small" : "ciberium/heroes/rufus/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"tactics" : {
+					"type" : "BEFORE_BATTLE_REPOSITION",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				},
+				"tactics_block" : {
+					"type" : "BEFORE_BATTLE_REPOSITION_BLOCK",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+

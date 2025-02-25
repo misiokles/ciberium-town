@@ -1,17 +1,17 @@
 {
-	"09minore" : 
+	"minore" : 
 	{
 		"class" : "technik",
 		"female" : true,
-		"texts" :
+"texts" :
 		{
-			"name" : "Sofia",
-			"biography" : "",
+			"name" : "索菲娅",
+			"biography" : "人们对这位英雄知之甚少。",
 			"specialty" : 
 			{
-				"description" : "{Berserk}\r\n\r\nCan cast Berserk spell with increased effectiveness.",
-				"tooltip" : "Spell Bonus: Berserk",
-				"name" : "Berserk"
+				"description" : "达到4级以后提高冲击炮的攻击力与防御力。",
+				"tooltip" : "生物强化：冲击炮",
+				"name" : "冲击炮"
 			}
 		},
 		"images" :
@@ -28,19 +28,16 @@
 		],
 		"army" :
 		[
-			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 		"skills" :
 		[
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "offence"
+			
 			}
 		],
 		"specialty" : {

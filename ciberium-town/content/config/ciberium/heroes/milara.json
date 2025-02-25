@@ -1,0 +1,63 @@
+{
+	"milara" :
+	{
+		"class" : "servitor",
+		"female" : true,
+
+
+		"texts" :
+		{
+			"name" : "米拉娜",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" :
+			{
+				"description" : "在抵抗力上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：抵抗力",
+				"name" : "抵抗力"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "ciberium/heroes/milara/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/milara/spec-large.bmp",
+			"large" : "ciberium/heroes/milara/portrait-large.bmp",
+			"small" : "ciberium/heroes/milara/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+       "army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills" : 
+		[
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MAGIC_RESISTANCE",
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
+				}
+			}
+		}
+	}
+}
+
+

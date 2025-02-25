@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Jump Fighters",
-			"singular" : "Jump Fighter"
+			"plural" : "天鹰",
+			"singular" : "天鹰"
 		},
 		"advMapAmount" :
 		{
@@ -12,23 +12,24 @@
 			 "min" : 10
 		},
 		"faction" : "ciberium",
-		"aiValue" : 657,
-		"attack" : 6,
-		"cost" :
+		"aiValue" : 625,
+		"doubleWide" : true,
+		"attack" : 12,
+        "cost" :
 		{
-			"gold" : 300
+			"gold" : 350
 		},
 		"damage" :
 		{
 			 "max" : 10,
 			 "min" : 6
 		},
-		"defense" : 6,
-		"fightValue" : 615,
+		"defense" : 7,
+		"fightValue" : 593,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/CR205.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/jumpsoldier.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS205F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL205B.bmp",
@@ -36,7 +37,7 @@
 		},
 
 		"growth" : 4,
-		"hitPoints" : 40,
+		"hitPoints" : 35,
 		"level" : 4,
 		"upgrades":
 		[
@@ -52,29 +53,24 @@
 			"endMoving": "ciberium/moveend.wav",
 			"wince" : "ciberium/wince.wav"
 		},
-		"speed" : 9,
+		"speed" : 10,
 		"abilities" :
 		{
-			"canFly" :
+		"no morale" :
+			{
+				"type" : "NO_MORALE",
+			},
+			"canfly" :
 			{
 				"type" : "FLYING"
 			},
-			"spellimmunityslow" :
+            "enchanted" : 
 			{
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.slow"
-			},
-			"spellimmunityquick" :
-			{
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.quicksand"
-			},
-			"hateminotaurs" :
-			{
-				"type" : "HATE",
-				"subtype" : "creature.minotaur",
-				"val" : 50
-            }
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 1
+			}
+
 		}
 	}
 }

@@ -2,11 +2,8 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"ctTrainingCamp" : {
-				"name" : "Hackers' Den",
-				"creatures" : [[ "ctConscript" ]],
-				"sounds": {
-					"ambient": ["dwellings/lvl1.wav"]
-				},
+				"name" : "骇客营",
+				"creatures" : [[ "ctlv1" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-1.def",
@@ -15,11 +12,8 @@
 				}
 			},
 			"ctBiolaboratories" : {
-				"name" : "Biolaboratories",
-				"creatures" : [[ "ctCockroach" ]],
-				"sounds": {
-					"ambient": ["dwellings/lvl2.wav"]
-				},
+				"name" : "生化实验室",
+				"creatures" : [[ "ctlv2" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-2.def",
@@ -28,11 +22,8 @@
 				}
 			},
 			"ctRecyclingPlant" : {
-				"name" : "Recycling Plant",
-				"creatures" : [[ "ctStoneBull" ]],
-				"sounds": {
-					"ambient": ["dwellings/lvl3.wav"]
-				},
+				"name" : "回收工厂",
+				"creatures" : [[ "ctlv3" ]],
 				"templates" : {
 					"default" : {	
 						"animation" : "ciberium/adventure-map/dwelling-3.def",
@@ -41,11 +32,8 @@
 				}
 			},
 			"ctPylon" : {
-				"name" : "Pylon",
-				"creatures" : [[ "ctJumpFighter" ]],
-				"sounds": {
-					"ambient": ["dwellings/lvl4.wav"]
-				},
+				"name" : "充能塔",
+				"creatures" : [[ "ctlv4" ]],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-4.def",
@@ -54,11 +42,8 @@
 				}
 			},
 			"ctHeadquarters" : {
-				"name" : "Fliegerfaust Tower",
-				"creatures" : [[ "ctHedgehopper" ]],
-				"sounds": {
-					"ambient": ["dwellings/lvl5.wav"]
-				},
+				"name" : "防空塔",
+				"creatures" : [[ "ctlv5" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -68,11 +53,8 @@
 				}
 			},
 			"ctHangar" : {
-				"name" : "Hangar",
-				"creatures" : [[ "ctTank" ]],
-				"sounds": {
-					"ambient": ["dwellings/lvl6.wav"]
-				},
+				"name" : "重机仓库",
+				"creatures" : [[ "ctlv6" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -82,11 +64,8 @@
 				}
 			},
 			"ctEngineeringComplex" : {
-				"name" : "Engineering Complex",
-				"creatures" : [[ "ctIronclad" ]],
-				"sounds": {
-					"ambient": ["dwellings/lvl7.wav"]
-				},
+				"name" : "重工集团",
+				"creatures" : [[ "ctlv7" ]],
 				"guards" : true,
 				"templates" : {
 					"default" : {
@@ -96,11 +75,8 @@
 				}
 			},
 			"ctGenerator" : {
-				"name" : "Generator",
+				"name" : "发电厂",
 				"creatures" : [[ "ctElectro" ]],
-				"sounds": {
-					"ambient": ["dwellings/eldw.wav"]
-				},
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-8.def",

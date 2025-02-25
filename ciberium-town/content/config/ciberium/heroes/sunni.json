@@ -1,17 +1,17 @@
 {
-	"02sunni" : 
+	"sunni" : 
 	{
 		"class" : "general",
 		"female" : true,
 		"texts" :
 		{
-			"name" : "Omega",
-			"biography" : "",
+			"name" : "欧米茄",
+			"biography" : "人们对这位英雄知之甚少。",
 			"specialty" :
 			{
-				"description" : "{Scouting}\r\n\r\nIncreases the scouting range by 1 every 6 levels.",
-				"tooltip" : "Secondary Skill Bonus: Scouting",
-				"name" : "Scouting"
+				"description" : "在侦察术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：侦察术",
+				"name" : "侦察术"
 			}
 		},
 		"images" :
@@ -23,9 +23,9 @@
 		},
 		"army" :
 		[
-			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 
 		"skills" :
@@ -40,19 +40,16 @@
 				"skill" : "logistics"
 			}
 		],
-		"specialty" : {
+		"specialty": //scouting
 			"bonuses" : {
-                "sight" : {
+				"scouting" : {
+					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "SIGHT_RADIUS",
-					"val" : 0,
-					"valueType" : "BASE_NUMBER",
-                    "updater" : {
-                        "parameters" : [ 6 ],
-                        "type" : "GROWS_WITH_LEVEL"
-                    }
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
 				}
-			}	
-		}
+			}
 	}
 }
 

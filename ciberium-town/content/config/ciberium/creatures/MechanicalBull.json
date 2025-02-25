@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Slugs",
-			"singular" : "Slug"
+			"plural" : "石牛",
+			"singular" : "石牛"
 		},
 		"advMapAmount" :
 		{
@@ -15,7 +15,7 @@
 		"aiValue" : 425,
 		"attack" : 10,
 		"doubleWide" : true,
-        "cost" :
+                "cost" :
 		{
 			"gold" : 270
 		},
@@ -29,7 +29,7 @@
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/lvl3unitUp.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/maniac.def",
 			"iconSmall" : "ciberium/iconsSmall/lv3ups.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv3up.bmp",

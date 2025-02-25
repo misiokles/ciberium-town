@@ -1,0 +1,54 @@
+{
+	"omega" : 
+	{
+		"class" : "servitor",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "欧米茄",
+			"biography" : "人们对这位英雄知之甚少。",
+			"specialty" :
+			{
+				"description" : "在侦察术上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：侦察术",
+				"name" : "侦察术"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/omega/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/omega/spec-large.bmp",
+			"large" : "ciberium/heroes/omega/portrait-large.bmp",
+			"small" : "ciberium/heroes/omega/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
+			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"scouting" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SIGHT_RADIUS",
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
+				}
+			}
+		}
+	}
+}

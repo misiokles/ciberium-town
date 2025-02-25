@@ -1,16 +1,16 @@
 {
-	"15seprinteer" : 
+	"seprinteer" : 
 	{
 		"class" : "technik",
 		"texts" :
 		{
-			"name" : "Azefiere",
-			"biography" : "", 
+			"name" : "阿兹菲力",
+			"biography" : "人们对这位英雄知之甚少。", 
 			"specialty" :
 			{
-				"description" : "{Roaches and Acid Roaches}\r\n\r\nIncreases Speed of any Roaches or Acid Roaches by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
-				"tooltip" : "Creature Bonus: Cockroaches",
-				"name" : "Cockroaches"
+				"description" : "达到2级以后提高突变兽或强酸突变兽的攻击力与防御力。",
+				"tooltip" : "生物强化：突变兽",
+				"name" : "突变兽"
 			}
 		},
 		"images" :
@@ -27,20 +27,17 @@
 		],
 		"army" :
 		[
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8}
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctCockroach", "min" : 4, "max" : 6}
 		],
 
 		"skills" :
 		[
 			{
 				"level" : "basic",
-				"skill" : "intelligence"
-			},
-			{
-				"level" : "basic",
-				"skill" : "ballistics"
+				"skill" : "wisdom"
+			
 			}
 		],
 		"specialty" : {

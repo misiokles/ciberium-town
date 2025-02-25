@@ -1,5 +1,5 @@
 {
-	"12cistrict" :
+	"cistrict" :
 	{
 		"class" : "technik",
 		"female" : true,
@@ -7,13 +7,13 @@
 
 		"texts" :
 		{
-			"name" : "Cistrict",
-			"biography" : "",
+			"name" : "米拉娜",
+			"biography" : "人们对这位英雄知之甚少。",
 			"specialty" :
 			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
-				"tooltip" : "Secondary Skill Bonus: Sorcery",
-				"name" : "Sorcery"
+				"description" : "在抵抗力上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：抵抗力",
+				"name" : "抵抗力"
 			}
 		},
 		"images" :
@@ -30,28 +30,27 @@
 			"dispel"
 		],
 
+
 		"army" :
 		[
-			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 		"skills" : 
 		[
 			{
-				"level" : "basic",
+				"level" : "advanced",
 				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "archery"
 			}
 		],
-		"specialty" : {
+		"specialty": //sorcery
+		{
 			"bonuses" : {
 				"sorcery" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE"

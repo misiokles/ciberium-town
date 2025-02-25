@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"plural" : "Paratroopers",
-			"singular" : "Paratrooper"
+			"plural" : "精锐坦克杀手",
+			"singular" : "精锐坦克杀手"
 		},
 		"advMapAmount" :
 		{
@@ -12,24 +12,24 @@
 			 "min" : 8
 		},
 		"faction" : "ciberium",
-		"aiValue" : 1163,
-		"attack" : 14,
+		"aiValue" : 1010,
+		"attack" : 13,
 		"hasDoubleWeek" : true,
-                "cost" : 
+        "cost" : 
 		{
-			"gold" : 625
+			"gold" : 525
 		},
 		"damage" :
 		{
-			 "max" : 16,
+			 "max" : 12,
 			 "min" : 10
 		},
-		"defense" : 8,
-		"fightValue" : 1045,
+		"defense" : 9,
+		"fightValue" : 915,
 		"graphics" :
 		{
 			"animation" : "ciberium/battle/CR204.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/bruiser.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS204F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL204B.bmp",
@@ -45,14 +45,18 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"projectile" : "ciberium/battle/projectile/SHOT208.DEF",
+				"projectile" : "ciberium/battle/projectile/mechShoot.DEF",
 			},
 			
 		},
 		"growth" : 3,
-		"hitPoints" : 60,
+		"hitPoints" : 55,
 		"level" : 5,
-		"shots" : 6,
+		"upgrades":
+		[
+			"faWarDroid"
+		],
+		"shots" : 12,
 		"sound" :
 		{
 			"attack" : "ciberium/S204ATTK.wav",
@@ -65,18 +69,15 @@
 		"speed" : 6,
 		"abilities" :
 		{
-			"noRetaliate" :
-			{
-				"type" : "BLOCKS_RANGED_RETALIATION"
-			},
-			"canShoot" :
+		"canShoot" :
 			{
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
-				"type" : "NO_MELEE_PENALTY"
-            }	
+			"magicAura":
+			{	
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 25
+			}	
 		}	
 	}
 }

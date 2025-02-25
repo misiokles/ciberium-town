@@ -1,16 +1,16 @@
 {
-	"11kastore" : 
+	"kastore" : 
 	{
 		"class" : "technik",
 		"texts" :
 		{
-			"name" : "Tiberius",
-			"biography" : "",
+			"name" : "提比略",
+			"biography" : "提比略不想向受试者透露他的计划。然而，众所周知，他是一个强大的混血精灵，知道古代人的许多秘密。在创造天堂铸造厂之前，他就是德迦之王。他计划在古代人武器的帮助下征服大陆，为了达到目的，他不会停下来做无用的事情。",
 			"specialty" : 
 			{
-				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",
-				"tooltip" : "Spell Bonus: Chain Lightning",
-				"name" : "Chain Lightning"
+				"description" : "使用连锁闪电魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：连锁闪电",
+				"name" : "连锁闪电"
 			}
 		},
 		"images" :
@@ -27,20 +27,17 @@
 
 		"army" :
 		[
-			{ "creature" : "ctConscript", "min" : 10, "max" : 20 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 8 },
-			{ "creature" : "ctStoneBull", "min" : 3, "max" : 4}
+			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
+			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
+			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 
 		"skills" :
 		[
 			{
 				"level" : "basic",
-				"skill" : "scholar"		
-			},
-			{
-				"level" : "basic",
-				"skill" : "sorcery"		
+				"skill" : "pathfinding"
+			
 			}
 		],
 		"specialty" : {

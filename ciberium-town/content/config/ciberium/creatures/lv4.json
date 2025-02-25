@@ -1,0 +1,116 @@
+{
+	"ctlv4":
+	{
+		"name" :
+		{
+			"plural" : "天鹰",
+			"singular" : "天鹰"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "ciberium",
+		"aiValue" : 625,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 6
+		},
+		"defense" : 7,
+		"fightValue" : 593,
+		"graphics" :
+		{
+			"animation" : "ciberium/battle/lv4.def",
+			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"map" : "ciberium/map/lv4.def",
+			"iconSmall" : "ciberium/iconsSmall/lv4.bmp",
+			"iconLarge" : "ciberium/iconsBig/lv4.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"doubleWide" : true,
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+		"upgrades":
+		[
+			"ctlv4up"
+		],
+		"sound" :
+		{
+			"attack" : "ciberium/attack.wav",
+			"defend" : "ciberium/defend.wav",
+			"killed" : "ciberium/kill.wav",
+			"move" : "ciberium/move.wav",
+//			"startMoving": "ciberium/movestart.wav",
+//			"endMoving": "ciberium/moveend.wav",
+			"wince" : "ciberium/wince.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+		"no morale" :
+			{
+				"type" : "NO_MORALE",
+			},
+		"canfly" :
+			{
+				"type" : "FLYING"
+			},
+		"enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 1
+			}
+
+		},
+		"stackExperience" : [
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+			},
+			{
+				"bonus" : { "subtype" : "damageTypeRanged", "type" : "GENERAL_DAMAGE_REDUCTION" },
+				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
+			}
+		]
+	}
+}

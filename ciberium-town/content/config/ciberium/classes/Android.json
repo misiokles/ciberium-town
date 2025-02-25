@@ -1,7 +1,7 @@
 {
-	"technik" :
+	"android" :
 	{
-		"name" : "Android",
+		"name" : "仆偶",
 		"animation" :
 		{
 			"battle" : 
@@ -11,7 +11,7 @@
 			}
 		},		
 		"mapObject" : { "templates" : { "default" : { "animation" : "ciberium/mapHeroAndroid" }}},
-		"commander" : "ctTechnoid",		
+		"commander" : "ctGibberling",		
 		"faction" : "ciberium",
 		"affinity" : "magic",
 		"primarySkills" :
