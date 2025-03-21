@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "欧米茄",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Omega",
+			"biography" : "Omega never gave up on his eyes, even though he was blind before the transformation. But once a powerful sorcerer, he combined his eyes with electronic tools so that he could not only regain his sight, but also see things that no one else could be informed of.",
 			"specialty" :
 			{
-				"description" : "在侦察术上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：侦察术",
-				"name" : "侦察术"
+				"description" : "Receives a 5% per level bonus to Scouting skill.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
 			}
 		},
 		"images" :

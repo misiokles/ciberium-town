@@ -8,8 +8,8 @@
 		},
 		"name" :
 		{
-			"plural" : "钢铁机师",
-			"singular" : "钢铁机师"
+			"plural" : "Heavy Tanks",
+			"singular" : "Heavy Tank"
 		},		
 		"faction": "ciberium",
 		"aiValue" : 2142,

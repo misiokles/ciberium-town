@@ -4,13 +4,13 @@
 		"class" : "servitor",
 		"texts" :
 		{
-			"name" : "英塔克",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Intarc",
+			"biography" : "Little is known about this hero.",
 			"specialty" :
 			{
-				"description" : "达到1级以后提高赛博佣兵或赛博护卫的攻击力与防御力。",
-				"tooltip" : "生物强化：赛博佣兵",
-				"name" : "赛博佣兵"
+				"description" : "Increases Speed of any Cyber Mercenaries or Cyber Guards by 1 and their Attack and Defense skills by 5% for 1 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Cyber Mercenaries",
+				"name" : "Cyber Mercenaries"
 			}
 		}, 
 		"images" :

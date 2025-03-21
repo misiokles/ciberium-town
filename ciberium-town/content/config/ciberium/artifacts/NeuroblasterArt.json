@@ -8,9 +8,9 @@
         "slot":"MACH1",
         "text":
 		{
-			"name": "冲击炮",
-			"description": "{冲击炮}\r\n\r\n冲击炮可以让你在战争中用来攻击敌方部队。",
-			"event": "穿过荒地和灌木丛时，你没想到会发现一台废弃的攻城机器。你环顾四周，看看周围是否有人，然后将机器带走。"
+			"name": "Neuroblaster",
+			"description": "Neuroblaster allows you to use it to attack enemy troops in war.",
+			"event": "While walking through the wasteland and bushes, you don't expect to find an abandoned siege machine. You look around to see if anyone is around and take the machine with you."
 		},
 		"graphics":
 		{

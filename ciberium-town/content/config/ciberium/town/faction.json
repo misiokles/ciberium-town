@@ -3,7 +3,7 @@
 		"alignment" : "evil",
 		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "ciberium/creature-bg-120px", "130px" : "ciberium/creature-bg-130px" },
-		"name" : "赛博兰",
+		"name" : "Ciberium",
 		"nativeTerrain" : "subterra",
 		"town" :
 		{
@@ -77,24 +77,24 @@
 			},
 			"names" :
 			[
-				"多西塞特",
-				"赛博利亚",
-				"赞那都",
-				"桑瓦尔",
-				"亚里那",
-				"弗留斯",
-				"虹风港",
-				"巴塞利",
-				"斯普林弗尔",
-				"吉恩摩尔",
-				"韦罗",
-				"纽弗雷",
-				"纽伊芬",
-				"文兰",
-				"文提",
-				"塞里",
-				"海里",
-				"雷里"
+				"Dorset",
+				"Cyberia",
+				"Zanadu",
+				"Sanwar",
+				"Arina",
+				"Frius",
+				"Hongfeng Port",
+				"Barcelli",
+				"Springvale",
+				"Gene Moore",
+				"Vero",
+				"Newry",
+				"Neu Yifen",
+				"Wenlan",
+				"Wenti",
+				"Seri",
+				"Sea",
+				"Lei Li"
 			],
 			"tavern" :
 			{

@@ -4,13 +4,13 @@
 		"class" : "servitor",
 		"texts" :
 		{
-			"name" : "艾瑞斯",
-			"biography" : "人们对这位英雄知之甚少。", 
+			"name" : "Arris",
+			"biography" : "Little is known about this hero.", 
 			"specialty" :
 			{
-				"description" : "达到5级以后提高坦克猎手或坦克杀手的攻击力与防御力。",
-				"tooltip" : "生物强化：坦克猎手",
-				"name" : "坦克猎手"
+				"description" : "Increases Speed of any Tank Hunters or Tank Killers by 1 and their Attack and Defense skills by 5% for 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Tank Hunter",
+				"name" : "Tank Hunter"
 			}
 		},
 		"images" :

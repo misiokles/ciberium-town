@@ -5,13 +5,13 @@
 		"female" : false,
                 "texts" :
 		{
-			"name" : "圭罗米",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Guillaume",
+			"biography" : "Little is known about this hero",
 			"specialty" : 
 			{
-				"description" : "使用护体石肤魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：护体石肤",
-				"name" : "护体石肤"
+				"description" : "Casts Stone Skin with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "Spell bonus: Stone Skin",
+				"name" : "Stone Skin"
 			}
 		},
 		"images" :

@@ -4,13 +4,13 @@
 		"class" : "android",
 		"texts" :
 		{
-			"name" : "提比略",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Tiberius",
+			"biography" : "Little is known about this hero.",
 			"specialty" : 
 			{
-				"description" : "使用连锁闪电魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：连锁闪电",
-				"name" : "连锁闪电"
+				"description" : "Casts Chain Lightning with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Chain Lightning",
+				"name" : "Chain Lightning"
 			}
 		},
 		"images" :

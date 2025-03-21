@@ -3,7 +3,7 @@
 	"description" : "Post-apo town based on WoG Modern Forge mod",
 	"author" : "Zeryss",
 	"contact" : "https://www.facebook.com/profile.php?id=100010953588350&ref=bookmarks",
-	"version" : "1.20",
+	"version" : "1.21",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,7 +11,8 @@
 	},
 	"changelog" :
     {
-        "1.20"   : [ "Update to vcmi-1.6" ],
+        "1.21"   : [ "English version of chinese mod" ],
+		"1.20"   : [ "Update to vcmi-1.6" ],
 		"1.18"   : [ "Update to vcmi-1.4" ],
 		"1.17"   : [ "Update to vcmi-1.3" ],
 		"1.16"   : [ "Update to vcmi-1.2", "Tower icons added" ],
@@ -19,7 +20,11 @@
 		"1.10"   : [ "Fixes and balance issues" ],
 		"1.00"   : [ "Initial release" ]
 	},
-	"language": "chinese",
+	"language":
+	"english":  {
+		"name": "Ciberium",
+		"description": "VCMI new town."
+	},
 	"chinese": {
 		"name": "赛博兰",
 		"description": "VCMI新城镇赛博兰。"
@@ -39,11 +44,11 @@
 		"config/ciberium/creatures/Electro.json",
 		"config/ciberium/creatures/lv0.json",
 		"config/ciberium/creatures/lv1.json",
-        "config/ciberium/creatures/lv1up.json",
+        		"config/ciberium/creatures/lv1up.json",
 		"config/ciberium/creatures/lv2.json",
 		"config/ciberium/creatures/lv2up.json",
 		"config/ciberium/creatures/lv3.json",
-        "config/ciberium/creatures/lv3up.json",
+       		"config/ciberium/creatures/lv3up.json",
 		"config/ciberium/creatures/lv4.json",
 		"config/ciberium/creatures/lv4up.json",
 		"config/ciberium/creatures/lv5.json",
@@ -62,7 +67,7 @@
 
 	
 	],
-    "artifacts":
+  	  "artifacts":
 	[              
 		"config/ciberium/artifacts/NeuroblasterArt.json"        
 	],

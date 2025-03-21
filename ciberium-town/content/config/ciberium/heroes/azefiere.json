@@ -4,13 +4,13 @@
 		"class" : "servitor",
 		"texts" :
 		{
-			"name" : "阿兹菲力",
-			"biography" : "人们对这位英雄知之甚少。", 
+			"name" : "Azefiere",
+			"biography" : "Little is known about this hero.", 
 			"specialty" :
 			{
-				"description" : "达到2级以后提高突变兽或强酸突变兽的攻击力与防御力。",
-				"tooltip" : "生物强化：突变兽",
-				"name" : "突变兽"
+				"description" : "Increases Speed of any Mutant beasts or Toxic Mutant Beasts by 1 and their Attack and Defense skills by 5% for 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Mutant Beast",
+				"name" : "Mutant Beast"
 			}
 		},
 		"images" :

@@ -5,13 +5,13 @@
 		"female" : true,
 		"texts" :
 		{
-			"name" : "嘉理",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Gallea",
+			"biography" : "Little is known about this hero",
 			"specialty" : 
 			{
-				"description" : "使用埋设地雷魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：埋设地雷",
-				"name" : "埋设地雷"
+				"description" : "Casts Land Mine with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Land Mine",
+				"name" : "Land Mine"
 			}
 		},
 		"images" :

@@ -7,8 +7,8 @@
 			{
 				"mageGuild1" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "1级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within",
+					"name" : "Mage Guild Level 1",
 					"cost" :
 					{
 						"wood" : 5,
@@ -19,8 +19,8 @@
 				},
 				"mageGuild2" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "2级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
 					"cost" :
 					{
 						"wood" : 5,
@@ -36,8 +36,8 @@
 				},
 				"mageGuild3" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "3级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
 					"cost" :
 					{
 						"wood" : 5,
@@ -53,8 +53,8 @@
 				},
 				"mageGuild4" : 
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "4级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
 					"cost" :
 					{
 						"wood" : 5,
@@ -70,8 +70,8 @@
 				},
 				"mageGuild5" :
 				{
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
-					"name" : "5级魔法行会",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
 					"cost" :
 					{
 						"wood" : 5,
@@ -87,8 +87,8 @@
 				},
 				"tavern" :
 				{
-					"name" : "酒馆",
-					"description" : "酒馆可提高驻军的士气。",
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"cost" :
 					{
 						"wood" : 5,
@@ -98,8 +98,8 @@
 				},
 				"shipyard" :
 				{
-					"name" : "船坞",
-					"description" : "船坞允许你购买船只。",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" :
 					{
 						"wood" : 20,
@@ -109,8 +109,8 @@
 				},
 				"fort" :
 				{
-					"name" : "堡垒",
-					"description" : "堡垒可为你的城镇提供城墙。",
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" :
 					{
 						"wood" : 20,
@@ -121,8 +121,8 @@
 				},
 				"citadel" :
 				{
-					"name" : "大本营",
-					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" :
 					{
 						"ore" : 5,
@@ -133,8 +133,8 @@
 				},
 				"castle" :
 				{
-					"name" : "城堡",
-					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"cost" :
 					{
 						"wood" : 10,
@@ -146,15 +146,15 @@
 				},
 				"villageHall" :
 				{
-					"name" : "议事堂",
-					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"id" : 10,
 					"mode" : "auto"
 				},
 				"townHall" :
 				{
-					"name" : "内政厅",
-					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" :
 					{
 						"gold" : 2500
@@ -165,8 +165,8 @@
 				},
 				"cityHall" :
 				{
-					"name" : "议会",
-					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" :
 					{
 						"gold" : 5000
@@ -177,8 +177,8 @@
 				},
 				"capitol" :
 				{
-					"name" : "国会",
-					"description" : "国会每天向你提供4000个金币。",
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" :
 					{
 						"gold" : 10000
@@ -189,8 +189,8 @@
 				},
 				"marketplace" :
 				{
-					"name" : "市场",
-					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" :
 					{
 						"wood" : 5,
@@ -200,8 +200,8 @@
 				},
 				"resourceSilo" :
 				{
-					"description" : "物资仓库每天为你额外提供1水银。",
-					"name" : "物资仓库",
+					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
+					"name" : "Resourse Silo",
 					"cost" :
 					{
 						"ore" : 5,
@@ -213,8 +213,8 @@
 				},
 				"blacksmith" :
 				{
-					"description" : "铁匠铺可向你的军队提供冲击炮。",
-					"name" : "铁匠铺",
+					"description" : "The Blacksmith provides your armies with Neuroblaster.",
+					"name" : "Blacksmith",
 					"cost" :
 					{
 						"wood" : 5,
@@ -225,8 +225,8 @@
 				},
 				"horde1" :
 				{
-					"description" : "营垒使赛博佣兵和赛博护卫的周产量+10。",
-					"name" : "营垒",
+					"description" : "The barracks increase the weekly output of Cyber Mercenaries and Cyber Guards by +10.",
+					"name" : "Barracks",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -235,8 +235,8 @@
 				},
 				"horde1Upgr" :
 				{
-					"description" : "营垒使赛博佣兵和赛博护卫的周产量+10。",
-					"name" : "营垒",
+					"description" : "The camp increase the weekly output of Cyber Mercenaries and Cyber Guards by +10.",
+					"name" : "Training Camp",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -247,15 +247,15 @@
 				},
 				"ship" :
 				{
-					"name" : "船只",
-					"description" : "船员们正在等待起航。",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 
 					"id" : 20
 				},
 				"special1" :
 				{
-					"description" : "暗堡使每个来访英雄的防御力+1。",
-					"name" : "暗堡",
+					"description" : "The Bunker increases the defense power of each visiting hero by +1.",
+					"name" : "Bunker",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -273,8 +273,8 @@
 				},
 				"special2" :
 				{
-					"description" : "炼油厂每天为你的王国额外提供750个金币。",
-					"name" : "炼油厂",
+					"description" : "The Refinery provides an additional 750 gold coins for your kingdom every day.",
+					"name" : "Refinery",
 					"cost" : {
 						"ore"  : 5,
 						"wood" : 5,
@@ -286,16 +286,16 @@
 				},
 				"grail" :
 				{
-					"description" : "合成中心使每周的生物产量提高50%，每天为你的王国额外提供5000个金币。",
-					"name" : "合成中心",
+					"description" : "The Fusion Center increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least.",
+					"name" : "Fusion Center",
 					"id" : 26,
 					"mode" : "grail",
 					"produce": { "gold": 5000 }
 				},
 				"dwellingLvl1" :
 				{
-					"description" : "骇客营允许你招募赛博佣兵。",
-					"name" : "骇客营",
+					"description" : "The Training Camp allows you to recruit Cyber Mercenaries.",
+					"name" : "Training Camp",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5,
@@ -306,8 +306,8 @@
 				},
 				"dwellingLvl2" :
 				{
-					"description" : "生化实验室允许你招募突变兽。",
-					"name" : "生化实验室",
+					"description" : "The Biolaboratories allows you to recruit Mutant Beasts.",
+					"name" : "Biolaboratories",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10
@@ -317,8 +317,8 @@
 				},
 				"dwellingLvl3" :
 				{
-					"description" : "回收工厂允许你招募史莱姆。",
-					"name" : "回收工厂",
+					"description" : "The Recycling Plant allows you to recruit Slugs.",
+					"name" : "Recycling Plant",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -331,8 +331,8 @@
 				},
 				"dwellingLvl4" :
 				{
-					"description" : "充能塔允许你招募天鹰。",
-					"name" : "充能塔",
+					"description" : "The Pylon allows you to recruit Robo Griffins.",
+					"name" : "Pylon",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -347,8 +347,8 @@
 				},
 				"dwellingLvl5" :
 				{
-					"description" : "防空塔允许你招募坦克猎手。",
-					"name" : "防空塔",
+					"description" : "The Air Defense Tower allows you to recruit Tank Hunters.",
+					"name" : "Air Defense Tower",
 					"cost" : {
 						"gold" : 3000,
 						"ore" : 5,
@@ -360,8 +360,8 @@
 				},
 				"dwellingLvl6" :
 				{
-					"description" : "重机仓库允许你招募青铜机师。",
-					"name" : "重机仓库",
+					"description" : "The Hangar allows you to recruit Tanks.",
+					"name" : "Hangar",
 					"cost" : {
 						"gold" : 4000,
 						"ore" : 5,
@@ -374,8 +374,8 @@
 				},
 				"dwellingLvl7" :
 				{
-					"description" : "重工集团允许你招募充能机械龙。",
-					"name" : "重工集团",
+					"description" : "The Engineering Complex allows you to recruit Charged Mechanical Dragons.",
+					"name" : "Engineering Complex",
 					"cost" : {
 						"gold" : 10000,
 						"wood" : 10,
@@ -390,8 +390,8 @@
 				},
 				"dwellingUpLvl1" :
 				{
-					"description" : "高级骇客营允许你招募赛博护卫。",
-					"name" : "高级骇客营",
+					"description" : "The Hacker Camp allows you to recruit Cyber Guards.",
+					"name" : "Hacker Camp",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
@@ -402,8 +402,8 @@
 				},
 				"dwellingUpLvl2" :
 				{
-					"description" : "高级生化实验室允许你招募强酸突变兽。",
-					"name" : "高级生化实验室",
+					"description" : "The Advanced Biolaboratories allows you to recruit Toxic Mutant Beasts.",
+					"name" : "Advanced Biolaboratories",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5,
@@ -414,8 +414,8 @@
 				},
 				"dwellingUpLvl3" :
 				{
-					"description" : "高级回收工厂允许你招募病毒史莱姆。",
-					"name" : "高级回收工厂",
+					"description" : "The Adv. Recycling Plant allows you to recruit Acid Slugs.",
+					"name" : "Advanced Recycling Plant",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10,
@@ -426,8 +426,8 @@
 				},
 				"dwellingUpLvl4" :
 				{
-					"description" : "高级充能塔允许你招募猎隼。",
-					"name" : "高级充能塔",
+					"description" : "The Charge Tower allows you to recruit Assault Griffins",
+					"name" : "Charge Tower",
 					"cost" : {
 						"mercury" : 5,
 						"ore" : 5,
@@ -440,8 +440,8 @@
 				},
 				"dwellingUpLvl5" :
 				{
-					"description" : "高级防空塔允许你招募坦克杀手。",
-					"name" : "高级防空塔",
+					"description" : "The Adv. Air Defense Tower allows you to recruit Tank Killers",
+					"name" : "Advanced Air Defense Tower",
 					"cost" : {
 						"ore" : 5,
 						"wood" : 5,
@@ -454,8 +454,8 @@
 				},
 				"dwellingUpLvl6" :
 				{
-					"description" : "高级重机仓库允许你招募钢铁机师。",
-					"name" : "高级重机仓库",
+					"description" : "The Machinery Warehouse allows you to recruit Heavy Tanks.",
+					"name" : "Machinery Warehouse",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
@@ -470,8 +470,8 @@
 				},
 				"dwellingUpLvl7" :
 				{
-					"description" : "高级重工集团允许你招募蓄能机械龙。",
-					"name" : "高级重工集团",
+					"description" : "The Adv. Engineering Complex allows you to recruit Charged Dragons.",
+					"name" : "Advanced Engineering Complex",
 					"cost" : {
 						"ore" : 10,
 						"gold" : 25000,

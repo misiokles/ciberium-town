@@ -8,8 +8,8 @@
 		},
 		"name" :
 		{
-			"plural" : "青铜机师",
-			"singular" : "青铜机师"
+			"plural" : "Tanks",
+			"singular" : "Tank"
 		},		
 		"faction": "ciberium",
 		"aiValue" : 2079,

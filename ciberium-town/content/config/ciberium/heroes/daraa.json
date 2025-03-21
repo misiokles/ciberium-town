@@ -5,13 +5,13 @@
 		"female" : true,
                  "texts" :
 		{
-			"name" : "妲拉",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Daraa",
+			"biography" : "Little is known about this hero",
 			"specialty" : 
 			{
-				"description" : "使用转世重生魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：转世重生",
-				"name" : "转世重生"
+				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
 			}
 		},
 

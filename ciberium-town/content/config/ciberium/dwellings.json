@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"ctTrainingCamp" : {
-				"name" : "骇客营",
+				"name" : "Training Camp",
 				"creatures" : [[ "ctlv1" ]],
 				"templates" : {
 					"default" : {
@@ -12,7 +12,7 @@
 				}
 			},
 			"ctBiolaboratories" : {
-				"name" : "生化实验室",
+				"name" : "Biolaboratories",
 				"creatures" : [[ "ctlv2" ]],
 				"templates" : {
 					"default" : {
@@ -22,7 +22,7 @@
 				}
 			},
 			"ctRecyclingPlant" : {
-				"name" : "回收工厂",
+				"name" : "Recycling Plant",
 				"creatures" : [[ "ctlv3" ]],
 				"templates" : {
 					"default" : {	
@@ -32,7 +32,7 @@
 				}
 			},
 			"ctPylon" : {
-				"name" : "充能塔",
+				"name" : "Pylon",
 				"creatures" : [[ "ctlv4" ]],
 				"templates" : {
 					"default" : {
@@ -42,7 +42,7 @@
 				}
 			},
 			"ctHeadquarters" : {
-				"name" : "防空塔",
+				"name" : "Headquarters",
 				"creatures" : [[ "ctlv5" ]],
 				"guards" : true,
 				"templates" : {
@@ -53,7 +53,7 @@
 				}
 			},
 			"ctHangar" : {
-				"name" : "重机仓库",
+				"name" : "Hangar",
 				"creatures" : [[ "ctlv6" ]],
 				"guards" : true,
 				"templates" : {
@@ -64,7 +64,7 @@
 				}
 			},
 			"ctEngineeringComplex" : {
-				"name" : "重工集团",
+				"name" : "Engineering Complex",
 				"creatures" : [[ "ctlv7" ]],
 				"guards" : true,
 				"templates" : {
@@ -75,7 +75,7 @@
 				}
 			},
 			"ctGenerator" : {
-				"name" : "发电厂",
+				"name" : "Generator",
 				"creatures" : [[ "ctElectro" ]],
 				"templates" : {
 					"default" : {

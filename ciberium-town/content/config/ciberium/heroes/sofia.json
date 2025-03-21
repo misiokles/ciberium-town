@@ -5,13 +5,13 @@
 		"female" : true,
 "texts" :
 		{
-			"name" : "索菲娅",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Sofia",
+			"biography" : "Little is known about this hero.",
 			"specialty" : 
 			{
-				"tooltip" : "生物强化：冲击炮",
-				"name" : "冲击炮",
-				"description" : "达到4级以后提高冲击炮的攻击力与防御力。"
+				"tooltip" : "Creature Bonus: Neuroblaster bonus",
+				"name" : "Neuroblaster",
+				"description" : "Increses the Attack and Defense skill of any Neuroblaster for each level attained after 4th level."
 			}
 		},
 		"images" :

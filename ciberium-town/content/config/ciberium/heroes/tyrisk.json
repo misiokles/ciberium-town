@@ -4,13 +4,13 @@
 		"class" : "servitor",
 		"texts" :
 		{
-			"name" : "特瑞斯克",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Tyrisk",
+			"biography" : "Little is known about this hero.",
 			"specialty" :
 			{
-				"description" : "达到4级以后提高天鹰或猎隼的攻击力与防御力。",
-				"tooltip" : "生物强化：天鹰",
-				"name" : "天鹰"
+				"description" : "Increases Speed of any Robo Griffins or Assault Griffins by 1 and their Attack and Defense skills by 5% for 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Robo Griffins",
+				"name" : "Robo Griffins"
 			}
 		},
 		"images" :

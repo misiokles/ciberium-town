@@ -4,13 +4,13 @@
 		"class" : "android",
 		"texts" :
 		{
-			"name" : "莱昂纳多",
-			"biography" : "人们对这位英雄知之甚少。",
+			"name" : "Leonard",
+			"biography" : "Little is known about this hero.",
 			"specialty" :
 			{
-				"description" : "为王国每天额外提供1硫磺。",
-				"tooltip" : "每天+1硫磺",
-				"name" : "+1硫磺"
+				"description" : "Increases kingdom's sulfur production by 1 per day.",
+				"tooltip" : "Resource Bonus: Sulfur",
+				"name" : "Sulfur"
 			}
 		},
 		"images" :
