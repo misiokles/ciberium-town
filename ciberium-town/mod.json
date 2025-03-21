@@ -20,7 +20,6 @@
 		"1.10"   : [ "Fixes and balance issues" ],
 		"1.00"   : [ "Initial release" ]
 	},
-	"language":
 	"english":  {
 		"name": "Ciberium",
 		"description": "VCMI new town."
