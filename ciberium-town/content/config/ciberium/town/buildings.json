@@ -403,7 +403,7 @@
 				"dwellingUpLvl2" :
 				{
 					"description" : "The Advanced Biolaboratories allows you to recruit Toxic Mutant Beasts.",
-					"name" : "Advanced Biolaboratories",
+					"name" : "Adv. Biolaboratories",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 5,
@@ -415,7 +415,7 @@
 				"dwellingUpLvl3" :
 				{
 					"description" : "The Adv. Recycling Plant allows you to recruit Acid Slugs.",
-					"name" : "Advanced Recycling Plant",
+					"name" : "Adv. Recycling Plant",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10,
@@ -441,7 +441,7 @@
 				"dwellingUpLvl5" :
 				{
 					"description" : "The Adv. Air Defense Tower allows you to recruit Tank Killers",
-					"name" : "Advanced Air Defense Tower",
+					"name" : "Adv. Air Defense Tower",
 					"cost" : {
 						"ore" : 5,
 						"wood" : 5,
@@ -471,7 +471,7 @@
 				"dwellingUpLvl7" :
 				{
 					"description" : "The Adv. Engineering Complex allows you to recruit Charged Dragons.",
-					"name" : "Advanced Engineering Complex",
+					"name" : "Adv. Engineering Complex",
 					"cost" : {
 						"ore" : 10,
 						"gold" : 25000,

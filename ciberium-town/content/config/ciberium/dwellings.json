@@ -42,7 +42,7 @@
 				}
 			},
 			"ctHeadquarters" : {
-				"name" : "Headquarters",
+				"name" : "Air Defense Tower",
 				"creatures" : [[ "ctlv5" ]],
 				"guards" : true,
 				"templates" : {

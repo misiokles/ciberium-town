@@ -3,7 +3,7 @@
 	"description" : "Post-apo town based on WoG Modern Forge mod",
 	"author" : "Zeryss",
 	"contact" : "https://www.facebook.com/profile.php?id=100010953588350&ref=bookmarks",
-	"version" : "1.21",
+	"version" : "1.22",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,7 +11,8 @@
 	},
 	"changelog" :
     {
-        "1.21"   : [ "English version of chinese mod" ],
+        "1.22"   : [ "Normalization of long names in town dwellings" ],
+		"1.21"   : [ "English version of chinese mod" ],
 		"1.20"   : [ "Update to vcmi-1.6" ],
 		"1.18"   : [ "Update to vcmi-1.4" ],
 		"1.17"   : [ "Update to vcmi-1.3" ],
