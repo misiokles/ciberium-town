@@ -1,33 +1,27 @@
 {
-	"ctlv7":
-	{
-		"name" :
-		{
+	"ctlv7" : {
+		"name" : {
 			"plural" : "Mechanical Dragons",
 			"singular" : "Mechanical Dragon"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 10,
 			 "min" : 4
 		},
 		"faction" : "ciberium",
 		"aiValue" : 5440,
 		"attack" : 22,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2750,
 			"mercury" : 2
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 50,
 			 "min" : 25
 		},
 		"defense" : 22,
 		"fightValue" : 4357,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lv7.DEF",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1.23 },
 			"map" : "ciberium/map/lv7.def",
@@ -39,40 +33,33 @@
 		"growth" : 1,
 		"hitPoints" : 200,
 		"level" : 7,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ctlv7up"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S210ATTK.wav",
 			"defend" : "ciberium/S210DFND.wav",
 			"killed" : "ciberium/S210KILL.wav",
-			"move" :   "ciberium/S210MOVE.wav",
-			"wince" :  "ciberium/S210WNCE.wav"
+			"move" : "ciberium/S210MOVE.wav",
+			"wince" : "ciberium/S210WNCE.wav"
 		},
 		"speed" : 10,
-		"abilities" :
-		{
-            "nonliving" :
-			{
+		"abilities" : {
+            "nonliving" : {
 				"type" : "NON_LIVING"
 			},
-            "king2" :
-			{
+            "king2" : {
 				"type" : "KING",
 				"val" : 2
 			},
-			"HPregenerate" : 
-			{
+			"HPregenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 25
 			},
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -80,8 +67,7 @@
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -89,16 +75,14 @@
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},

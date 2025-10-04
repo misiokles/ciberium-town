@@ -1,13 +1,10 @@
 {
-	"ctStoneBull":
-	{
-		"name" :
-		{
+	"ctStoneBull" : {
+		"name" : {
 			"plural" : "Slugs",
 			"singular" : "Slug"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 25,
 			 "min" : 12
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 334,
 		"attack" : 9,
 		"doubleWide" : true,
-                "cost" :
-		{
+                "cost" : {
 			"gold" : 200
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 6,
 			 "min" : 5
 		},
 		"defense" : 6,
 		"fightValue" : 335,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lvl3unit.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/lvl3map.def",
@@ -38,32 +32,26 @@
 		"growth" : 7,
 		"hitPoints" : 20,
 		"level" : 3,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ctMechanicalBull"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/worgatk.wav",
 			"defend" : "ciberium/worgblk.wav",
 			"killed" : "ciberium/worgdie.wav",
-			"move": "HGWRMOVE.wav",
+			"move" : "HGWRMOVE.wav",
 			"wince" : "ciberium/worgblk.wav",
 		},
 		"speed" : 5,
-		"abilities" :
-                {
-   	          "canfly" :
-			{
+		"abilities" : {
+   	          "canfly" : {
 				"type" : "FLYING"
 			},
-            "drainsLife" : 
-			{
+            "drainsLife" : {
 				"type" : "LIFE_DRAIN",
 				"val" : 25
 			}	,
-                  "castDisease" :
-			{
+                  "castDisease" : {
 				"type" : "SPELL_AFTER_ATTACK",
                                 "subtype" : "spell.disease",
                                  "val" : 25

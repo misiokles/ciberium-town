@@ -1,13 +1,10 @@
 {
-	"faWarDroid":
-	{
-		"name" :
-		{
+	"faWarDroid" : {
+		"name" : {
 			"plural" : "War Droids",
 			"singular" : "War Droid"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 12,
 			 "min" : 8
 		},
@@ -15,31 +12,26 @@
 		"aiValue" : 1129,
 		"attack" : 14,
 		"hasDoubleWeek" : true,
-        "cost" : 
-		{
+        "cost" : {
 			"gold" : 575
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 14,
 			 "min" : 10
 		},
 		"defense" : 10,
 		"fightValue" : 1014,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/war.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/warDroid",
 			"iconSmall" : "ciberium/iconsSmall/war.bmp",
 			"iconLarge" : "ciberium/iconsBig/war.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "ciberium/battle/projectile/mechShoot.def",
 			    "attackClimaxFrame" : 8,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -54,8 +46,7 @@
 		"hitPoints" : 55,
 		"level" : 5,
 		"shots" : 16,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S204ATTK.wav",
 			"defend" : "ciberium/S203DFND.wav",
 			"killed" : "ciberium/S203KILL.wav",
@@ -64,19 +55,15 @@
  			"shoot" : "ciberium/S203SHOT.wav" 
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-			"magicAura":
-			{	
+		"abilities" : {
+			"magicAura" : {	
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 25
 			},
-		    "canShoot" :
-			{
+		    "canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"immuneSlow":
-			{	
+			"immuneSlow" : {	
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.slow",
 				"addInfo" : 1

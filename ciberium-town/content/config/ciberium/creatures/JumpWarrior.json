@@ -1,13 +1,10 @@
 {
-	"ctJumpWarrior":
-	{
-		"name" :
-		{
+	"ctJumpWarrior" : {
+		"name" : {
 			"plural" : "Jump Warriors",
 			"singular" : "Jump Warrior"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 16,
 			 "min" : 10
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 800,
 		"attack" : 12,
 		"doubleWide" : true,
-        "cost" :
-		{
+        "cost" : {
 			"gold" : 400
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 10,
 			 "min" : 7
 		},
 		"defense" : 9,
 		"fightValue" : 740,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/CR206.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/jumptrooper.def",
@@ -39,33 +33,30 @@
 		"growth" : 4,
 		"hitPoints" : 35,
 		"level" : 4,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/attack.wav",
 			"defend" : "ciberium/defendUpg.wav",
 			"killed" : "ciberium/killUpg.wav",
-			"startMoving": "ciberium/movestart.wav",
-			"endMoving": "ciberium/moveend.wav",
+			"startMoving" : "ciberium/movestart.wav",
+			"endMoving" : "ciberium/moveend.wav",
 			"move" : "ciberium/move.wav",
 			"wince" : "ciberium/winceUpg.wav"
 		},
 		"speed" : 11,
-		"abilities" :
-		{
-			"no morale" :
-			{
+		"abilities" : {
+			"no morale" : {
 				"type" : "NO_MORALE",
 			},
-			"canfly" :
-			{
+			"canfly" : {
 				"type" : "FLYING"
 			},
-             "fearless" :
-			{
-				"type" : "FEARLESS"
+             "fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
-            "enchanted" : 
-			{
+            "enchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.slayer",
 				"val" : 2

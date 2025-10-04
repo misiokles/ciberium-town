@@ -1,45 +1,37 @@
 {
-	"ctNeuroblaster":
-	{
-		"name" :
-		{
+	"ctNeuroblaster" : {
+		"name" : {
 			"plural" : "Neuroblasters",
 			"singular" : "Neuroblaster"
 		},
 		"faction" : "ciberium",
-		"level": 0,
+		"level" : 5,
 		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 20,
-             "cost": 
-            {
-              "gold": 3500
+             "cost" : {
+              "gold" : 3500
             },
-		"damage" :
-		{
+		"damage" : {
 			"max" : 15,
 			"min" : 10
 		},
 		"defense" : 10,
 		"fightValue" : 2500,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/Neuroblaster.def",
 			"iconLarge" : "ciberium/iconsBig/bigcanl.bmp",
 			"iconSmall" : "ciberium/iconsSmall/Neuroblaster.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.00,
 				"idle" : 10.00,
 				"attack" : 1.00
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "ciberium/battle/projectile/porchx.def",
 				"attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 62,
 					"lowerY" : -93,
 					"middleX" : 62,
@@ -55,39 +47,31 @@
 		"growth" : 0,
 		"hitPoints" : 250,
                 "shots" : 24,
-		"sound" :
-		{
-			"killed": "ciberium/CANNKILL.wav",
+		"sound" : {
+			"killed" : "ciberium/CANNKILL.wav",
                         "shoot" : "ciberium/CANNSHOT.wav",
-			"wince":  "ciberium/CANNWNCE.wav"
+			"wince" : "ciberium/CANNWNCE.wav"
 		},
 		"speed" : 0,
-		"abilities" :
-		{
-        		"shooter" :
-			{
+		"abilities" : {
+        		"shooter" : {
 				"type" : "SHOOTER"
 			},
-		      "slow" :
-			{
+		      "slow" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.slow"
 			},
-		      "noRetaliation" :
-			{
+		      "noRetaliation" : {
 				"type" : "NO_RETALIATION",
 				 "val" : 0,
 			},
-			"warmachine" :
-			{
+			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -95,8 +79,7 @@
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -104,16 +87,14 @@
 				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},

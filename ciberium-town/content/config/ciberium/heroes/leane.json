@@ -1,21 +1,17 @@
 {
-	"leane" : 
-	{
+	"leane" : {
 		"class" : "technik",
 		"female" : true,
-                "texts" :
-		{
+                "texts" : {
 			"name" : "圭罗米",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "使用护体石肤魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
 				"tooltip" : "魔法增强：护体石肤",
 				"name" : "护体石肤"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			
 			"specialtySmall" : "ciberium/heroes/leane/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/leane/spec-large.png",
@@ -23,19 +19,16 @@
 			"small" : "ciberium/heroes/leane/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"stoneSkin"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

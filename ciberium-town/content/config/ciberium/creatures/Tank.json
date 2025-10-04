@@ -1,40 +1,33 @@
 {
-	"ctTank":
-	{
-		"advMapAmount" :
-		{
+	"ctTank" : {
+		"advMapAmount" : {
 			 "max" : 12,
 			 "min" : 5
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Tanks",
 			"singular" : "Tank"
 		},		
-		"faction": "ciberium",
+		"faction" : "ciberium",
 		"aiValue" : 2079,
 		"attack" : 14,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1050
 			
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 28,
 			 "min" : 15
 		},
 		"defense" : 15,
 		"fightValue" : 1744,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/tank.def",
 			"map" : "ciberium/map/tank.def",
 			"iconSmall" : "ciberium/iconsSmall/tank.bmp",
 			"iconLarge" : "ciberium/iconsBig/tank.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.17,
 				"attack" : 1,
 				"idle" : 10,
@@ -45,12 +38,10 @@
 		"growth" : 2,
 		"hitPoints" : 120,
 		"level" : 6,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ctHeavytank"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S208ATTK.wav",
 			"defend" : "ciberium/S208DFND.wav",
 			"killed" : "ciberium/S208KILL.wav",
@@ -58,10 +49,8 @@
 			"wince" : "ciberium/S208WNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"no morale" :
-			{
+		"abilities" : {
+			"no morale" : {
 				"type" : "NO_MORALE"
 			}
 		}

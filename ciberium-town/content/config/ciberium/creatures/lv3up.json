@@ -1,13 +1,10 @@
 {
-	"ctlv3up":
-	{
-		"name" :
-		{
+	"ctlv3up" : {
+		"name" : {
 			"plural" : "Acid Slugs",
 			"singular" : "Acid Slug"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 20,
 			 "min" : 12
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 425,
 		"attack" : 10,
 		"doubleWide" : true,
-                "cost" :
-		{
+                "cost" : {
 			"gold" : 250
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 6,
 			 "min" : 6
 		},
 		"defense" : 7,
 		"fightValue" : 417,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lv3up.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/lv3up.def",
@@ -38,24 +32,20 @@
 		"growth" : 7,
 		"hitPoints" : 25,
 		"level" : 3,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/worgatk.wav",
 			"defend" : "ciberium/worgblk.wav",
 			"killed" : "ciberium/worgdie.wav",
-			"move": "HGWRMOVE.wav",
+			"move" : "HGWRMOVE.wav",
 			"wince" : "ciberium/worgblk.wav",
 		},
 		"speed" : 8,
-		"abilities" :
-                {
-   	          "drainsLife" : 
-			{
+		"abilities" : {
+   	          "drainsLife" : {
 				"type" : "LIFE_DRAIN",
 				"val" : 50
 			}	,
-                  "castDisease" :
-			{
+                  "castDisease" : {
 				"type" : "SPELL_AFTER_ATTACK",
                                 "subtype" : "spell.disease",
                                  "val" : 50
@@ -64,8 +54,7 @@
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -73,8 +62,7 @@
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -82,16 +70,14 @@
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},

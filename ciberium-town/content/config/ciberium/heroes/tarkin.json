@@ -1,39 +1,32 @@
 {
-	"tarkin" : 
-	{
+	"tarkin" : {
 		"class" : "technik",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "嘉理",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "使用埋设地雷魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
 				"tooltip" : "魔法增强：埋设地雷",
 				"name" : "埋设地雷"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/tarkin/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/tarkin/spec-large.png",
 			"large" : "ciberium/heroes/tarkin/portrait-large.png",
 			"small" : "ciberium/heroes/tarkin/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"landMine"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

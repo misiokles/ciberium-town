@@ -1,35 +1,29 @@
 {
-	"rufus" : 
-	{
+	"rufus" : {
 		"class" : "servitor",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Rufus",
 			"biography" : "Little is known about this hero.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Tactics skill.",
 				"tooltip" : "Secondary Skill Bonus: Tactics",
 				"name" : "Tactics"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/rufus/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/rufus/spec-large.bmp",
 			"large" : "ciberium/heroes/rufus/portrait-large.bmp",
 			"small" : "ciberium/heroes/rufus/portrait-small.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "tactics", "level": "basic" }
+		"skills" : [
+			{ "skill" : "leadership", "level" : "basic" },
+			{ "skill" : "tactics", "level" : "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

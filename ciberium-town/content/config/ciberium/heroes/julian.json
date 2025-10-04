@@ -1,28 +1,23 @@
 {
-	"julian" :
-	{
+	"julian" : {
 		"class" : "general",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "特瑞斯克",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "达到4级以后提高天鹰或猎隼的攻击力与防御力。",
 				"tooltip" : "生物强化：天鹰",
 				"name" : "天鹰"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/julian/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/julian/spec-large.png",
 			"large" : "ciberium/heroes/julian/portrait-large.png",
 			"small" : "ciberium/heroes/julian/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
@@ -32,8 +27,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"

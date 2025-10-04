@@ -1,41 +1,34 @@
 {
-	"sofia" : 
-	{
+	"sofia" : {
 		"class" : "servitor",
 		"female" : true,
-"texts" :
-		{
+"texts" : {
 			"name" : "Sofia",
 			"biography" : "Little is known about this hero.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"tooltip" : "Creature Bonus: Neuroblaster bonus",
 				"name" : "Neuroblaster",
 				"description" : "Increses the Attack and Defense skill of any Neuroblaster for each level attained after 4th level."
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/sofia/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/sofia/spec-large.bmp",
 			"large" : "ciberium/heroes/sofia/portrait-large.bmp",
 			"small" : "ciberium/heroes/sofia/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"berserk"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctNeuroblaster", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "artillery", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{ "skill" : "artillery", "level" : "basic" },
+			{ "skill" : "offence", "level" : "basic" }
 		],
 		"specialty" : {
 			"creature" : "ctNeuroblaster"

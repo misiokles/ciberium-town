@@ -1,13 +1,10 @@
 {
-	"ctElectro":
-	{
-		"name" :
-		{
+	"ctElectro" : {
+		"name" : {
 			"plural" : "Electros",
 			"singular" : "Electro"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 
 			 "max" : 20,
 			 "min" : 10
@@ -15,26 +12,22 @@
 		"faction" : "ciberium",
         "aiValue" : 515,
 		"attack" : 12,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 400
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 6,
 			 "min" : 4
 		},
 		"defense" : 12,
 		"fightValue" : 488,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/Electro.def",
 			"map" : "ciberium/map/Electro.def",
 			"iconSmall" : "ciberium/iconsSmall/Electro.bmp",
 			"iconLarge" : "ciberium/iconsBig/Electro.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.30,
 				"idle" : 10.00,
 				"attack" : 1
@@ -43,56 +36,46 @@
 		"growth" : 5,
 		"hitPoints" : 35,
 		"level" : 4,
-		"sound" :
-		{
-			"startMoving": "ciberium/ENTELEPORT1.wav",
-			"endMoving": "ciberium/ENTELEPORT2.wav",
-			"attack": "ENERATTK.wav",
-			"defend": "ENERDFND.wav",
-			"killed": "ENERKILL.wav",
-			"move": "ENERMOVE.wav",
-			"wince": "ENERWNCE.wav"
+		"sound" : {
+			"startMoving" : "ciberium/ENTELEPORT1.wav",
+			"endMoving" : "ciberium/ENTELEPORT2.wav",
+			"attack" : "ENERATTK.wav",
+			"defend" : "ENERDFND.wav",
+			"killed" : "ENERKILL.wav",
+			"move" : "ENERMOVE.wav",
+			"wince" : "ENERWNCE.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-		    "spellAfterAttack" :
-			{
-                "type": "SPELL_AFTER_ATTACK",
-                "subtype": "spell.lightningBolt",
+		"abilities" : {
+		    "spellAfterAttack" : {
+                "type" : "SPELL_AFTER_ATTACK",
+                "subtype" : "spell.lightningBolt",
                 "val" : 30,
-                "addInfo": 0
+                "addInfo" : 0
 			},
-			"lightningBoltPOwer" :
-			{
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype":"spell.lightningBolt",
+			"lightningBoltPOwer" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.lightningBolt",
 				"val" : 1
 			},
-			"flying" :
-			{
-				"type": "FLYING"
+			"flying" : {
+				"type" : "FLYING"
 			},
-            "noRetalitation" :
-			{
+            "noRetalitation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"AIR_IMMUNITY" :
-			{
+			"AIR_IMMUNITY" : {
 				"subtype" : "air",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 			},
-           "teleports" :
-			{
-				"type": "FLYING",
-				"subtype": "movementTeleporting"
+           "teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
 			}		
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -100,8 +83,7 @@
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -109,31 +91,27 @@
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
 				},
 				"values" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]

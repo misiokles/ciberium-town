@@ -1,13 +1,10 @@
 {
-	"ctlv5up":
-	{
-		"name" :
-		{
+	"ctlv5up" : {
+		"name" : {
 			"plural" : "Tank Killers",
 			"singular" : "Tank Killer"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 12,
 			 "min" : 8
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 1376,
 		"attack" : 14,
 		"hasDoubleWeek" : true,
-                "cost" : 
-		{
+                "cost" : {
 			"gold" : 625
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 16,
 			 "min" : 10
 		},
 		"defense" : 8,
 		"fightValue" : 1236,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lv5up.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/lv5up.def",
@@ -53,8 +47,7 @@
 		"hitPoints" : 60,
 		"level" : 5,
 		"shots" : 6,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S204ATTK.wav",
 			"defend" : "ciberium/S204DFND.wav",
 			"killed" : "ciberium/S204KILL.wav",
@@ -63,25 +56,20 @@
 			"shoot" : "ciberium/S204SHOT.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-		"noRetaliate" :
-			{
+		"abilities" : {
+		"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"canShoot" :
-			{
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
             }	
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -89,8 +77,7 @@
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -98,16 +85,14 @@
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},

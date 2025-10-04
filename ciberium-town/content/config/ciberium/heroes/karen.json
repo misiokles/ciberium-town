@@ -1,42 +1,35 @@
 {
-	"karen" : 
-	{
+	"karen" : {
 
 		"class" : "technik",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "维罗妮卡",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "每天+350金币",
 				"description" : "为王国每天额外提供350个金币。",
 				"name" : "+350个金币"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/karen/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/karen/spec-large.png",
 			"large" : "ciberium/heroes/karen/portrait-large.png",
 			"small" : "ciberium/heroes/karen/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 		       "viewEarth"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

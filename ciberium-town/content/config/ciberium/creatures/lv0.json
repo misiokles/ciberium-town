@@ -1,13 +1,10 @@
 {
-	"ctGibberling":
-	{
-		"name" :
-		{
+	"ctGibberling" : {
+		"name" : {
 			"plural" : "Technoids",
 			"singular" : "Technoid"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 16
 		},
@@ -16,30 +13,25 @@
 		"doubleWide" : false,
         "special" : true,
 		"attack" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 10,
 			 "min" : 10
 		},
 		"defense" : 5,
 		"fightValue" : 1000,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lv0.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
 //			"map" : "ciberium/map/lv0.def",
 			"iconSmall" : "ciberium/iconsSmall/lv0.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv0.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "ciberium/battle/projectile/SHOT197.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -55,8 +47,7 @@
 		"hitPoints" : 50,
 		"shots" : 24,
 		"level" : 0,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S198ATTK.wav",
 			"defend" : "ciberium/S198DFND.wav",
 			"killed" : "ciberium/S198KILL.wav",
@@ -64,42 +55,34 @@
 			"wince" : "ciberium/S198WNCE.wav",
                         "shoot" : "ciberium/S198SHOT.wav"
 		},
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"speed" : 5,
-		"abilities" :
-		{
-		"canShoot" :
-			{
+		"abilities" : {
+		"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.haste",
 				"val" : 3
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			}
 		}

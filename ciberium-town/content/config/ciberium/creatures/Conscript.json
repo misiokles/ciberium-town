@@ -1,32 +1,26 @@
 {
-	"ctConscript":
-	{
-		"name" :
-		{
+	"ctConscript" : {
+		"name" : {
 			"plural" : "Conscripts",
 			"singular" : "Conscript"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 50,
 			 "min" : 20
 		},
 		"faction" : "ciberium",
 		"aiValue" : 130,
 		"attack" : 2,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 55
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 3,
 			 "min" : 1
 		},
 		"defense" : 5,
 		"fightValue" : 139,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/CR199.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 2.0 },
 			"map" : "ciberium/map/lv1.def",
@@ -39,23 +33,19 @@
 		"hitPoints" : 8,
 		"horde" : 6,
 		"level" : 1,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ctSoldier"
 		],
-		"sound" :
-		{
-			"attack": "PIKEATTK.wav",
-			"defend": "PIKEDFND.wav",
-			"killed": "PIKEKILL.wav",
-			"move": "PIKEMOVE.wav",
-			"wince": "PIKEWNCE.wav"
+		"sound" : {
+			"attack" : "PIKEATTK.wav",
+			"defend" : "PIKEDFND.wav",
+			"killed" : "PIKEKILL.wav",
+			"move" : "PIKEMOVE.wav",
+			"wince" : "PIKEWNCE.wav"
 		},
 		"speed" : 3,
-                "abilities":
-		{
-			 "nonliving":
-		{	
+                "abilities" : {
+			 "nonliving" : {	
 			"type" : "NON_LIVING"
 		}	
 	    }	

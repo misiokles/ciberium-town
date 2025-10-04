@@ -1,41 +1,34 @@
 {
-	"gallea" : 
-	{
+	"gallea" : {
 		"class" : "android",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Gallea",
 			"biography" : "Little is known about this hero",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Land Mine with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Land Mine",
 				"name" : "Land Mine"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/gallea/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/gallea/spec-large.bmp",
 			"large" : "ciberium/heroes/gallea/portrait-large.bmp",
 			"small" : "ciberium/heroes/gallea/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"landMine"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "airMagic", "level": "basic" }
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "airMagic", "level" : "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

@@ -1,13 +1,10 @@
 {
-	"ctlv2":
-	{
-		"name" :
-		{
+	"ctlv2" : {
+		"name" : {
 			"plural" : "Mutant Beasts",
 			"singular" : "Mutant Beast"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 30,
 			 "min" : 16
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 200,
 		"attack" : 5,
 		"doubleWide" : true,
-                "cost" :
-		{
+                "cost" : {
 			"gold" : 100
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 4,
 			 "min" : 2
 		},
 		"defense" : 5,
 		"fightValue" : 205,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lv2.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/lv2.def",
@@ -38,35 +32,29 @@
 		"growth" : 9,
 		"hitPoints" : 20,
 		"level" : 2,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ctlv2up"
 		],
-		"sound" :
-		{
-			"attack": "HHNDATTK.wav",
-			"defend": "HHNDDFND.wav",
-			"killed": "HHNDKILL.wav",
-			"move": "HHNDMOVE.wav",
-			"wince": "HHNDWNCE.wav"
+		"sound" : {
+			"attack" : "HHNDATTK.wav",
+			"defend" : "HHNDDFND.wav",
+			"killed" : "HHNDKILL.wav",
+			"move" : "HHNDMOVE.wav",
+			"wince" : "HHNDWNCE.wav"
 		},
 		"speed" : 5,
-		"abilities" :
-		{
-			"horns":
-                        {
-				"type": "JOUSTING"
+		"abilities" : {
+			"horns" : {
+				"type" : "JOUSTING"
 			}, 
-			"poisons":
-			{
+			"poisons" : {
 			     "type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
                                "val" : 35
 			}	
 		},
 		"stackExperience" : [ {
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -74,8 +62,7 @@
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -83,16 +70,14 @@
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},

@@ -1,33 +1,27 @@
 {
-	"tyrisk" :
-	{
+	"tyrisk" : {
 		"class" : "servitor",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Tyrisk",
 			"biography" : "Little is known about this hero.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Robo Griffins or Assault Griffins by 1 and their Attack and Defense skills by 5% for 4 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Robo Griffins",
 				"name" : "Robo Griffins"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/tyrisk/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/tyrisk/spec-large.bmp",
 			"large" : "ciberium/heroes/tyrisk/portrait-large.bmp",
 			"small" : "ciberium/heroes/tyrisk/portrait-small.bmp"
 		},
-       "army" :
-		[
+       "army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "resistance"

@@ -1,36 +1,30 @@
 {
-	"arris" : 
-	{
+	"arris" : {
 		"class" : "servitor",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Arris",
 			"biography" : "Little is known about this hero.", 
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Tank Hunters or Tank Killers by 1 and their Attack and Defense skills by 5% for 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Tank Hunter",
 				"name" : "Tank Hunter"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			
 			"specialtySmall" : "ciberium/heroes/arris/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/arris/spec-large.bmp",
 			"large" : "ciberium/heroes/arris/portrait-large.bmp",
 			"small" : "ciberium/heroes/arris/portrait-small.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "archery", "level": "basic" },
-			{ "skill" : "learning", "level": "basic" }
+		"skills" : [
+			{ "skill" : "archery", "level" : "basic" },
+			{ "skill" : "learning", "level" : "basic" }
 		],
 		"specialty" : {
 			"creature" : "ctlv5"

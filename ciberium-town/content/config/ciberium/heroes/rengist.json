@@ -1,35 +1,29 @@
 {
-	"rengist" : 
-	{
+	"rengist" : {
 		"class" : "general",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "艾瑞斯",
 			"biography" : "人们对这位英雄知之甚少。", 
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "达到5级以后提高坦克杀手或精锐坦克杀手的攻击力与防御力。",
 				"tooltip" : "生物强化：坦克杀手",
 				"name" : "坦克杀手"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			
 			"specialtySmall" : "ciberium/heroes/rengist/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/rengist/spec-large.png",
 			"large" : "ciberium/heroes/rengist/portrait-large.png",
 			"small" : "ciberium/heroes/rengist/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctHedgehopper", "min" : 1, "max" : 1}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"

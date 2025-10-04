@@ -1,33 +1,27 @@
 {
-	"intarc" :
-	{
+	"intarc" : {
 		"class" : "servitor",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Intarc",
 			"biography" : "Little is known about this hero.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Cyber Mercenaries or Cyber Guards by 1 and their Attack and Defense skills by 5% for 1 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Cyber Mercenaries",
 				"name" : "Cyber Mercenaries"
 			}
 		}, 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/intarc/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/intarc/spec-large.bmp",
 			"large" : "ciberium/heroes/intarc/portrait-large.bmp",
 			"small" : "ciberium/heroes/intarc/portrait-small.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

@@ -1,36 +1,30 @@
 {
-	"leonard" :
-	{
+	"leonard" : {
 		"class" : "android",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Leonard",
 			"biography" : "Little is known about this hero.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's sulfur production by 1 per day.",
 				"tooltip" : "Resource Bonus: Sulfur",
 				"name" : "Sulfur"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			
 			"specialtySmall" : "ciberium/heroes/leonard/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/leonard/spec-large.bmp",
 			"large" : "ciberium/heroes/leonard/portrait-large.bmp",
 			"small" : "ciberium/heroes/leonard/portrait-small.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "estates", "level": "basic" }
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "estates", "level" : "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

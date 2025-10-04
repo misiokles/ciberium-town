@@ -1,41 +1,34 @@
 {
-	"resurrecta" : 
-	{
+	"resurrecta" : {
 		"class" : "technik",
 		"female" : true,
-                 "texts" :
-		{
+                 "texts" : {
 			"name" : "妲拉",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "使用转世重生魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
 				"tooltip" : "魔法增强：转世重生",
 				"name" : "转世重生"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/resurrecta/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/resurrecta/spec-large.png",
 			"large" : "ciberium/heroes/resurrecta/portrait-large.png",
 			"small" : "ciberium/heroes/resurrecta/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"resurrection"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

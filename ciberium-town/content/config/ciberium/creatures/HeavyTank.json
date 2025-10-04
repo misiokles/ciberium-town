@@ -1,39 +1,32 @@
 {
-	"ctHeavytank":
-	{
-		"advMapAmount" :
-		{
+	"ctHeavytank" : {
+		"advMapAmount" : {
 			 "max" : 10,
 			 "min" : 5
 		},
-		"name" :
-		{
+		"name" : {
 			"plural" : "Heavy Tanks",
 			"singular" : "Heavy Tank"
 		},		
-		"faction": "ciberium",
+		"faction" : "ciberium",
 		"aiValue" : 2142,
 		"attack" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1400
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 28,
 			 "min" : 15
 		},
 		"defense" : 16,
 		"fightValue" : 1796,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/Heavy.def",
 			"map" : "ciberium/map/heavytank.def",
 			"iconSmall" : "ciberium/iconsSmall/Heavy.bmp",
 			"iconLarge" : "ciberium/iconsBig/Heavy.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.17,
 				"attack" : 1,
 				"idle" : 10,
@@ -44,8 +37,7 @@
 		"growth" : 2,
 		"hitPoints" : 120,
 		"level" : 6,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S208ATTK.wav",
 			"defend" : "ciberium/S208DFND.wav",
 			"killed" : "ciberium/S208KILL.wav",
@@ -53,14 +45,11 @@
 			"wince" : "ciberium/S208WNCE.wav"
 		},
 		"speed" : 9,
-		"abilities" :
-		{
-			"no morale" :
-			{
+		"abilities" : {
+			"no morale" : {
 				"type" : "NO_MORALE"
 			},
-			"castRay" :
-			{
+			"castRay" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"val" : 80,
 				"subtype" : "spell.disruptingRay",

@@ -1,21 +1,19 @@
 {
-	"neuroblaster":
-        {
+	"neuroblaster" : {
 	"type" : ["HERO"],
-	"warMachine":"ctNeuroblaster",
-        "class": "SPECIAL",
-        "value": 3500,
-        "slot":"MACH1",
-        "text":
-		{
-			"name": "Neuroblaster",
-			"description": "Neuroblaster allows you to use it to attack enemy troops in war.",
-			"event": "While walking through the wasteland and bushes, you don't expect to find an abandoned siege machine. You look around to see if anyone is around and take the machine with you."
+	"warMachine" : "ctNeuroblaster",
+        "class" : "SPECIAL",
+        "value" : 3500,
+        "slot" : "MACH1",
+        "text" : {
+			"name" : "Neuroblaster",
+			"description" : "Neuroblaster allows you to use it to attack enemy troops in war.",
+			"event" : "While walking through the wasteland and bushes, you don't expect to find an abandoned siege machine. You look around to see if anyone is around and take the machine with you."
 		},
-		"graphics":
-		{
-			"image": "ciberium/iconsSmall/artifacts/Neuroblaster.bmp",
-			"map"  :   "ciberium/map/artifacts/avcnbksm.def"
+		"graphics" : {
+			"image" : "ciberium/iconsSmall/artifacts/Neuroblaster.bmp",
+			"map" : "ciberium/map/artifacts/avcnbksm.def",
+			"scenarioBonus" : "ciberium/icons/blank.png"
 		}
 	}
 }

@@ -1,32 +1,26 @@
 {
-	"ctSoldier":
-	{
-		"name" :
-		{
+	"ctSoldier" : {
+		"name" : {
 			"plural" : "Soldiers",
 			"singular" : "Soldier"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 30,
 			 "min" : 20
 		},
 		"faction" : "ciberium",
 		"aiValue" : 143,
 		"attack" : 3,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 85
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 3,
 			 "min" : 2
 		},
 		"defense" : 6,
 		"fightValue" : 154,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/CR200.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 2.0 },
 			"map" : "ciberium/map/lv1UP.def",
@@ -39,23 +33,19 @@
 		"hitPoints" : 8,
 		"horde" : 6,
 		"level" : 1,
-		"sound" :
-		{
-			"attack": "PIKEATTK.wav",
-			"defend": "PIKEDFND.wav",
-			"killed": "PIKEKILL.wav",
-			"move": "PIKEMOVE.wav",
-			"wince": "PIKEWNCE.wav"
+		"sound" : {
+			"attack" : "PIKEATTK.wav",
+			"defend" : "PIKEDFND.wav",
+			"killed" : "PIKEKILL.wav",
+			"move" : "PIKEMOVE.wav",
+			"wince" : "PIKEWNCE.wav"
 		},
 		"speed" : 5,
-		"abilities" :
-		{
-		"noRetaliate" :
-			{
+		"abilities" : {
+		"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"nonliving":
-			{
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			}
 

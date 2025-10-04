@@ -1,35 +1,29 @@
 {
-	"sunni" : 
-	{
+	"sunni" : {
 		"class" : "general",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "欧米茄",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "在侦察术上每级得到5%的额外奖励。",
 				"tooltip" : "技能加成：侦察术",
 				"name" : "侦察术"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/sunni/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/sunni/spec-large.png",
 			"large" : "ciberium/heroes/sunni/portrait-large.png",
 			"small" : "ciberium/heroes/sunni/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "scouting"
@@ -40,16 +34,9 @@
 				"skill" : "logistics"
 			}
 		],
-		"specialty": //scouting
-			"bonuses" : {
-				"scouting" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SIGHT_RADIUS",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5
-				}
-			}
+		"specialty" : {
+			"secondary" : "scouting"
+		}
 	}
 }
 

@@ -1,42 +1,35 @@
 {
-	"daraa" : 
-	{
+	"daraa" : {
 		"class" : "android",
 		"female" : true,
-                 "texts" :
-		{
+                 "texts" : {
 			"name" : "Daraa",
 			"biography" : "Little is known about this hero",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/daraa/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/daraa/spec-large.bmp",
 			"large" : "ciberium/heroes/daraa/portrait-large.bmp",
 			"small" : "ciberium/heroes/daraa/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"resurrection"
 		],
-        "army" :
-		[
+        "army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "earthMagic", "level": "basic" }
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "earthMagic", "level" : "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

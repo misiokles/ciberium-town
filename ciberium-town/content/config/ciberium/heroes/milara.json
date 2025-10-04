@@ -1,23 +1,19 @@
 {
-	"milara" :
-	{
+	"milara" : {
 		"class" : "servitor",
 		"female" : true,
 
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Milara",
 			"biography" : "Little is known about this hero.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Resistance skill percentage.",
 				"tooltip" : "Secondary Skill Bonus: Resistance",
 				"name" : "Resistance"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			
 			"specialtySmall" : "ciberium/heroes/milara/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/milara/spec-large.bmp",
@@ -25,18 +21,15 @@
 			"small" : "ciberium/heroes/milara/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"dispel"
 		],
-       "army" :
-		[
+       "army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "resistance"
@@ -47,15 +40,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"resistance" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MAGIC_RESISTANCE",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5
-				}
-			}
+			"secondary" : "resistance"
 		}
 	}
 }

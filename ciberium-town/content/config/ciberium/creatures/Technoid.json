@@ -1,8 +1,6 @@
 {
-	"ctTechnoid":
-	{
-		"name" :
-		{
+	"ctTechnoid" : {
+		"name" : {
 			"plural" : "Technoids",
 			"singular" : "Technoid"
 		},
@@ -10,26 +8,22 @@
 		"aiValue" : 1000,
 		"special" : true,
 		"attack" : 5,
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 10,
 			 "min" : 10
 		},
 		"defense" : 5,
 		"fightValue" : 1000,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/Technoid.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/Technoid.def",
 			"iconSmall" : "ciberium/iconsSmall/Technoid.bmp",
 			"iconLarge" : "ciberium/iconsBig/Technoid.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "ciberium/battle/projectile/SHOT198.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -45,8 +39,7 @@
 		"hitPoints" : 50,
 		"shots" : 24,
 		"level" : 0,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S198ATTK.wav",
 			"defend" : "ciberium/S198DFND.wav",
 			"killed" : "ciberium/S198KILL.wav",
@@ -55,40 +48,32 @@
                         "shoot" : "ciberium/S198SHOT.wav"
 		},
 		"speed" : 5,
-		"abilities" :
-		{
-		"canShoot" :
-			{
+		"abilities" : {
+		"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.fireShield",
 				"val" : 3
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			}
 		}

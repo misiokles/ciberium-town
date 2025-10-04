@@ -1,13 +1,10 @@
 {
-	"ctToxicCockroach":
-	{
-		"name" :
-		{
+	"ctToxicCockroach" : {
+		"name" : {
 			"plural" : "Toxic Cockroaches",
 			"singular" : "Toxic Cockroach"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 25,
 			 "min" : 16
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 243,
 		"attack" : 7,
 		"doubleWide" : true,
-                "cost" :
-		{
+                "cost" : {
 			"gold" : 150
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 5,
 			 "min" : 3
 		},
 		"defense" : 7,
 		"fightValue" : 249,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/BeastUp.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/BeastUp.def",
@@ -38,23 +32,19 @@
 		"growth" : 9,
 		"hitPoints" : 20,
 		"level" : 2,
-		"sound" :
-		{
-			"attack": "HHNDATTK.wav",
-			"defend": "HHNDDFND.wav",
-			"killed": "HHNDKILL.wav",
-			"move": "HHNDMOVE.wav",
-			"wince": "HHNDWNCE.wav"
+		"sound" : {
+			"attack" : "HHNDATTK.wav",
+			"defend" : "HHNDDFND.wav",
+			"killed" : "HHNDKILL.wav",
+			"move" : "HHNDMOVE.wav",
+			"wince" : "HHNDWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-		      "horns":
-                        {
-				"type": "JOUSTING"
+		"abilities" : {
+		      "horns" : {
+				"type" : "JOUSTING"
 			},  
-			"blinds":
-			{
+			"blinds" : {
 			     "type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
                                "val" : 50

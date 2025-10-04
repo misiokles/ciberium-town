@@ -1,33 +1,27 @@
 {
-	"ctIronclad":
-	{
-		"name" :
-		{
+	"ctIronclad" : {
+		"name" : {
 			"plural" : "Ironclads",
 			"singular" : "Ironclad"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 10,
 			 "min" : 4
 		},
 		"faction" : "ciberium",
 		"aiValue" : 8109,
 		"attack" : 20,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2750,
 			"sulfur" : 1
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 60,
 			 "min" : 30
 		},
 		"defense" : 20,
 		"fightValue" : 6319,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/CR209.DEF",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
 			"map" : "ciberium/map/7aa.def",
@@ -39,12 +33,10 @@
 		"growth" : 1,
 		"hitPoints" : 185,
 		"level" : 7,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ctHulkbuster"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/atak-low.wav",
 			"defend" : "ciberium/defend-low.wav",
 			"killed" : "ciberium/kill-low.wav",
@@ -53,23 +45,22 @@
 		},
 		"speed" : 8,
 		"abilities" : {
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "FIRE_IMMUNITY",
 				"subtype" : 0
 			},
-			"KING3":
-			{
+			"KING3" : {
 				"type" : "KING3",
 				
 			},
-			"nonLiving" :
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"fearless" :
-			{
-				"type" : "FEARLESS"
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			}
 		}
 	}

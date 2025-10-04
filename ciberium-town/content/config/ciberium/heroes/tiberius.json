@@ -1,39 +1,32 @@
 {
-	"tiberius" : 
-	{
+	"tiberius" : {
 		"class" : "android",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Tiberius",
 			"biography" : "Little is known about this hero.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Chain Lightning with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Chain Lightning",
 				"name" : "Chain Lightning"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/tiberius/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/tiberius/spec-large.bmp",
 			"large" : "ciberium/heroes/tiberius/portrait-large.bmp",
 			"small" : "ciberium/heroes/tiberius/portrait-small.bmp"
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"chainLightning"		
         ],
-       "army" :
-		[
+       "army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "firstAid", "level": "basic" }
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "firstAid", "level" : "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

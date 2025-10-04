@@ -1,34 +1,28 @@
 {
-	"singhel" :
-	{
+	"singhel" : {
 		"class" : "general",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "英塔克",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "达到1级以后提高赛博佣兵或赛博护卫的攻击力与防御力。",
 				"tooltip" : "生物强化：赛博佣兵",
 				"name" : "赛博佣兵"
 			}
 		}, 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/singhel/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/singhel/spec-large.png",
 			"large" : "ciberium/heroes/singhel/portrait-large.png",
 			"small" : "ciberium/heroes/singhel/portrait-small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctConscript", "min" : 9, "max" : 15}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

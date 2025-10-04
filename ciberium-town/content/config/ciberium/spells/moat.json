@@ -1,26 +1,25 @@
 {
-	"ciberiumMoatTrigger" :
-    {
+	"ciberiumMoatTrigger" : {
         "targetType" : "CREATURE",
-        "type": "ability",
-        "name": "Moat",
-        "school": {},
-        "level": 0,
-        "power": 0,
-        "gainChance": {},
+        "type" : "ability",
+        "name" : "Moat",
+        "school" : {},
+        "level" : 0,
+        "power" : 0,
+        "gainChance" : {},
         "levels" : {
-            "base": {
+            "base" : {
                 "power" : 0,
                 "range" : "0",
                 "description" : "", //For validation
                 "cost" : 0, //For validation
-                "aiValue" : 0, //For validation
+//                "aiValue" : 0, //For validation
                 "battleEffects" : {
                     "directDamage" : {
-                        "type":"core:damage"
+                        "type" : "core:damage"
                     }
                 },
-                "targetModifier":{"smart":false}
+                "targetModifier" : {"smart" : false}
             },
             "none" : {
             },
@@ -32,33 +31,33 @@
             }
         },
         "flags" : {
-            "damage": true,
-            "negative": true,
+            "damage" : true,
+            "negative" : true,
             "nonMagical" : true,
-            "special": true
+            "special" : true
         },
         "targetCondition" : {
         }
     },
-    "ciberiumMoat": {
+    "ciberiumMoat" : {
         "targetType" : "NO_TARGET",
-        "type": "ability",
-        "name": "Moat",
+        "type" : "ability",
+        "name" : "Moat",
         "school" : {},
-        "level": 0,
-        "power": 0,
-        "defaultGainChance": 0,
-        "gainChance": {},
+        "level" : 0,
+        "power" : 0,
+        "defaultGainChance" : 0,
+        "gainChance" : {},
         "levels" : {
-            "base":{
+            "base" : {
                 "description" : "",
-                "aiValue" : 0,
+//                "aiValue" : 0,
                 "power" : 0,
                 "cost" : 0,
-                "targetModifier":{"smart":false},
-                "battleEffects":{
-                    "moat":{
-                        "type":"core:moat",
+                "targetModifier" : {"smart" : false},
+                "battleEffects" : {
+                    "moat" : {
+                        "type" : "core:moat",
                         "hidden" : false,
                         "trap" : true,
                         "triggerAbility" : "ciberiumMoatTrigger",
@@ -66,9 +65,9 @@
                         "removeOnTrigger" : false,
                         "moatDamage" : 70,
                         "moatHexes" : [[11, 28, 44, 61, 77, 111, 129, 146, 164, 181]],
-                        "defender" :{
+                        "defender" : {
                         },
-                        "bonus" :{
+                        "bonus" : {
                             "primarySkill" : {
                                 "val" : -3,
                                 "type" : "PRIMARY_SKILL",
@@ -80,18 +79,18 @@
                 },
                 "range" : "X"
             },
-            "none" :{
+            "none" : {
             },
-            "basic" :{
+            "basic" : {
             },
-            "advanced" :{
+            "advanced" : {
             },
-            "expert" :{
+            "expert" : {
             }
         },
         "flags" : {
             "nonMagical" : true,
-            "indifferent": true
+            "indifferent" : true
         },
         "targetCondition" : {
         }

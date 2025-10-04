@@ -1,39 +1,32 @@
 {
-	"seprinteer" : 
-	{
+	"seprinteer" : {
 		"class" : "technik",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "阿兹菲力",
 			"biography" : "人们对这位英雄知之甚少。", 
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "达到2级以后提高突变兽或强酸突变兽的攻击力与防御力。",
 				"tooltip" : "生物强化：突变兽",
 				"name" : "突变兽"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/seprinteer/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/seprinteer/spec-large.png",
 			"large" : "ciberium/heroes/seprinteer/portrait-large.png",
 			"small" : "ciberium/heroes/seprinteer/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctCockroach", "min" : 4, "max" : 6}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

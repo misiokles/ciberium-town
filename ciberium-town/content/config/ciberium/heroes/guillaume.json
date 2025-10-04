@@ -1,21 +1,17 @@
 {
-	"guillaume" : 
-	{
+	"guillaume" : {
 		"class" : "android",
 		"female" : false,
-                "texts" :
-		{
+                "texts" : {
 			"name" : "Guillaume",
 			"biography" : "Little is known about this hero",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Stone Skin with increased effect, based on hero level compared to the level of the target unit.",
 				"tooltip" : "Spell bonus: Stone Skin",
 				"name" : "Stone Skin"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			
 			"specialtySmall" : "ciberium/heroes/guillaume/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/guillaume/spec-large.bmp",
@@ -23,20 +19,17 @@
 			"small" : "ciberium/heroes/guillaume/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"stoneSkin"
 		],
-        "army" :
-		[
+        "army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "earthMagic", "level": "basic" }
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "earthMagic", "level" : "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

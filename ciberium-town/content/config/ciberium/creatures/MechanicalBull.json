@@ -1,13 +1,10 @@
 {
-	"ctMechanicalBull":
-	{
-		"name" :
-		{
+	"ctMechanicalBull" : {
+		"name" : {
 			"plural" : "Mechanical Bulls",
 			"singular" : "Mechanical Bull"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 20,
 			 "min" : 12
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 425,
 		"attack" : 10,
 		"doubleWide" : true,
-                "cost" :
-		{
+                "cost" : {
 			"gold" : 270
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 8,
 			 "min" : 4
 		},
 		"defense" : 6,
 		"fightValue" : 417,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lvl3unitUp.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/maniac.def",
@@ -38,8 +32,7 @@
 		"growth" : 7,
 		"hitPoints" : 25,
 		"level" : 3,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S200ATTK.wav",
 			"defend" : "ciberium/S200DFND.wav",
 			"killed" : "ciberium/S200KILL.wav",
@@ -47,28 +40,22 @@
 			"wince" : "ciberium/S200WNCE.wav"
 		},
 		"speed" : 10,
-		"abilities" :
-                {
-   	      "nonliving":
-		{	
+		"abilities" : {
+   	      "nonliving" : {	
 			"type" : "NON_LIVING"
 		}, 
-		"spellimmunityslow" :
-			{
+		"spellimmunityslow" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.slow"
 			},
-		"spellimmunityquick" :
-			{
+		"spellimmunityquick" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.quicksand"
 			},
-		  "JOUSTING" :
-			{
+		  "JOUSTING" : {
 				"type" : "JOUSTING"
 			},
-		    "noRetaliate" :
-			{
+		    "noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			}
 

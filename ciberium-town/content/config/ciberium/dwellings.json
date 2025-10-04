@@ -9,7 +9,8 @@
 						"animation" : "ciberium/adventure-map/dwelling-1.def",
 						"mask" : [ "VVV", "VAB" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw01.def"
 			},
 			"ctBiolaboratories" : {
 				"name" : "Biolaboratories",
@@ -19,7 +20,8 @@
 						"animation" : "ciberium/adventure-map/dwelling-2.def",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw02.def"
 			},
 			"ctRecyclingPlant" : {
 				"name" : "Recycling Plant",
@@ -27,9 +29,11 @@
 				"templates" : {
 					"default" : {	
 						"animation" : "ciberium/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVB", "0BA" ]
+						"mask" : [ "VVV", "VVB", "VVA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw03.def"
+
 			},
 			"ctPylon" : {
 				"name" : "Pylon",
@@ -37,9 +41,10 @@
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-4.def",
-						"mask" : [ "VVB", "VVB", "VBA" ]
+						"mask" : [ "VVV", "VVB", "VVA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw04.def"				
 			},
 			"ctHeadquarters" : {
 				"name" : "Air Defense Tower",
@@ -50,7 +55,8 @@
 						"animation" : "ciberium/adventure-map/dwelling-5.def",
 						"mask" : [ "VVV", "VVB", "VVA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw05.def"
 			},
 			"ctHangar" : {
 				"name" : "Hangar",
@@ -59,9 +65,10 @@
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-6.def",
-						"mask" : [ "VVB", "VVB", "VVA" ]
+						"mask" : [ "VVV", "VVB", "VVA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw06.def"
 			},
 			"ctEngineeringComplex" : {
 				"name" : "Engineering Complex",
@@ -70,9 +77,10 @@
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-7.def",
-						"mask" : [ "VBB", "VBB", "VBA" ]
+						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw07.def"
 			},
 			"ctGenerator" : {
 				"name" : "Generator",
@@ -80,9 +88,10 @@
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-8.def",
-						"mask" : [ "VVV", "BBB", "BAB" ]
+						"mask" : [ "VVV", "VBV", "VAB" ],
 					}
-				}
+				},
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw08.def"
 			}
 		}		
 	}

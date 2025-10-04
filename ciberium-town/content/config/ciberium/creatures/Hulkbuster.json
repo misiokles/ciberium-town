@@ -1,33 +1,27 @@
 {
-	"ctHulkbuster":
-	{
-		"name" :
-		{
+	"ctHulkbuster" : {
+		"name" : {
 			"plural" : "Hulkbusters",
 			"singular" : "Hulkbuster"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 8,
 			 "min" : 3
 		},
 		"faction" : "ciberium",
 		"aiValue" : 9215,
 		"attack" : 26,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 5000,
 			"sulfur" : 3
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 60,
 			 "min" : 30
 		},
 		"defense" : 26,
 		"fightValue" : 8501,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/CR210.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
 			"map" : "ciberium/map/7b.def",
@@ -39,133 +33,114 @@
 		"growth" : 1,
 		"hitPoints" : 265,
 		"level" : 7,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/atak-high.wav",
 			"defend" : "ciberium/defend-high.wav",
 			"killed" : "ciberium/kill-high.wav",
-			"move"   : "ciberium/move-high.wav",
-			"wince"  : "ciberium/wince-high.wav"
+			"move" : "ciberium/move-high.wav",
+			"wince" : "ciberium/wince-high.wav"
                      
 		},
 		"speed" : 13,
 		"abilities" : {
-			"immuneToFire" : 
-			{
+			"immuneToFire" : {
 				"type" : "FIRE_IMMUNITY",
 				"subtype" : 0
 			},
-			"KING3":
-			{
+			"KING3" : {
 				"type" : "KING3",
 				
 			},
-			"nonLiving" :
-			{
+			"nonLiving" : {
 				"type" : "NON_LIVING"
 			},
-			"fearless" :
-			{
-				"type" : "FEARLESS"
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
-			"hateGiants" :
-			{
+			"hateGiants" : {
 				"type" : "HATE",
 				"subtype" : "creature.giant",
 				"val" : 50
 			},
-			"hateTitans" :
-			{
+			"hateTitans" : {
 				"type" : "HATE",
 				"subtype" : "creature.titan",
 				"val" : 50
 			},
-			"hateDevils" :
-			{
+			"hateDevils" : {
 				"type" : "HATE",
 				"subtype" : "creature.devil",
 				"val" : 50
 			},
-			"hateArchDevils" :
-			{
+			"hateArchDevils" : {
 				"type" : "HATE",
 				"subtype" : "creature.archDevil",
 				"val" : 50
 			},
-			"hateAngels" : 
-			{
+			"hateAngels" : {
 				"type" : "HATE",
 				"subtype" : "creature.angel",
 				"val" : 50
 			},
-			"hateRedDragons" : 
-			{
+			"hateRedDragons" : {
 				"type" : "HATE",
 				"subtype" : "creature.redDragon",
 				"val" : 50
 			},	
-			"hateBlackDragons" : 
-			{
+			"hateBlackDragons" : {
 				"type" : "HATE",
 				"subtype" : "creature.blackDragon",
 				"val" : 50
 			},	
-			"hatefirebird" : 
-			{
+			"hatefirebird" : {
 				"type" : "HATE",
 				"subtype" : "creature.firebird",
 				"val" : 50
 			},	
-			"hatephoenix" : 
-			{
+			"hatephoenix" : {
 				"type" : "HATE",
 				"subtype" : "creature.phoenix",
 				"val" : 50
 			},
-			"hatehydra" : 
-			{
+			"hatehydra" : {
 				"type" : "HATE",
 				"subtype" : "creature.hydra",
 				"val" : 50
 			},	
-			"hatechaoshydra" : 
-			{
+			"hatechaoshydra" : {
 				"type" : "HATE",
 				"subtype" : "creature.chaosHydra",
 				"val" : 50
 			},
-			"hatebonedragon" : 
-			{
+			"hatebonedragon" : {
 				"type" : "HATE",
 				"subtype" : "creature.boneDragon",
 				"val" : 50
 			},	
-			"hateghostdragon" : 
-			{
+			"hateghostdragon" : {
 				"type" : "HATE",
 				"subtype" : "creature.ghostDragon",
 				"val" : 50
 			},
-			"hategreendragon" : 
-			{
+			"hategreendragon" : {
 				"type" : "HATE",
 				"subtype" : "creature.greenDragon",
 				"val" : 50
 			},	
-			"hategolddragon" : 
-			{
+			"hategolddragon" : {
 				"type" : "HATE",
 				"subtype" : "creature.goldDragon",
 				"val" : 50
 			},
-			"hatebehemoth" : 
-			{
+			"hatebehemoth" : {
 				"type" : "HATE",
 				"subtype" : "creature.behemoth",
 				"val" : 50
 			},	
-			"hateancientbehemoth" : 
-			{
+			"hateancientbehemoth" : {
 				"type" : "HATE",
 				"subtype" : "creature.ancientBehemoth",
 				"val" : 50

@@ -1,13 +1,10 @@
 {
-	"ctParatrooper":
-	{
-		"name" :
-		{
+	"ctParatrooper" : {
+		"name" : {
 			"plural" : "Paratroopers",
 			"singular" : "Paratrooper"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 12,
 			 "min" : 8
 		},
@@ -15,19 +12,16 @@
 		"aiValue" : 1010,
 		"attack" : 13,
 		"hasDoubleWeek" : true,
-        "cost" : 
-		{
+        "cost" : {
 			"gold" : 525
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 12,
 			 "min" : 10
 		},
 		"defense" : 9,
 		"fightValue" : 915,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/CR204.def",
 			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/bruiser.def",
@@ -52,13 +46,11 @@
 		"growth" : 3,
 		"hitPoints" : 55,
 		"level" : 5,
-		"upgrades":
-		[
+		"upgrades" : [
 			"faWarDroid"
 		],
 		"shots" : 12,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/S204ATTK.wav",
 			"defend" : "ciberium/S204DFND.wav",
 			"killed" : "ciberium/S204KILL.wav",
@@ -67,14 +59,11 @@
 			"shoot" : "ciberium/S204SHOT.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-		"canShoot" :
-			{
+		"abilities" : {
+		"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"magicAura":
-			{	
+			"magicAura" : {	
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 25
 			}	

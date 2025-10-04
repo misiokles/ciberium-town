@@ -1,32 +1,26 @@
 {
-	"ctlv4":
-	{
-		"name" :
-		{
+	"ctlv4" : {
+		"name" : {
 			"plural" : "Robo Griffins",
 			"singular" : "Robo Griffin"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			 "max" : 20,
 			 "min" : 10
 		},
 		"faction" : "ciberium",
 		"aiValue" : 625,
 		"attack" : 12,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 300
 		},
-		"damage" :
-		{
+		"damage" : {
 			 "max" : 10,
 			 "min" : 6
 		},
 		"defense" : 7,
 		"fightValue" : 593,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "ciberium/battle/lv4.def",
 			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
 			"map" : "ciberium/map/lv4.def",
@@ -39,33 +33,27 @@
 		"growth" : 4,
 		"hitPoints" : 35,
 		"level" : 4,
-		"upgrades":
-		[
+		"upgrades" : [
 			"ctlv4up"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "ciberium/attack.wav",
 			"defend" : "ciberium/defend.wav",
 			"killed" : "ciberium/kill.wav",
 			"move" : "ciberium/move.wav",
-//			"startMoving": "ciberium/movestart.wav",
-//			"endMoving": "ciberium/moveend.wav",
+//			"startMoving" : "ciberium/movestart.wav",
+//			"endMoving" : "ciberium/moveend.wav",
 			"wince" : "ciberium/wince.wav"
 		},
 		"speed" : 10,
-		"abilities" :
-		{
-		"no morale" :
-			{
+		"abilities" : {
+		"no morale" : {
 				"type" : "NO_MORALE",
 			},
-		"canfly" :
-			{
+		"canfly" : {
 				"type" : "FLYING"
 			},
-		"enchanted" : 
-			{
+		"enchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.slayer",
 				"val" : 1
@@ -74,8 +62,7 @@
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -83,8 +70,7 @@
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
@@ -92,16 +78,14 @@
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},

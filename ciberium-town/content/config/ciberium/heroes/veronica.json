@@ -1,54 +1,38 @@
 {
-	"veronica" : 
-	{
+	"veronica" : {
 
 		"class" : "android",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Veronica",
 			"biography" : "Little is known about this hero.",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "+350 Gold per day",
 				"description" : "Increases kingdom's income by 350 gold per day.",
 				"name" : "+350 Gold"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/veronica/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/veronica/spec-large.bmp",
 			"large" : "ciberium/heroes/veronica/portrait-large.bmp",
 			"small" : "ciberium/heroes/veronica/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 		       "viewEarth"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "estates", "level": "basic" }
+		"skills" : [
+			{ "skill" : "wisdom", "level" : "basic" },
+			{ "skill" : "estates", "level" : "basic" }
 		],
 		"specialty" : {
-			"bonuses" : {
-				"estates" : {
-					"subtype" : "gold",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "GENERATE_RESOURCE",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5
-				}
-			}
+			"secondary" : "estates"
 		}
 	}
 }

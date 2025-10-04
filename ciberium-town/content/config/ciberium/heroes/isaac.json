@@ -1,47 +1,32 @@
 {
-	"isaac" :
-	{
+	"isaac" : {
 		"class" : "servitor",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Isaac",
 			"biography" : "Little is known about this hero.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/isaac/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/isaac/spec-large.bmp",
 			"large" : "ciberium/heroes/isaac/portrait-large.bmp",
 			"small" : "ciberium/heroes/isaac/portrait-small.bmp"
 		},
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
 			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
 			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
 		],
-		"skills":
-		[
-			{ "skill" : "armorer", "level": "basic" },
-			{ "skill" : "pathfinding", "level": "basic" }
+		"skills" : [
+			{ "skill" : "armorer", "level" : "basic" },
+			{ "skill" : "pathfinding", "level" : "basic" }
 		],
 		"specialty" : {
-			"bonuses" : {
-				"armorer" : {
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : "damageTypeAll",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "armorer"
 		}
 	}
 }

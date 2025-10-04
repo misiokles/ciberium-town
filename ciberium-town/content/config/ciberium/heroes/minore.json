@@ -1,39 +1,32 @@
 {
-	"minore" : 
-	{
+	"minore" : {
 		"class" : "technik",
 		"female" : true,
-"texts" :
-		{
+"texts" : {
 			"name" : "索菲娅",
 			"biography" : "人们对这位英雄知之甚少。",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "达到4级以后提高冲击炮的攻击力与防御力。",
 				"tooltip" : "生物强化：冲击炮",
 				"name" : "冲击炮"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "ciberium/heroes/minore/spec-small.png",
 			"specialtyLarge" : "ciberium/heroes/minore/spec-large.png",
 			"large" : "ciberium/heroes/minore/portrait-large.png",
 			"small" : "ciberium/heroes/minore/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"berserk"
 		],
-		"army" :
-		[
+		"army" : [
 			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
 			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
 			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
