@@ -17,16 +17,34 @@
 			"small" : "ciberium/heroes/tiberius/portrait-small.bmp"
 		},
 		"spellbook" : [
-			"chainLightning"		
-        ],
-       "army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+			"chainLightning"
+		],
+		"army" : [
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
-			{ "skill" : "wisdom", "level" : "basic" },
-			{ "skill" : "firstAid", "level" : "basic" }
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "firstAid",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

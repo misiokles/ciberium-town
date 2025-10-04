@@ -5,8 +5,8 @@
 			"singular" : "Soldier"
 		},
 		"advMapAmount" : {
-			 "max" : 30,
-			 "min" : 20
+			"max" : 30,
+			"min" : 20
 		},
 		"faction" : "ciberium",
 		"aiValue" : 143,
@@ -15,20 +15,25 @@
 			"gold" : 85
 		},
 		"damage" : {
-			 "max" : 3,
-			 "min" : 2
+			"max" : 3,
+			"min" : 2
 		},
 		"defense" : 6,
 		"fightValue" : 154,
 		"graphics" : {
 			"animation" : "ciberium/battle/CR200.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 2.0 },
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 2.0
+			},
 			"map" : "ciberium/map/lv1UP.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS200F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL200B.bmp",
 			"timeBetweenFidgets" : 1
 		},
-	
+
 		"growth" : 14,
 		"hitPoints" : 8,
 		"horde" : 6,
@@ -42,14 +47,12 @@
 		},
 		"speed" : 5,
 		"abilities" : {
-		"noRetaliate" : {
+			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"nonliving" : {
 				"type" : "NON_LIVING"
 			}
-
 		}
-
 	}
 }

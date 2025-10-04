@@ -3,7 +3,6 @@
 		"class" : "servitor",
 		"female" : true,
 
-		
 		"texts" : {
 			"name" : "Nestra",
 			"biography" : "With the rebuilding of the Hangar, Nestra finally proved his skill at controlling tank-men, making him a better general.",
@@ -19,10 +18,22 @@
 			"large" : "ciberium/heroes/nestra/portrait-large.bmp",
 			"small" : "ciberium/heroes/nestra/portrait-small.bmp"
 		},
-        "army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
@@ -36,6 +47,6 @@
 		],
 		"specialty" : {
 			"creature" : "ctlv6"
-		}		
+		}
 	}
 }

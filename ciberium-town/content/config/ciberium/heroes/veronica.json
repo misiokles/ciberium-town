@@ -1,6 +1,5 @@
 {
 	"veronica" : {
-
 		"class" : "android",
 		"female" : true,
 		"texts" : {
@@ -20,16 +19,34 @@
 		},
 
 		"spellbook" : [
-		       "viewEarth"
+			"viewEarth"
 		],
 		"army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
-			{ "skill" : "wisdom", "level" : "basic" },
-			{ "skill" : "estates", "level" : "basic" }
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"secondary" : "estates"

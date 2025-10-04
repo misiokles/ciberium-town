@@ -17,20 +17,31 @@
 			"small" : "ciberium/heroes/kastore/portrait-small.png"
 		},
 		"spellbook" : [
-			"chainLightning"		
-        ],
+			"chainLightning"
+		],
 
 		"army" : [
-			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
-			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
-			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctConscript",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctCockroach",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctStoneBull",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 
 		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
-			
 			}
 		],
 		"specialty" : {

@@ -1,11 +1,13 @@
 {
 	"neuroblaster" : {
-	"type" : ["HERO"],
-	"warMachine" : "ctNeuroblaster",
-        "class" : "SPECIAL",
-        "value" : 3500,
-        "slot" : "MACH1",
-        "text" : {
+		"type" : [
+			"HERO"
+		],
+		"warMachine" : "ctNeuroblaster",
+		"class" : "SPECIAL",
+		"value" : 3500,
+		"slot" : "MACH1",
+		"text" : {
 			"name" : "Neuroblaster",
 			"description" : "Neuroblaster allows you to use it to attack enemy troops in war.",
 			"event" : "While walking through the wasteland and bushes, you don't expect to find an abandoned siege machine. You look around to see if anyone is around and take the machine with you."
@@ -17,5 +19,3 @@
 		}
 	}
 }
-
-

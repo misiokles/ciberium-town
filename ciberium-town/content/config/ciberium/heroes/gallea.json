@@ -22,13 +22,31 @@
 			"landMine"
 		],
 		"army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
-			{ "skill" : "wisdom", "level" : "basic" },
-			{ "skill" : "airMagic", "level" : "basic" }
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

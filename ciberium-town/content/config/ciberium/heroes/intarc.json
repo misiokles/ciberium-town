@@ -9,7 +9,7 @@
 				"tooltip" : "Creature Bonus: Cyber Mercenaries",
 				"name" : "Cyber Mercenaries"
 			}
-		}, 
+		},
 		"images" : {
 			"specialtySmall" : "ciberium/heroes/intarc/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/intarc/spec-large.bmp",
@@ -17,19 +17,30 @@
 			"small" : "ciberium/heroes/intarc/portrait-small.bmp"
 		},
 		"army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
-			
 			}
 		],
 		"specialty" : {
 			"creature" : "ctlv1"
-		}		
+		}
 	}
 }

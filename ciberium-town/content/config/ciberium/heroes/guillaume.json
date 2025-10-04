@@ -2,7 +2,7 @@
 	"guillaume" : {
 		"class" : "android",
 		"female" : false,
-                "texts" : {
+		"texts" : {
 			"name" : "Guillaume",
 			"biography" : "Little is known about this hero",
 			"specialty" : {
@@ -12,7 +12,6 @@
 			}
 		},
 		"images" : {
-			
 			"specialtySmall" : "ciberium/heroes/guillaume/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/guillaume/spec-large.bmp",
 			"large" : "ciberium/heroes/guillaume/portrait-large.bmp",
@@ -22,14 +21,32 @@
 		"spellbook" : [
 			"stoneSkin"
 		],
-        "army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
-			{ "skill" : "wisdom", "level" : "basic" },
-			{ "skill" : "earthMagic", "level" : "basic" }
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

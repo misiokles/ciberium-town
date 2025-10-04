@@ -1,13 +1,13 @@
 {
 	"ctlv6up" : {
 		"advMapAmount" : {
-			 "max" : 10,
-			 "min" : 5
+			"max" : 10,
+			"min" : 5
 		},
 		"name" : {
 			"plural" : "Heavy Tanks",
 			"singular" : "Heavy Tank"
-		},		
+		},
 		"faction" : "ciberium",
 		"aiValue" : 2142,
 		"fightValue" : 1796,
@@ -17,8 +17,8 @@
 			"gold" : 1400
 		},
 		"damage" : {
-			 "min" : 15,
-			 "max" : 28
+			"min" : 15,
+			"max" : 28
 		},
 		"speed" : 9,
 		"graphics" : {
@@ -46,45 +46,107 @@
 		},
 		"abilities" : {
 			"noMorale" : {
-				"type" : "NO_MORALE" 					
-			},	
+				"type" : "NO_MORALE"
+			},
 			"castRay" : {
 				"type" : "SPELL_BEFORE_ATTACK",
 				"val" : 80,
 				"subtype" : "spell.disruptingRay",
 				"addInfo" : 2
 			}
-           },
-		"stackExperience" : [ {
+		},
+		"stackExperience" : [
+			{
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
-			{ "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ] } ]
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			}
+		]
 	}
 }

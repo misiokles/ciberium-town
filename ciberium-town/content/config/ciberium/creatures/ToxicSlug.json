@@ -5,30 +5,35 @@
 			"singular" : "病毒史莱姆"
 		},
 		"advMapAmount" : {
-			 "max" : 20,
-			 "min" : 12
+			"max" : 20,
+			"min" : 12
 		},
 		"faction" : "ciberium",
 		"aiValue" : 425,
 		"attack" : 10,
 		"doubleWide" : true,
-                "cost" : {
+		"cost" : {
 			"gold" : 250
 		},
 		"damage" : {
-			 "max" : 6,
-			 "min" : 6
+			"max" : 6,
+			"min" : 6
 		},
 		"defense" : 7,
 		"fightValue" : 417,
 		"graphics" : {
 			"animation" : "ciberium/battle/lvl3unitUp.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/lvl3unitUpmap.def",
 			"iconSmall" : "ciberium/iconsSmall/lv3ups.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv3up.bmp",
 			"timeBetweenFidgets" : 1
-            },
+		},
 		"growth" : 7,
 		"hitPoints" : 20,
 		"level" : 3,
@@ -37,26 +42,25 @@
 			"defend" : "ciberium/worgblk.wav",
 			"killed" : "ciberium/worgdie.wav",
 			"move" : "HGWRMOVE.wav",
-			"wince" : "ciberium/worgblk.wav",
+			"wince" : "ciberium/worgblk.wav"
 		},
 		"speed" : 8,
 		"abilities" : {
-   	          "canfly" : {
+			"canfly" : {
 				"type" : "FLYING"
 			},
-            "drainsLife" : {
+			"drainsLife" : {
 				"type" : "LIFE_DRAIN",
 				"val" : 50
-			}	,
-                  "castDisease" : {
-				"type" : "SPELL_AFTER_ATTACK",
-                                "subtype" : "spell.disease",
-                                 "val" : 50
 			},
-		    "noRetaliate" : {
+			"castDisease" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 50
+			},
+			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			}
-
 		}
 	}
 }

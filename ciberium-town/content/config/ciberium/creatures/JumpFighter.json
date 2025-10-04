@@ -5,25 +5,30 @@
 			"singular" : "Jump Fighter"
 		},
 		"advMapAmount" : {
-			 "max" : 20,
-			 "min" : 10
+			"max" : 20,
+			"min" : 10
 		},
 		"faction" : "ciberium",
 		"aiValue" : 625,
 		"doubleWide" : true,
 		"attack" : 12,
-        "cost" : {
+		"cost" : {
 			"gold" : 350
 		},
 		"damage" : {
-			 "max" : 10,
-			 "min" : 6
+			"max" : 10,
+			"min" : 6
 		},
 		"defense" : 7,
 		"fightValue" : 593,
 		"graphics" : {
 			"animation" : "ciberium/battle/CR205.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/jumpsoldier.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS205F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL205B.bmp",
@@ -47,18 +52,17 @@
 		},
 		"speed" : 10,
 		"abilities" : {
-		"no morale" : {
-				"type" : "NO_MORALE",
+			"no morale" : {
+				"type" : "NO_MORALE"
 			},
 			"canfly" : {
 				"type" : "FLYING"
 			},
-            "enchanted" : {
+			"enchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "spell.slayer",
 				"val" : 1
 			}
-
 		}
 	}
 }

@@ -6,8 +6,14 @@
 				"female" : "ciberium/battleHeroServitor",
 				"male" : "ciberium/battleHeroServitor"
 			}
-		},	
-		"mapObject" : { "templates" : { "default" : { "animation" : "ciberium/mapHeroServitor" }}},
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "ciberium/mapHeroServitor"
+				}
+			}
+		},
 		"commander" : "ctGibberling",
 		"faction" : "ciberium",
 		"affinity" : "might",
@@ -70,7 +76,7 @@
 			"stronghold" : 4,
 			"fortress" : 4,
 			"conflux" : 4,
-			"ciberium" : 4                  
+			"ciberium" : 4
 		}
 	}
 }

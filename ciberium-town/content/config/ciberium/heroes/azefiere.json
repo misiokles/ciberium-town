@@ -3,7 +3,7 @@
 		"class" : "servitor",
 		"texts" : {
 			"name" : "Azefiere",
-			"biography" : "Little is known about this hero.", 
+			"biography" : "Little is known about this hero.",
 			"specialty" : {
 				"description" : "Increases Speed of any Mutant beasts or Toxic Mutant Beasts by 1 and their Attack and Defense skills by 5% for 2 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Mutant Beast",
@@ -20,17 +20,35 @@
 		"spellbook" : [
 			"magicArrow"
 		],
-        "army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
-			{ "skill" : "armorer", "level" : "basic" },
-			{ "skill" : "learning", "level" : "basic" }
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "learning",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "ctlv2"
-		}		
+		}
 	}
 }

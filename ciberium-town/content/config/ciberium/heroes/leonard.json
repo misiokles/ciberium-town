@@ -11,20 +11,37 @@
 			}
 		},
 		"images" : {
-			
 			"specialtySmall" : "ciberium/heroes/leonard/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/leonard/spec-large.bmp",
 			"large" : "ciberium/heroes/leonard/portrait-large.bmp",
 			"small" : "ciberium/heroes/leonard/portrait-small.bmp"
 		},
 		"army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
-			{ "skill" : "wisdom", "level" : "basic" },
-			{ "skill" : "estates", "level" : "basic" }
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

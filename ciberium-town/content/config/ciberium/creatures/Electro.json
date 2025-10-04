@@ -5,19 +5,18 @@
 			"singular" : "Electro"
 		},
 		"advMapAmount" : {
-
-			 "max" : 20,
-			 "min" : 10
+			"max" : 20,
+			"min" : 10
 		},
 		"faction" : "ciberium",
-        "aiValue" : 515,
+		"aiValue" : 515,
 		"attack" : 12,
 		"cost" : {
 			"gold" : 400
 		},
 		"damage" : {
-			 "max" : 6,
-			 "min" : 4
+			"max" : 6,
+			"min" : 4
 		},
 		"defense" : 12,
 		"fightValue" : 488,
@@ -28,8 +27,8 @@
 			"iconLarge" : "ciberium/iconsBig/Electro.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.30,
-				"idle" : 10.00,
+				"walk" : 1.3,
+				"idle" : 10.0,
 				"attack" : 1
 			}
 		},
@@ -47,11 +46,11 @@
 		},
 		"speed" : 8,
 		"abilities" : {
-		    "spellAfterAttack" : {
-                "type" : "SPELL_AFTER_ATTACK",
-                "subtype" : "spell.lightningBolt",
-                "val" : 30,
-                "addInfo" : 0
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.lightningBolt",
+				"val" : 30,
+				"addInfo" : 0
 			},
 			"lightningBoltPOwer" : {
 				"type" : "SPECIFIC_SPELL_POWER",
@@ -61,62 +60,127 @@
 			"flying" : {
 				"type" : "FLYING"
 			},
-            "noRetalitation" : {
+			"noRetalitation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"AIR_IMMUNITY" : {
 				"subtype" : "air",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 			},
-           "teleports" : {
+			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
-			}		
+			}
 		},
 		"stackExperience" : [
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
 				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"type" : "LEVEL_SPELL_IMMUNITY"
 				},
-				"values" : [ 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 ]
+				"values" : [
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4,
+					4
+				]
 			}
 		]
 	}
 }
-

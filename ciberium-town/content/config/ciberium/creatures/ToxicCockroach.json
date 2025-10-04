@@ -5,30 +5,35 @@
 			"singular" : "Toxic Cockroach"
 		},
 		"advMapAmount" : {
-			 "max" : 25,
-			 "min" : 16
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "ciberium",
 		"aiValue" : 243,
 		"attack" : 7,
 		"doubleWide" : true,
-                "cost" : {
+		"cost" : {
 			"gold" : 150
 		},
 		"damage" : {
-			 "max" : 5,
-			 "min" : 3
+			"max" : 5,
+			"min" : 3
 		},
 		"defense" : 7,
 		"fightValue" : 249,
 		"graphics" : {
 			"animation" : "ciberium/battle/BeastUp.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/BeastUp.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS198F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL198B.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 		"growth" : 9,
 		"hitPoints" : 20,
 		"level" : 2,
@@ -41,14 +46,14 @@
 		},
 		"speed" : 7,
 		"abilities" : {
-		      "horns" : {
+			"horns" : {
 				"type" : "JOUSTING"
-			},  
+			},
 			"blinds" : {
-			     "type" : "SPELL_AFTER_ATTACK",
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
-                               "val" : 50
-			}	
-		}	
+				"val" : 50
+			}
+		}
 	}
 }

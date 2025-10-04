@@ -1,13 +1,13 @@
 {
 	"ctHeavytank" : {
 		"advMapAmount" : {
-			 "max" : 10,
-			 "min" : 5
+			"max" : 10,
+			"min" : 5
 		},
 		"name" : {
 			"plural" : "Heavy Tanks",
 			"singular" : "Heavy Tank"
-		},		
+		},
 		"faction" : "ciberium",
 		"aiValue" : 2142,
 		"attack" : 16,
@@ -15,8 +15,8 @@
 			"gold" : 1400
 		},
 		"damage" : {
-			 "max" : 28,
-			 "min" : 15
+			"max" : 28,
+			"min" : 15
 		},
 		"defense" : 16,
 		"fightValue" : 1796,

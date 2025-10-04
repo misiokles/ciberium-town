@@ -3,96 +3,158 @@
 		"types" : {
 			"ctTrainingCamp" : {
 				"name" : "Training Camp",
-				"creatures" : [[ "ctlv1" ]],
+				"creatures" : [
+					[
+						"ctlv1"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "ciberium/icons/flagports/dw01.def"
 			},
 			"ctBiolaboratories" : {
 				"name" : "Biolaboratories",
-				"creatures" : [[ "ctlv2" ]],
+				"creatures" : [
+					[
+						"ctlv2"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "ciberium/icons/flagports/dw02.def"
 			},
 			"ctRecyclingPlant" : {
 				"name" : "Recycling Plant",
-				"creatures" : [[ "ctlv3" ]],
+				"creatures" : [
+					[
+						"ctlv3"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVB", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VVA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "ciberium/icons/flagports/dw03.def"
-
 			},
 			"ctPylon" : {
 				"name" : "Pylon",
-				"creatures" : [[ "ctlv4" ]],
+				"creatures" : [
+					[
+						"ctlv4"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VVB", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VVA"
+						]
 					}
 				},
-				"kingdomOverviewImage" : "ciberium/icons/flagports/dw04.def"				
+				"kingdomOverviewImage" : "ciberium/icons/flagports/dw04.def"
 			},
 			"ctHeadquarters" : {
 				"name" : "Air Defense Tower",
-				"creatures" : [[ "ctlv5" ]],
+				"creatures" : [
+					[
+						"ctlv5"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VVB", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VVA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "ciberium/icons/flagports/dw05.def"
 			},
 			"ctHangar" : {
 				"name" : "Hangar",
-				"creatures" : [[ "ctlv6" ]],
+				"creatures" : [
+					[
+						"ctlv6"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VVB", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VVA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "ciberium/icons/flagports/dw06.def"
 			},
 			"ctEngineeringComplex" : {
 				"name" : "Engineering Complex",
-				"creatures" : [[ "ctlv7" ]],
+				"creatures" : [
+					[
+						"ctlv7"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "ciberium/icons/flagports/dw07.def"
 			},
 			"ctGenerator" : {
 				"name" : "Generator",
-				"creatures" : [[ "ctElectro" ]],
+				"creatures" : [
+					[
+						"ctElectro"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-8.def",
-						"mask" : [ "VVV", "VBV", "VAB" ],
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAB"
+						]
 					}
 				},
 				"kingdomOverviewImage" : "ciberium/icons/flagports/dw08.def"
 			}
-		}		
+		}
 	}
 }

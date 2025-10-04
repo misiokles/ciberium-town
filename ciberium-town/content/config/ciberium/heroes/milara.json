@@ -3,7 +3,6 @@
 		"class" : "servitor",
 		"female" : true,
 
-
 		"texts" : {
 			"name" : "Milara",
 			"biography" : "Little is known about this hero.",
@@ -14,7 +13,6 @@
 			}
 		},
 		"images" : {
-			
 			"specialtySmall" : "ciberium/heroes/milara/spec-small.bmp",
 			"specialtyLarge" : "ciberium/heroes/milara/spec-large.bmp",
 			"large" : "ciberium/heroes/milara/portrait-large.bmp",
@@ -24,10 +22,22 @@
 		"spellbook" : [
 			"dispel"
 		],
-       "army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
@@ -44,5 +54,3 @@
 		}
 	}
 }
-
-

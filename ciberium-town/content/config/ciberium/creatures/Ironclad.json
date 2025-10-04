@@ -5,8 +5,8 @@
 			"singular" : "Ironclad"
 		},
 		"advMapAmount" : {
-			 "max" : 10,
-			 "min" : 4
+			"max" : 10,
+			"min" : 4
 		},
 		"faction" : "ciberium",
 		"aiValue" : 8109,
@@ -16,14 +16,19 @@
 			"sulfur" : 1
 		},
 		"damage" : {
-			 "max" : 60,
-			 "min" : 30
+			"max" : 60,
+			"min" : 30
 		},
 		"defense" : 20,
 		"fightValue" : 6319,
 		"graphics" : {
 			"animation" : "ciberium/battle/CR209.DEF",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 4, "walk" : 1.30 },
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 4,
+				"walk" : 1.3
+			},
 			"map" : "ciberium/map/7aa.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS209F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL209B.bmp",
@@ -50,8 +55,7 @@
 				"subtype" : 0
 			},
 			"KING3" : {
-				"type" : "KING3",
-				
+				"type" : "KING3"
 			},
 			"nonLiving" : {
 				"type" : "NON_LIVING"
@@ -65,5 +69,3 @@
 		}
 	}
 }
-
-

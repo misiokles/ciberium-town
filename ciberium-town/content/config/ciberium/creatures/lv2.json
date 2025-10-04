@@ -5,30 +5,34 @@
 			"singular" : "Mutant Beast"
 		},
 		"advMapAmount" : {
-			 "max" : 30,
-			 "min" : 16
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "ciberium",
 		"aiValue" : 200,
 		"attack" : 5,
 		"doubleWide" : true,
-                "cost" : {
+		"cost" : {
 			"gold" : 100
 		},
 		"damage" : {
-			 "max" : 4,
-			 "min" : 2
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 5,
 		"fightValue" : 205,
 		"graphics" : {
 			"animation" : "ciberium/battle/lv2.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/lv2.def",
 			"iconSmall" : "ciberium/iconsSmall/lv2.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv2.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 		"growth" : 9,
 		"hitPoints" : 20,
 		"level" : 2,
@@ -46,42 +50,88 @@
 		"abilities" : {
 			"horns" : {
 				"type" : "JOUSTING"
-			}, 
+			},
 			"poisons" : {
-			     "type" : "SPELL_AFTER_ATTACK",
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
-                               "val" : 35
-			}	
+				"val" : 35
+			}
 		},
-		"stackExperience" : [ {
+		"stackExperience" : [
+			{
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
-			} ]	
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			}
+		]
 	}
 }

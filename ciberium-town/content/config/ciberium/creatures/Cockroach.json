@@ -5,30 +5,35 @@
 			"singular" : "Cockroach"
 		},
 		"advMapAmount" : {
-			 "max" : 30,
-			 "min" : 16
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "ciberium",
 		"aiValue" : 200,
 		"attack" : 5,
 		"doubleWide" : true,
-                "cost" : {
+		"cost" : {
 			"gold" : 100
 		},
 		"damage" : {
-			 "max" : 4,
-			 "min" : 2
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 5,
 		"fightValue" : 205,
 		"graphics" : {
 			"animation" : "ciberium/battle/Beast.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/Beast.def",
 			"iconSmall" : "ciberium/iconsSmall/CPrS197F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL197B.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 		"growth" : 9,
 		"hitPoints" : 20,
 		"level" : 2,
@@ -46,12 +51,12 @@
 		"abilities" : {
 			"horns" : {
 				"type" : "JOUSTING"
-			}, 
+			},
 			"poisons" : {
-			     "type" : "SPELL_AFTER_ATTACK",
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
-                               "val" : 35
-			}	
-		}	
+				"val" : 35
+			}
+		}
 	}
 }

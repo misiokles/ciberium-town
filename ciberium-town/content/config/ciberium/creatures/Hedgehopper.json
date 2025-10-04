@@ -5,32 +5,47 @@
 			"singular" : "Hedge Hopper"
 		},
 		"advMapAmount" : {
-			 "max" : 16,
-			 "min" : 8
+			"max" : 16,
+			"min" : 8
 		},
 		"faction" : "ciberium",
 		"aiValue" : 916,
 		"attack" : 12,
 		"hasDoubleWeek" : true,
-        "cost" : {
+		"cost" : {
 			"gold" : 475
 		},
 		"damage" : {
-			 "max" : 12,
-			 "min" : 10
+			"max" : 12,
+			"min" : 10
 		},
 		"defense" : 8,
 		"fightValue" : 830,
 		"graphics" : {
 			"animation" : "ciberium/battle/CR203.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"flight" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/stringer.def",
 			"iconSmall" : "ciberium/iconsSmall/CPRS203F.bmp",
 			"iconLarge" : "ciberium/iconsBig/CPrL203B.bmp",
 			"timeBetweenFidgets" : 1,
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
@@ -39,9 +54,8 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"projectile" : "ciberium/battle/projectile/mechShoot.DEF",
-			},
-			
+				"projectile" : "ciberium/battle/projectile/mechShoot.DEF"
+			}
 		},
 		"growth" : 3,
 		"hitPoints" : 55,
@@ -56,11 +70,11 @@
 			"killed" : "ciberium/S203KILL.wav",
 			"move" : "ciberium/S203MOVE.wav",
 			"wince" : "ciberium/S203WNCE.wav",
- 			"shoot" : "ciberium/S203SHOT.wav"                    
+			"shoot" : "ciberium/S203SHOT.wav"
 		},
 		"speed" : 5,
 		"abilities" : {
-                     "canShoot" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			}
 		}

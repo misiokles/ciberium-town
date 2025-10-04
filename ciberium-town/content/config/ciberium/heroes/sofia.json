@@ -2,7 +2,7 @@
 	"sofia" : {
 		"class" : "servitor",
 		"female" : true,
-"texts" : {
+		"texts" : {
 			"name" : "Sofia",
 			"biography" : "Little is known about this hero.",
 			"specialty" : {
@@ -22,16 +22,34 @@
 			"berserk"
 		],
 		"army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctNeuroblaster", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctNeuroblaster",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
-			{ "skill" : "artillery", "level" : "basic" },
-			{ "skill" : "offence", "level" : "basic" }
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "ctNeuroblaster"
-		}		
+		}
 	}
 }

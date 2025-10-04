@@ -19,9 +19,17 @@
 
 		"army" : [
 			{
-				"creature" : "ctConscript", "min" : 10, "max" : 15 },
-			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
-			{ "creature" : "ctJumpFighter",
+				"creature" : "ctConscript",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctCockroach",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctJumpFighter",
 				"max" : 2,
 				"min" : 1
 			}
@@ -31,11 +39,10 @@
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
-			
 			}
 		],
 		"specialty" : {
 			"creature" : "ctJumpFighter"
-		}		
+		}
 	}
 }

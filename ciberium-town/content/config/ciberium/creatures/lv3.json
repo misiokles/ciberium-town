@@ -5,30 +5,34 @@
 			"singular" : "Slug"
 		},
 		"advMapAmount" : {
-			 "max" : 25,
-			 "min" : 12
+			"max" : 25,
+			"min" : 12
 		},
 		"faction" : "ciberium",
 		"aiValue" : 334,
 		"attack" : 9,
 		"doubleWide" : true,
-                "cost" : {
+		"cost" : {
 			"gold" : 200
 		},
 		"damage" : {
-			 "max" : 6,
-			 "min" : 5
+			"max" : 6,
+			"min" : 5
 		},
 		"defense" : 6,
 		"fightValue" : 335,
 		"graphics" : {
 			"animation" : "ciberium/battle/lv3.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/lv3.def",
 			"iconSmall" : "ciberium/iconsSmall/lv3.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv3.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 		"growth" : 7,
 		"hitPoints" : 20,
 		"level" : 3,
@@ -40,18 +44,18 @@
 			"defend" : "ciberium/worgblk.wav",
 			"killed" : "ciberium/worgdie.wav",
 			"move" : "HGWRMOVE.wav",
-			"wince" : "ciberium/worgblk.wav",
+			"wince" : "ciberium/worgblk.wav"
 		},
 		"speed" : 5,
 		"abilities" : {
-   	          "drainsLife" : {
+			"drainsLife" : {
 				"type" : "LIFE_DRAIN",
 				"val" : 25
-			}	,
-                  "castDisease" : {
+			},
+			"castDisease" : {
 				"type" : "SPELL_AFTER_ATTACK",
-                "subtype" : "spell.disease",
-                "val" : 25
+				"subtype" : "spell.disease",
+				"val" : 25
 			}
 		},
 		"stackExperience" : [
@@ -59,31 +63,75 @@
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			}
 		]
 	}

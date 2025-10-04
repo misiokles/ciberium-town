@@ -2,7 +2,7 @@
 	"resurrecta" : {
 		"class" : "technik",
 		"female" : true,
-                 "texts" : {
+		"texts" : {
 			"name" : "妲拉",
 			"biography" : "人们对这位英雄知之甚少。",
 			"specialty" : {
@@ -23,16 +23,27 @@
 			"resurrection"
 		],
 		"army" : [
-			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
-			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
-			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctConscript",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctCockroach",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctStoneBull",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 
 		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
-			
 			}
 		],
 		"specialty" : {

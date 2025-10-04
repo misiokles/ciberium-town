@@ -3,7 +3,6 @@
 		"class" : "general",
 		"female" : true,
 
-		
 		"texts" : {
 			"name" : "涅斯特拉",
 			"biography" : "涅斯特拉曾是一个伟大的亡灵巫师，但是在恩塔格瑞被魔鬼入侵之后，她的公会遭到摧毁。她坚定地走下去，直到提比略让她加入他的军队。",
@@ -20,21 +19,31 @@
 			"small" : "ciberium/heroes/charity/portrait-small.png"
 		},
 
-
 		"army" : [
-			{ "creature" : "ctConscript", "min" : 10, "max" : 15 },
-			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
-			{ "creature" : "ctStoneBull", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctConscript",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctCockroach",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctStoneBull",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
-			
 			}
 		],
 		"specialty" : {
 			"creature" : "ctTank"
-		}		
+		}
 	}
 }

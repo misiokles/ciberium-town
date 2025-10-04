@@ -6,9 +6,15 @@
 				"female" : "ciberium/battleHeroAndroid",
 				"male" : "ciberium/battleHeroAndroid"
 			}
-		},		
-		"mapObject" : { "templates" : { "default" : { "animation" : "ciberium/mapHeroAndroid" }}},
-		"commander" : "ctGibberling",		
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "ciberium/mapHeroAndroid"
+				}
+			}
+		},
+		"commander" : "ctGibberling",
 		"faction" : "ciberium",
 		"affinity" : "magic",
 		"primarySkills" : {

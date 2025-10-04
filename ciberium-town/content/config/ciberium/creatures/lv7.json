@@ -5,8 +5,8 @@
 			"singular" : "Mechanical Dragon"
 		},
 		"advMapAmount" : {
-			 "max" : 10,
-			 "min" : 4
+			"max" : 10,
+			"min" : 4
 		},
 		"faction" : "ciberium",
 		"aiValue" : 5440,
@@ -16,14 +16,18 @@
 			"mercury" : 2
 		},
 		"damage" : {
-			 "max" : 50,
-			 "min" : 25
+			"max" : 50,
+			"min" : 25
 		},
 		"defense" : 22,
 		"fightValue" : 4357,
 		"graphics" : {
 			"animation" : "ciberium/battle/lv7.DEF",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1.23 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.23
+			},
 			"map" : "ciberium/map/lv7.def",
 			"iconSmall" : "ciberium/iconsSmall/lv7.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv7.bmp",
@@ -45,55 +49,114 @@
 		},
 		"speed" : 10,
 		"abilities" : {
-            "nonliving" : {
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			},
-            "king2" : {
+			"king2" : {
 				"type" : "KING",
 				"val" : 2
 			},
 			"HPregenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 25
-			},
+			}
 		},
 		"stackExperience" : [
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" : { "type" : "HP_REGENERATION" },
-				"values" : [ 30, 30, 36, 48, 60, 72, 84, 96, 108, 120 ]
+				"bonus" : {
+					"type" : "HP_REGENERATION"
+				},
+				"values" : [
+					30,
+					30,
+					36,
+					48,
+					60,
+					72,
+					84,
+					96,
+					108,
+					120
+				]
 			},
 			{
-				"bonus" : { "type" : "JOUSTING" },
+				"bonus" : {
+					"type" : "JOUSTING"
+				},
 				"values" : [
 					false,
 					false,

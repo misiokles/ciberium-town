@@ -122,7 +122,18 @@
 					"cost" : {
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"blacksmith"
+						],
+						[
+							"marketplace"
+						]
+					]
 				},
 				"capitol" : {
 					"name" : "Capitol",
@@ -146,7 +157,9 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce" : { "mercury" : 1 }
+					"produce" : {
+						"mercury" : 1
+					}
 				},
 				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Neuroblaster.",
@@ -172,7 +185,9 @@
 						"gold" : 1000
 					},
 					"upgrades" : "dwellingUpLvl1",
-					"requires" : [ "horde1" ]
+					"requires" : [
+						"horde1"
+					]
 				},
 				"ship" : {
 					"name" : "Shipyard",
@@ -189,11 +204,15 @@
 						"rewards" : [
 							{
 								"message" : "@core.genrltxt.585",
-								"primary" : { "defence" : 1 }
+								"primary" : {
+									"defence" : 1
+								}
 							}
 						]
 					},
-					"requires" : [ "mageGuild1" ]
+					"requires" : [
+						"mageGuild1"
+					]
 				},
 				"special2" : {
 					"description" : "The Refinery provides an additional 750 gold coins for your kingdom every day.",
@@ -203,8 +222,12 @@
 						"wood" : 5,
 						"gold" : 2000
 					},
-					"requires" : [ "marketplace" ],
-                    "produce" : { "gold" : 750 }
+					"requires" : [
+						"marketplace"
+					],
+					"produce" : {
+						"gold" : 750
+					}
 				},
 				"grail" : {
 					"description" : "The Fusion Center increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least (not working).",
@@ -218,7 +241,9 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
 				"dwellingLvl2" : {
 					"description" : "The Biolaboratories allows you to recruit Mutant Beasts.",
@@ -227,7 +252,15 @@
 						"gold" : 1500,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
 				"dwellingLvl3" : {
 					"description" : "The Recycling Plant allows you to recruit Slugs.",
@@ -239,7 +272,15 @@
 						"mercury" : 5,
 						"gems" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"dwellingLvl2"
+						]
+					]
 				},
 				"dwellingLvl4" : {
 					"description" : "The Pylon allows you to recruit Robo Griffins.",
@@ -252,8 +293,10 @@
 						"crystal" : 3,
 						"gems" : 3,
 						"sulfur" : 3
-						},
-					"requires" : [ "dwellingLvl3" ]
+					},
+					"requires" : [
+						"dwellingLvl3"
+					]
 				},
 				"dwellingLvl5" : {
 					"description" : "The Air Defense Tower allows you to recruit Tank Hunters.",
@@ -264,7 +307,15 @@
 						"wood" : 5,
 						"mercury" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl4" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
 				},
 				"dwellingLvl6" : {
 					"description" : "The Hangar allows you to recruit Tanks.",
@@ -276,7 +327,15 @@
 						"sulfur" : 5,
 						"gems" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl4" ], [ "dwellingLvl5" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
 				},
 				"dwellingLvl7" : {
 					"description" : "The Engineering Complex allows you to recruit Charged Mechanical Dragons.",
@@ -290,7 +349,15 @@
 						"crystal" : 10,
 						"gems" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "mageGuild1" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
 				"dwellingUpLvl1" : {
 					"description" : "The Hacker Camp allows you to recruit Cyber Guards.",
@@ -375,4 +442,3 @@
 		}
 	}
 }
-

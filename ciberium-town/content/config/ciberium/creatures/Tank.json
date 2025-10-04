@@ -1,23 +1,22 @@
 {
 	"ctTank" : {
 		"advMapAmount" : {
-			 "max" : 12,
-			 "min" : 5
+			"max" : 12,
+			"min" : 5
 		},
 		"name" : {
 			"plural" : "Tanks",
 			"singular" : "Tank"
-		},		
+		},
 		"faction" : "ciberium",
 		"aiValue" : 2079,
 		"attack" : 14,
 		"cost" : {
 			"gold" : 1050
-			
 		},
 		"damage" : {
-			 "max" : 28,
-			 "min" : 15
+			"max" : 28,
+			"min" : 15
 		},
 		"defense" : 15,
 		"fightValue" : 1744,

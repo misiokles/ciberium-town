@@ -3,7 +3,7 @@
 		"class" : "technik",
 		"texts" : {
 			"name" : "阿兹菲力",
-			"biography" : "人们对这位英雄知之甚少。", 
+			"biography" : "人们对这位英雄知之甚少。",
 			"specialty" : {
 				"description" : "达到2级以后提高突变兽或强酸突变兽的攻击力与防御力。",
 				"tooltip" : "生物强化：突变兽",
@@ -21,20 +21,31 @@
 			"magicArrow"
 		],
 		"army" : [
-			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
-			{ "creature" : "ctCockroach", "min" : 6, "max" : 9 },
-			{ "creature" : "ctCockroach", "min" : 4, "max" : 6}
+			{
+				"creature" : "ctCockroach",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctCockroach",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctCockroach",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 
 		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
-			
 			}
 		],
 		"specialty" : {
 			"creature" : "ctCockroach"
-		}		
+		}
 	}
 }

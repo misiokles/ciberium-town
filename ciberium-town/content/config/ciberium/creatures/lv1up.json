@@ -5,8 +5,8 @@
 			"singular" : "Cyber Guard"
 		},
 		"advMapAmount" : {
-			 "max" : 30,
-			 "min" : 20
+			"max" : 30,
+			"min" : 20
 		},
 		"faction" : "ciberium",
 		"aiValue" : 143,
@@ -15,20 +15,24 @@
 			"gold" : 85
 		},
 		"damage" : {
-			 "max" : 3,
-			 "min" : 2
+			"max" : 3,
+			"min" : 2
 		},
 		"defense" : 6,
 		"fightValue" : 154,
 		"graphics" : {
 			"animation" : "ciberium/battle/lv1up.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 2.0 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 2.0
+			},
 			"map" : "ciberium/map/lv1up.def",
 			"iconSmall" : "ciberium/iconsSmall/lv1up.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv1up.bmp",
 			"timeBetweenFidgets" : 1
 		},
-	
+
 		"growth" : 12,
 		"hitPoints" : 10,
 		"horde" : 10,
@@ -46,39 +50,99 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.deathCloud"
 			}
-
 		},
-		"stackExperience" : [ {
+		"stackExperience" : [
+			{
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin", //min
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax", //max
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
-			{ "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ] } ]
-
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
+			}
+		]
 	}
 }

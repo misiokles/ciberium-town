@@ -9,9 +9,9 @@
 		"aiValue" : 2500,
 		"special" : true,
 		"attack" : 20,
-             "cost" : {
-              "gold" : 3500
-            },
+		"cost" : {
+			"gold" : 3500
+		},
 		"damage" : {
 			"max" : 15,
 			"min" : 10
@@ -24,9 +24,9 @@
 			"iconSmall" : "ciberium/iconsSmall/Neuroblaster.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.00
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
 			},
 			"missile" : {
 				"projectile" : "ciberium/battle/projectile/porchx.def",
@@ -39,31 +39,43 @@
 					"upperX" : 62,
 					"upperY" : -93
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 250,
-                "shots" : 24,
+		"shots" : 24,
 		"sound" : {
 			"killed" : "ciberium/CANNKILL.wav",
-                        "shoot" : "ciberium/CANNSHOT.wav",
+			"shoot" : "ciberium/CANNSHOT.wav",
 			"wince" : "ciberium/CANNWNCE.wav"
 		},
 		"speed" : 0,
 		"abilities" : {
-        		"shooter" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-		      "slow" : {
+			"slow" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.slow"
 			},
-		      "noRetaliation" : {
+			"noRetaliation" : {
 				"type" : "NO_RETALIATION",
-				 "val" : 0,
+				"val" : 0
 			},
 			"warmachine" : {
 				"type" : "SIEGE_WEAPON"
@@ -74,31 +86,75 @@
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			}
 		]
 	}

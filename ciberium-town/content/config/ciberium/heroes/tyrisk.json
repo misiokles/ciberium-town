@@ -16,25 +16,35 @@
 			"large" : "ciberium/heroes/tyrisk/portrait-large.bmp",
 			"small" : "ciberium/heroes/tyrisk/portrait-small.bmp"
 		},
-       "army" : [
-			{ "creature" : "ctlv1", "min" : 10, "max" : 15 },
-			{ "creature" : "ctlv2", "min" : 6, "max" : 9 },
-			{ "creature" : "ctlv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "ctlv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "ctlv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "ctlv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "resistance"
-			
 			},
 			{
 				"level" : "basic",
 				"skill" : "navigation"
-			
 			}
 		],
 		"specialty" : {
 			"creature" : "ctlv4"
-		}		
+		}
 	}
 }

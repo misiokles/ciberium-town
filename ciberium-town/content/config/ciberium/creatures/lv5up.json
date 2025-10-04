@@ -5,32 +5,46 @@
 			"singular" : "Tank Killer"
 		},
 		"advMapAmount" : {
-			 "max" : 12,
-			 "min" : 8
+			"max" : 12,
+			"min" : 8
 		},
 		"faction" : "ciberium",
 		"aiValue" : 1376,
 		"attack" : 14,
 		"hasDoubleWeek" : true,
-                "cost" : {
+		"cost" : {
 			"gold" : 625
 		},
 		"damage" : {
-			 "max" : 16,
-			 "min" : 10
+			"max" : 16,
+			"min" : 10
 		},
 		"defense" : 8,
 		"fightValue" : 1236,
 		"graphics" : {
 			"animation" : "ciberium/battle/lv5up.def",
-			"animationTime" : { "attack" : 1,  "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "ciberium/map/lv5up.def",
 			"iconSmall" : "ciberium/iconsSmall/lv5up.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv5up.bmp",
 			"timeBetweenFidgets" : 1,
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
@@ -39,9 +53,8 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"projectile" : "ciberium/battle/projectile/SHOT207.DEF",
-			},
-			
+				"projectile" : "ciberium/battle/projectile/SHOT207.DEF"
+			}
 		},
 		"growth" : 3,
 		"hitPoints" : 60,
@@ -57,7 +70,7 @@
 		},
 		"speed" : 6,
 		"abilities" : {
-		"noRetaliate" : {
+			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"canShoot" : {
@@ -65,47 +78,121 @@
 			},
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
-            }	
+			}
 		},
 		"stackExperience" : [
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" : { "addInfo" : 1001, "subtype" : "spell.weakness", "type" : "SPELL_AFTER_ATTACK" },
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+				"bonus" : {
+					"addInfo" : 1001,
+					"subtype" : "spell.weakness",
+					"type" : "SPELL_AFTER_ATTACK"
+				},
+				"values" : [
+					7,
+					14,
+					21,
+					28,
+					35,
+					42,
+					49,
+					56,
+					63,
+					70
+				]
 			},
 			{
-				"bonus" : { "addInfo" : 1001, "subtype" : "spell.disruptingRay", "type" : "SPELL_AFTER_ATTACK" },
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+				"bonus" : {
+					"addInfo" : 1001,
+					"subtype" : "spell.disruptingRay",
+					"type" : "SPELL_AFTER_ATTACK"
+				},
+				"values" : [
+					7,
+					14,
+					21,
+					28,
+					35,
+					42,
+					49,
+					56,
+					63,
+					70
+				]
 			}
-		]	
+		]
 	}
 }
