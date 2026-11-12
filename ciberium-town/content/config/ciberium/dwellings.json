@@ -3,87 +3,150 @@
 		"types" : {
 			"ctTrainingCamp" : {
 				"name" : "Training Camp",
-				"creatures" : [[ "ctlv1" ]],
+				"creatures" : [
+					[
+						"ctlv1"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-1.def",
-						"mask" : [ "VVV", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
 			"ctBiolaboratories" : {
 				"name" : "Biolaboratories",
-				"creatures" : [[ "ctlv2" ]],
+				"creatures" : [
+					[
+						"ctlv2"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-2.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"ctRecyclingPlant" : {
 				"name" : "Recycling Plant",
-				"creatures" : [[ "ctlv3" ]],
+				"creatures" : [
+					[
+						"ctlv3"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-3.def",
-						"mask" : [ "VVV", "VVB", "0BA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"0BA"
+						]
 					}
 				}
 			},
 			"ctPylon" : {
 				"name" : "Pylon",
-				"creatures" : [[ "ctlv4" ]],
+				"creatures" : [
+					[
+						"ctlv4"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-4.def",
-						"mask" : [ "VVV", "VVB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"ctHeadquarters" : {
 				"name" : "Air Defense Tower",
-				"creatures" : [[ "ctlv5" ]],
+				"creatures" : [
+					[
+						"ctlv5"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-5.def",
-						"mask" : [ "VVV", "VVB", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VVA"
+						]
 					}
 				}
 			},
 			"ctHangar" : {
 				"name" : "Hangar",
-				"creatures" : [[ "ctlv6" ]],
+				"creatures" : [
+					[
+						"ctlv6"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-6.def",
-						"mask" : [ "VVV", "VVB", "VVA" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VVA"
+						]
 					}
 				}
 			},
 			"ctEngineeringComplex" : {
 				"name" : "Engineering Complex",
-				"creatures" : [[ "ctlv7" ]],
+				"creatures" : [
+					[
+						"ctlv7"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-7.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
 					}
 				}
 			},
 			"ctGenerator" : {
 				"name" : "Generator",
-				"creatures" : [[ "ctElectro" ]],
+				"creatures" : [
+					[
+						"ctElectro"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "ciberium/adventure-map/dwelling-8.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }
