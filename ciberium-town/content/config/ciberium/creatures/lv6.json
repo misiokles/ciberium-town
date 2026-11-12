@@ -1,33 +1,40 @@
 {
-	"ctlv6" : {
-		"advMapAmount" : {
-			"max" : 12,
-			"min" : 5
+	"ctlv6":
+	{
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
 		},
-		"name" : {
+		"name" :
+		{
 			"plural" : "Tanks",
 			"singular" : "Tank"
-		},
-		"faction" : "ciberium",
+		},		
+		"faction": "ciberium",
 		"aiValue" : 2079,
 		"fightValue" : 1744,
 		"attack" : 14,
 		"defense" : 15,
-		"cost" : {
+		"cost" :
+		{
 			"gold" : 1050
 		},
-		"damage" : {
-			"min" : 15,
-			"max" : 28
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 28
 		},
 		"speed" : 7,
-		"graphics" : {
+		"graphics" :
+		{
 			"animation" : "ciberium/battle/lv6.def",
 			"map" : "ciberium/map/lv6.def",
 			"iconSmall" : "ciberium/iconsSmall/lv6.bmp",
 			"iconLarge" : "ciberium/iconsBig/lv6.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" : {
+			"animationTime" :
+			{
 				"walk" : 1.17,
 				"attack" : 1,
 				"idle" : 10
@@ -37,113 +44,59 @@
 		"doubleWide" : true,
 		"growth" : 2,
 		"level" : 6,
-		"upgrades" : [
+		"upgrades":
+		[
 			"ctlv6up"
 		],
-		"sound" : {
+		"sound" :
+		{
 			"attack" : "ciberium/S208ATTK.wav",
 			"defend" : "ciberium/S208DFND.wav",
 			"killed" : "ciberium/S208KILL.wav",
 			"move" : "ciberium/S208MOVE.wav",
 			"wince" : "ciberium/S208WNCE.wav"
 		},
-		"abilities" : {
-			"noMorale" : {
-				"type" : "NO_MORALE"
+		"abilities" :
+		{
+			"noMorale":
+			{
+				"type" : "NO_MORALE" 					
 			}
 		},
-		"stackExperience" : [
-			{
-				"bonus" : {
+		"stackExperience" : [ {
+				"bonus" :
+				{
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
-					//					"valueType" : "BASE_NUMBER"
+//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
-			},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
-					//					"valueType" : "BASE_NUMBER"
+//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [
-					1,
-					2,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8,
-					8,
-					9
-				]
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
 			{
-				"bonus" : {
+				"bonus" :
+				{
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [
-					0,
-					1,
-					2,
-					3,
-					4,
-					5,
-					5,
-					6,
-					7,
-					8
-				]
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
-			{
-				"bonus" : {
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [
-					0,
-					0,
-					1,
-					1,
-					1,
-					2,
-					2,
-					2,
-					3,
-					3
-				]
-			}
-		]
+			{ "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ] } ]
 	}
 }

@@ -1,20 +1,27 @@
 {
-	"ciberium" : {
-		"town" : {
-			"buildings" : {
-				"mageGuild1" : {
+	"ciberium" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within",
 					"name" : "Mage Guild Level 1",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" : {
+				"mageGuild2" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -22,12 +29,15 @@
 						"crystal" : 4,
 						"gems" : 4,
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "mageGuild1"
 				},
-				"mageGuild3" : {
+				"mageGuild3" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -35,12 +45,15 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : {
+				"mageGuild4" : 
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -48,12 +61,15 @@
 						"crystal" : 8,
 						"gems" : 8,
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "mageGuild3"
 				},
-				"mageGuild5" : {
+				"mageGuild5" :
+				{
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -61,116 +77,137 @@
 						"crystal" : 10,
 						"gems" : 10,
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "mageGuild4"
 				},
-				"tavern" : {
+				"tavern" :
+				{
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"shipyard" : {
+				"shipyard" :
+				{
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 20,
 						"gold" : 2000
 					}
 				},
-				"fort" : {
+				"fort" :
+				{
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" : {
+				"citadel" :
+				{
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" : {
+					"cost" :
+					{
 						"ore" : 5,
 						"gold" : 2500
-					}
+					},
+					"upgrades" : "fort"
 				},
-				"castle" : {
+				"castle" :
+				{
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					}
+					},
+					"upgrades" : "citadel"
 				},
-				"villageHall" : {
+				"villageHall" :
+				{
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto"
 				},
-				"townHall" : {
+				"townHall" :
+				{
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" : {
+					"cost" :
+					{
 						"gold" : 2500
-					}
+					},
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
 				},
-				"cityHall" : {
+				"cityHall" :
+				{
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" : {
+					"cost" :
+					{
 						"gold" : 5000
 					},
-					"requires" : [
-						"allOf",
-						[
-							"mageGuild1"
-						],
-						[
-							"blacksmith"
-						],
-						[
-							"marketplace"
-						]
-					]
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"upgrades" : "townHall"
 				},
-				"capitol" : {
+				"capitol" :
+				{
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" : {
+					"cost" :
+					{
 						"gold" : 10000
-					}
+					},
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
 				},
-				"marketplace" : {
+				"marketplace" :
+				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" : {
+				"resourceSilo" :
+				{
 					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
 					"name" : "Resourse Silo",
-					"cost" : {
+					"cost" :
+					{
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce" : {
-						"mercury" : 1
-					}
+					"produce": { "mercury": 1 },
+					"requires" : [ "marketplace" ]
 				},
-				"blacksmith" : {
+				"blacksmith" :
+				{
 					"description" : "The Blacksmith provides your armies with Neuroblaster.",
 					"name" : "Blacksmith",
-					"cost" : {
+					"cost" :
+					{
 						"wood" : 5,
 						"gold" : 1000
 					},
 					"warMachine" : "neuroblaster"
 				},
-				"horde1" : {
+				"horde1" :
+				{
 					"description" : "The barracks increase the weekly output of Cyber Mercenaries and Cyber Guards by +10.",
 					"name" : "Barracks",
 					"cost" : {
@@ -178,22 +215,24 @@
 					},
 					"upgrades" : "dwellingLvl1"
 				},
-				"horde1Upgr" : {
+				"horde1Upgr" :
+				{
 					"description" : "The camp increase the weekly output of Cyber Mercenaries and Cyber Guards by +10.",
 					"name" : "Training Camp",
 					"cost" : {
 						"gold" : 1000
 					},
 					"upgrades" : "dwellingUpLvl1",
-					"requires" : [
-						"horde1"
-					]
+					"requires" : [ "horde1" ],
+					"mode" : "auto"
 				},
-				"ship" : {
+				"ship" :
+				{
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships."
 				},
-				"special1" : {
+				"special1" :
+				{
 					"description" : "The Bunker increases the defense power of each visiting hero by +1.",
 					"name" : "Bunker",
 					"cost" : {
@@ -204,36 +243,33 @@
 						"rewards" : [
 							{
 								"message" : "@core.genrltxt.585",
-								"primary" : {
-									"defence" : 1
-								}
+								"primary" : { "defence" : 1 }
 							}
 						]
 					},
-					"requires" : [
-						"mageGuild1"
-					]
+					"requires" : [ "mageGuild1" ]
 				},
-				"special2" : {
+				"special2" :
+				{
 					"description" : "The Refinery provides an additional 750 gold coins for your kingdom every day.",
 					"name" : "Refinery",
 					"cost" : {
-						"ore" : 5,
+						"ore"  : 5,
 						"wood" : 5,
 						"gold" : 2000
 					},
-					"requires" : [
-						"marketplace"
-					],
-					"produce" : {
-						"gold" : 750
-					}
+					"requires" : [ "marketplace" ],
+                    "produce": { "gold": 750 }
 				},
-				"grail" : {
-					"description" : "The Fusion Center increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least (not working).",
-					"name" : "Fusion Center"
+				"grail" :
+				{
+					"description" : "The Fusion Center increases weekly creature generation by 50 percent, adds 5000 gold per day. All spells can be cast in advanced level at least.",
+					"name" : "Fusion Center",
+					"mode" : "grail",
+					"produce": { "gold": 5000 }
 				},
-				"dwellingLvl1" : {
+				"dwellingLvl1" :
+				{
 					"description" : "The Training Camp allows you to recruit Cyber Mercenaries.",
 					"name" : "Training Camp",
 					"cost" : {
@@ -241,28 +277,20 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [
-						"fort"
-					]
+					"requires" : [ "fort" ]
 				},
-				"dwellingLvl2" : {
+				"dwellingLvl2" :
+				{
 					"description" : "The Biolaboratories allows you to recruit Mutant Beasts.",
 					"name" : "Biolaboratories",
 					"cost" : {
 						"gold" : 1500,
 						"ore" : 10
 					},
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl1"
-						],
-						[
-							"blacksmith"
-						]
-					]
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ]
 				},
-				"dwellingLvl3" : {
+				"dwellingLvl3" :
+				{
 					"description" : "The Recycling Plant allows you to recruit Slugs.",
 					"name" : "Recycling Plant",
 					"cost" : {
@@ -272,17 +300,10 @@
 						"mercury" : 5,
 						"gems" : 5
 					},
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl1"
-						],
-						[
-							"dwellingLvl2"
-						]
-					]
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
 				},
-				"dwellingLvl4" : {
+				"dwellingLvl4" :
+				{
 					"description" : "The Pylon allows you to recruit Robo Griffins.",
 					"name" : "Pylon",
 					"cost" : {
@@ -293,12 +314,11 @@
 						"crystal" : 3,
 						"gems" : 3,
 						"sulfur" : 3
-					},
-					"requires" : [
-						"dwellingLvl3"
-					]
+						},
+					"requires" : [ "dwellingLvl3" ]
 				},
-				"dwellingLvl5" : {
+				"dwellingLvl5" :
+				{
 					"description" : "The Air Defense Tower allows you to recruit Tank Hunters.",
 					"name" : "Air Defense Tower",
 					"cost" : {
@@ -307,17 +327,10 @@
 						"wood" : 5,
 						"mercury" : 5
 					},
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl3"
-						],
-						[
-							"dwellingLvl4"
-						]
-					]
+					"requires" : [ "allOf", [ "dwellingLvl3" ], [ "dwellingLvl4" ] ]
 				},
-				"dwellingLvl6" : {
+				"dwellingLvl6" :
+				{
 					"description" : "The Hangar allows you to recruit Tanks.",
 					"name" : "Hangar",
 					"cost" : {
@@ -327,17 +340,10 @@
 						"sulfur" : 5,
 						"gems" : 5
 					},
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl4"
-						],
-						[
-							"dwellingLvl5"
-						]
-					]
+					"requires" : [ "allOf", [ "dwellingLvl4" ], [ "dwellingLvl5" ] ]
 				},
-				"dwellingLvl7" : {
+				"dwellingLvl7" :
+				{
 					"description" : "The Engineering Complex allows you to recruit Charged Mechanical Dragons.",
 					"name" : "Engineering Complex",
 					"cost" : {
@@ -349,17 +355,10 @@
 						"crystal" : 10,
 						"gems" : 10
 					},
-					"requires" : [
-						"allOf",
-						[
-							"dwellingLvl6"
-						],
-						[
-							"mageGuild1"
-						]
-					]
+					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "mageGuild1" ] ]
 				},
-				"dwellingUpLvl1" : {
+				"dwellingUpLvl1" :
+				{
 					"description" : "The Hacker Camp allows you to recruit Cyber Guards.",
 					"name" : "Hacker Camp",
 					"cost" : {
@@ -369,7 +368,8 @@
 					},
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" : {
+				"dwellingUpLvl2" :
+				{
 					"description" : "The Advanced Biolaboratories allows you to recruit Toxic Mutant Beasts.",
 					"name" : "Adv. Biolaboratories",
 					"cost" : {
@@ -379,7 +379,8 @@
 					},
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" : {
+				"dwellingUpLvl3" :
+				{
 					"description" : "The Adv. Recycling Plant allows you to recruit Acid Slugs.",
 					"name" : "Adv. Recycling Plant",
 					"cost" : {
@@ -389,7 +390,8 @@
 					},
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" : {
+				"dwellingUpLvl4" :
+				{
 					"description" : "The Charge Tower allows you to recruit Assault Griffins",
 					"name" : "Charge Tower",
 					"cost" : {
@@ -401,7 +403,8 @@
 					},
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" : {
+				"dwellingUpLvl5" :
+				{
 					"description" : "The Adv. Air Defense Tower allows you to recruit Tank Killers",
 					"name" : "Adv. Air Defense Tower",
 					"cost" : {
@@ -413,7 +416,8 @@
 					//"requires" : [ "mageGuild1" ],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" : {
+				"dwellingUpLvl6" :
+				{
 					"description" : "The Machinery Warehouse allows you to recruit Heavy Tanks.",
 					"name" : "Machinery Warehouse",
 					"cost" : {
@@ -427,7 +431,8 @@
 					},
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" : {
+				"dwellingUpLvl7" :
+				{
 					"description" : "The Adv. Engineering Complex allows you to recruit Charged Dragons.",
 					"name" : "Adv. Engineering Complex",
 					"cost" : {
@@ -442,3 +447,4 @@
 		}
 	}
 }
+
